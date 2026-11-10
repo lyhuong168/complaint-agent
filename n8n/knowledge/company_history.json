@@ -1,0 +1,7093 @@
+{
+ "1st Franklin Financial Corporation": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 42.5
+ },
+ "21ST MORTGAGE CORP.": {
+  "past_complaints": 124,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.6
+ },
+ "2288984 Ontario Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 8.8,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 88.2,
+  "pct_late_response": 0.0
+ },
+ "360 MORTGAGE GROUP LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 11.1,
+  "pct_non_monetary_relief": 3.7,
+  "pct_explanation_only": 85.2,
+  "pct_late_response": 0.0
+ },
+ "A.R.M. Solutions, Inc.": {
+  "past_complaints": 53,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "AAA Collections": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "ACCESS GROUP INC.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.4
+ },
+ "ACIMA CREDIT, LLC": {
+  "past_complaints": 236,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.8,
+  "pct_explanation_only": 93.2,
+  "pct_late_response": 0.0
+ },
+ "ACS Education Services": {
+  "past_complaints": 328,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.5
+ },
+ "ADP Inc.": {
+  "past_complaints": 52,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.8
+ },
+ "AES/PHEAA": {
+  "past_complaints": 3061,
+  "pct_monetary_relief": 1.8,
+  "pct_non_monetary_relief": 20.5,
+  "pct_explanation_only": 77.8,
+  "pct_late_response": 0.0
+ },
+ "AFNI INC.": {
+  "past_complaints": 964,
+  "pct_monetary_relief": 0.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 0.0
+ },
+ "ALCHRO INC.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 83.3,
+  "pct_late_response": 50.0
+ },
+ "ALLIANT CREDIT UNION": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 14.5,
+  "pct_non_monetary_relief": 3.2,
+  "pct_explanation_only": 82.3,
+  "pct_late_response": 0.0
+ },
+ "ALLY FINANCIAL INC.": {
+  "past_complaints": 2387,
+  "pct_monetary_relief": 5.7,
+  "pct_non_monetary_relief": 7.3,
+  "pct_explanation_only": 86.8,
+  "pct_late_response": 0.0
+ },
+ "AMA Advisors, LLC.": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 6.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 89.3,
+  "pct_late_response": 0.0
+ },
+ "AMCOL Systems, Inc.": {
+  "past_complaints": 115,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 1.7
+ },
+ "AMERICA FIRST FEDERAL CREDIT UNION": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "AMERICAN ADJUSTMENT BUREAU,INC.": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "AMERICAN ADVISORS GROUP": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.9,
+  "pct_late_response": 2.1
+ },
+ "AMERICAN EXPRESS COMPANY": {
+  "past_complaints": 4664,
+  "pct_monetary_relief": 16.0,
+  "pct_non_monetary_relief": 14.2,
+  "pct_explanation_only": 69.7,
+  "pct_late_response": 0.0
+ },
+ "AMERICAN HONDA FINANCE CORP": {
+  "past_complaints": 493,
+  "pct_monetary_relief": 5.1,
+  "pct_non_monetary_relief": 14.2,
+  "pct_explanation_only": 80.5,
+  "pct_late_response": 1.0
+ },
+ "AMERICAN INTERNET MORTGAGE": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 7.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.6,
+  "pct_late_response": 22.2
+ },
+ "AMERICAN NEIGHBORHOOD MORTGAGE": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 20.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 80.0,
+  "pct_late_response": 10.0
+ },
+ "AMERICAN PACIFIC MORTGAGE": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 13.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.2,
+  "pct_late_response": 3.4
+ },
+ "AMERINATIONAL COMMUNITY SERVICES, INC.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 4.5
+ },
+ "AMERIS BANCORP": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 2.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.9,
+  "pct_late_response": 8.3
+ },
+ "AMERISAVE MORTGAGE CORPORATION": {
+  "past_complaints": 240,
+  "pct_monetary_relief": 27.1,
+  "pct_non_monetary_relief": 2.5,
+  "pct_explanation_only": 70.4,
+  "pct_late_response": 0.4
+ },
+ "APEX Asset Management, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.7,
+  "pct_late_response": 56.7
+ },
+ "AR Resources, Inc.": {
+  "past_complaints": 143,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 3.5
+ },
+ "ARC Management Group, LLC": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 84.8,
+  "pct_late_response": 36.4
+ },
+ "ARS National Services, Inc.": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.9
+ },
+ "ARVEST BANK GROUP, INC.": {
+  "past_complaints": 150,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "ASSOCIATED BANC-CORP": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 24.6,
+  "pct_non_monetary_relief": 1.8,
+  "pct_explanation_only": 73.7,
+  "pct_late_response": 0.0
+ },
+ "ASTA FUNDING INC.": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 8.6
+ },
+ "ASTORIA BANK": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 12.5,
+  "pct_non_monetary_relief": 12.5,
+  "pct_explanation_only": 75.0,
+  "pct_late_response": 0.0
+ },
+ "ATG Credit, LLC": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 1.0
+ },
+ "AUTOMOTIVE CREDIT CORPORATION": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 5.7
+ },
+ "AVANTE": {
+  "past_complaints": 96,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.2
+ },
+ "AXOS FINANCIAL, INC.": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Aargon Agency, Inc.": {
+  "past_complaints": 281,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 80.8,
+  "pct_late_response": 16.4
+ },
+ "Ability Recovery Services, LLC": {
+  "past_complaints": 296,
+  "pct_monetary_relief": 2.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 1.7
+ },
+ "Absolute Resolutions Corp.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 0.0
+ },
+ "Academy Mortgage Corporation": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 9.1,
+  "pct_non_monetary_relief": 3.0,
+  "pct_explanation_only": 87.9,
+  "pct_late_response": 0.0
+ },
+ "Accelerated Financial Solutions, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 50.0,
+  "pct_explanation_only": 50.0,
+  "pct_late_response": 15.0
+ },
+ "Acceptance Solutions Group, INC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.9,
+  "pct_explanation_only": 93.1,
+  "pct_late_response": 10.3
+ },
+ "Account Control Technology, Inc.": {
+  "past_complaints": 69,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 58.0,
+  "pct_explanation_only": 42.0,
+  "pct_late_response": 0.0
+ },
+ "Account Discovery Systems, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Account Resolution Corporation": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Accurate Background": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 53.6,
+  "pct_explanation_only": 42.9,
+  "pct_late_response": 7.1
+ },
+ "Activehours": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 40.7
+ },
+ "Ad Astra Recovery Services Inc": {
+  "past_complaints": 375,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 0.0
+ },
+ "Adler Wallach & Associates, Inc.": {
+  "past_complaints": 145,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 26.2,
+  "pct_explanation_only": 73.8,
+  "pct_late_response": 6.2
+ },
+ "Admin Recovery, LLC": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.6
+ },
+ "Advance America, Cash Advance Centers, Inc.": {
+  "past_complaints": 154,
+  "pct_monetary_relief": 1.9,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 97.4,
+  "pct_late_response": 2.6
+ },
+ "Advanced Collection Bureau, Inc.": {
+  "past_complaints": 60,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.3,
+  "pct_late_response": 0.0
+ },
+ "Advanced Resolution Services Inc.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 91.3,
+  "pct_late_response": 4.3
+ },
+ "Advantage Credit, Inc.": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Affiliate Asset Solutions, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Affirm Holdings, Inc": {
+  "past_complaints": 536,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.4
+ },
+ "Alabama Housing Finance Authority": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 6.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.6,
+  "pct_late_response": 28.1
+ },
+ "Albert Corporation": {
+  "past_complaints": 74,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 0.0
+ },
+ "Aldous & Associates, PLLC": {
+  "past_complaints": 161,
+  "pct_monetary_relief": 0.6,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 3.1
+ },
+ "Aldridge Pite, LLP": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Alliance Collection Agencies, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.7,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "Alliance One, Inc.": {
+  "past_complaints": 176,
+  "pct_monetary_relief": 1.1,
+  "pct_non_monetary_relief": 19.3,
+  "pct_explanation_only": 79.5,
+  "pct_late_response": 0.0
+ },
+ "Alliant Capital Management LLC": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 0.0
+ },
+ "Allied Collection Services, Inc. (Nevada)": {
+  "past_complaints": 153,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.0,
+  "pct_explanation_only": 96.7,
+  "pct_late_response": 2.0
+ },
+ "Allied International Credit Corp., (US)": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Alorica Inc.": {
+  "past_complaints": 151,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 23.2,
+  "pct_explanation_only": 76.8,
+  "pct_late_response": 11.3
+ },
+ "Alpha Recovery Corp": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 44.2,
+  "pct_explanation_only": 51.2,
+  "pct_late_response": 11.6
+ },
+ "Alpine Credit, Inc": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 26.1
+ },
+ "Altisource Portfolio Solutions, S.\u00e0 r.l.": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 7.8,
+  "pct_non_monetary_relief": 13.7,
+  "pct_explanation_only": 78.4,
+  "pct_late_response": 0.0
+ },
+ "AmerAssist A/R Solutions, Inc.": {
+  "past_complaints": 82,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 89.0,
+  "pct_late_response": 57.3
+ },
+ "AmeriCash Holding LLC": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 80.6,
+  "pct_late_response": 2.8
+ },
+ "AmeriCollect": {
+  "past_complaints": 277,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 97.8,
+  "pct_late_response": 0.0
+ },
+ "AmeriHome Mortgage Company, LLC": {
+  "past_complaints": 260,
+  "pct_monetary_relief": 0.8,
+  "pct_non_monetary_relief": 1.5,
+  "pct_explanation_only": 97.7,
+  "pct_late_response": 1.5
+ },
+ "American Accounts & Advisers, Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 81.2,
+  "pct_late_response": 0.0
+ },
+ "American Collections Enterprise, Inc.": {
+  "past_complaints": 55,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 80.0,
+  "pct_late_response": 0.0
+ },
+ "American Coradius International LLC": {
+  "past_complaints": 111,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 0.0
+ },
+ "American Credit Acceptance, LLC": {
+  "past_complaints": 252,
+  "pct_monetary_relief": 0.8,
+  "pct_non_monetary_relief": 11.9,
+  "pct_explanation_only": 87.3,
+  "pct_late_response": 4.8
+ },
+ "American Financial Network Inc.": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 8.1,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 89.2,
+  "pct_late_response": 5.4
+ },
+ "American Financial Resources, Inc.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 2.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.8,
+  "pct_late_response": 15.2
+ },
+ "American First Finance, Inc.": {
+  "past_complaints": 118,
+  "pct_monetary_relief": 27.1,
+  "pct_non_monetary_relief": 10.2,
+  "pct_explanation_only": 62.7,
+  "pct_late_response": 2.5
+ },
+ "American Profit Recovery, Inc., Marlborough, MA Branch": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Americas Car-Mart, Inc.": {
+  "past_complaints": 38,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Amsher Collection Services, Inc.": {
+  "past_complaints": 410,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.2,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 2.4
+ },
+ "Apelles, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Applied Business Services, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 66.7,
+  "pct_late_response": 33.3
+ },
+ "Applied Data Finance, LLC": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.2,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 3.2
+ },
+ "Aqua Finance, Inc.": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 1.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 35.5
+ },
+ "Arbor Residential Mortgage LLC": {
+  "past_complaints": 90,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.7,
+  "pct_late_response": 5.6
+ },
+ "Arcadia Holdings, LLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.4,
+  "pct_explanation_only": 94.6,
+  "pct_late_response": 24.3
+ },
+ "Army and Air Force Exchange Service": {
+  "past_complaints": 194,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.8
+ },
+ "Arnold Scott Harris, P.C.": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Ascendium Education Group": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Aspen National Financial, Inc.": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 3.0,
+  "pct_non_monetary_relief": 69.7,
+  "pct_explanation_only": 24.2,
+  "pct_late_response": 0.0
+ },
+ "Aspen Yo LLC": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 14.5
+ },
+ "Asset Management Outsourcing, Inc.": {
+  "past_complaints": 117,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Asset Recovery Solutions, LLC": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 70.5,
+  "pct_late_response": 6.8
+ },
+ "Associated Credit Services, Inc.": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.0,
+  "pct_explanation_only": 94.0,
+  "pct_late_response": 0.0
+ },
+ "Atlantic Credit & Finance, Inc.": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 68.4,
+  "pct_explanation_only": 31.6,
+  "pct_late_response": 0.0
+ },
+ "Atlantic Recovery Solutions LLC": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Atlanticus Services Corporation": {
+  "past_complaints": 384,
+  "pct_monetary_relief": 7.3,
+  "pct_non_monetary_relief": 8.6,
+  "pct_explanation_only": 69.0,
+  "pct_late_response": 13.8
+ },
+ "Augusta Collection Agency, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 3.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 3.7
+ },
+ "Auto Trakk, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.3,
+  "pct_explanation_only": 96.7,
+  "pct_late_response": 3.3
+ },
+ "Automated Collection Services, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 11.1
+ },
+ "Avadyne Health Holdings, Inc": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 14.6,
+  "pct_explanation_only": 85.4,
+  "pct_late_response": 4.9
+ },
+ "Avant Credit Corporation": {
+  "past_complaints": 153,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 0.0
+ },
+ "Avant Holding Company, Inc.": {
+  "past_complaints": 219,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.7
+ },
+ "Avid Acceptance, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 13.6
+ },
+ "BAM Management US Holdings Inc.": {
+  "past_complaints": 115,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 11.3
+ },
+ "BANCO POPULAR DE PUERTO RICO": {
+  "past_complaints": 144,
+  "pct_monetary_relief": 6.9,
+  "pct_non_monetary_relief": 4.2,
+  "pct_explanation_only": 88.9,
+  "pct_late_response": 0.0
+ },
+ "BANK OF AMERICA, NATIONAL ASSOCIATION": {
+  "past_complaints": 14471,
+  "pct_monetary_relief": 22.7,
+  "pct_non_monetary_relief": 9.4,
+  "pct_explanation_only": 67.3,
+  "pct_late_response": 2.0
+ },
+ "BANK OF HAWAII CORPORATION": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 38.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 61.5,
+  "pct_late_response": 3.8
+ },
+ "BANK OF NEW YORK MELLON CORPORATION, THE": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 13.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.4,
+  "pct_late_response": 1.7
+ },
+ "BANK OF THE WEST": {
+  "past_complaints": 323,
+  "pct_monetary_relief": 10.8,
+  "pct_non_monetary_relief": 4.6,
+  "pct_explanation_only": 84.5,
+  "pct_late_response": 5.3
+ },
+ "BANKMOBILE TECHNOLOGIES, INC": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 8.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 0.0
+ },
+ "BANKUNITED, NATIONAL ASSOCIATION": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 3.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "BARCLAYS BANK DELAWARE": {
+  "past_complaints": 2593,
+  "pct_monetary_relief": 22.4,
+  "pct_non_monetary_relief": 4.2,
+  "pct_explanation_only": 73.4,
+  "pct_late_response": 0.0
+ },
+ "BB&T CORPORATION": {
+  "past_complaints": 779,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 0.0
+ },
+ "BBVA FINANCIAL CORPORATION": {
+  "past_complaints": 628,
+  "pct_monetary_relief": 18.5,
+  "pct_non_monetary_relief": 9.4,
+  "pct_explanation_only": 71.2,
+  "pct_late_response": 0.0
+ },
+ "BC SERVICES, INC.": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.3,
+  "pct_explanation_only": 65.9,
+  "pct_late_response": 7.3
+ },
+ "BMO HARRIS BANK NATIONAL ASSOCIATION": {
+  "past_complaints": 377,
+  "pct_monetary_relief": 9.5,
+  "pct_non_monetary_relief": 3.7,
+  "pct_explanation_only": 86.7,
+  "pct_late_response": 0.0
+ },
+ "BMW Financial Services NA, LLC": {
+  "past_complaints": 338,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 3.0
+ },
+ "BOEING EMPLOYEES CREDIT UNION": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 6.3,
+  "pct_non_monetary_relief": 6.3,
+  "pct_explanation_only": 87.3,
+  "pct_late_response": 6.3
+ },
+ "BOK FINANCIAL CORP": {
+  "past_complaints": 92,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.5,
+  "pct_late_response": 0.0
+ },
+ "BROKER SOLUTIONS, INC.": {
+  "past_complaints": 112,
+  "pct_monetary_relief": 6.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 5.4
+ },
+ "BSI Financial Holdings, Inc.": {
+  "past_complaints": 202,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "BTH Management": {
+  "past_complaints": 77,
+  "pct_monetary_relief": 1.3,
+  "pct_non_monetary_relief": 7.8,
+  "pct_explanation_only": 90.9,
+  "pct_late_response": 10.4
+ },
+ "BWW Law Group, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 8.7
+ },
+ "BYL Collection Services": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.1,
+  "pct_late_response": 0.0
+ },
+ "Ballybunion Enterprises, Inc": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Bay Area Receivables, Inc": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 14.3,
+  "pct_non_monetary_relief": 38.1,
+  "pct_explanation_only": 47.6,
+  "pct_late_response": 9.5
+ },
+ "Bepensa Capital, Inc.": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.4
+ },
+ "Berlin-Wheeler, Inc. (Kansas)": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Better Mortgage, Inc.": {
+  "past_complaints": 53,
+  "pct_monetary_relief": 3.8,
+  "pct_non_monetary_relief": 1.9,
+  "pct_explanation_only": 94.3,
+  "pct_late_response": 54.7
+ },
+ "Big Picture Loans, LLC": {
+  "past_complaints": 425,
+  "pct_monetary_relief": 0.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 5.4
+ },
+ "Blackhawk Network Holdings Inc.": {
+  "past_complaints": 202,
+  "pct_monetary_relief": 35.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 64.4,
+  "pct_late_response": 4.0
+ },
+ "Blakely-Witt and Associates, Inc.": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.0,
+  "pct_explanation_only": 93.9,
+  "pct_late_response": 12.1
+ },
+ "Blatt, Hasenmiller, Leibsker & Moore, LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 92.3,
+  "pct_late_response": 3.8
+ },
+ "Bliksum, LLC": {
+  "past_complaints": 145,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 11.7
+ },
+ "Blitt and Gaines, P.C.": {
+  "past_complaints": 64,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 78.1,
+  "pct_late_response": 1.6
+ },
+ "Block, Inc.": {
+  "past_complaints": 809,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 0.0
+ },
+ "BlockFi Inc": {
+  "past_complaints": 64,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "BlueChip Financial": {
+  "past_complaints": 149,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.3
+ },
+ "Bonneville Billing and Collections": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Braviant\u00a0Holdings,\u00a0LLC": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.0,
+  "pct_explanation_only": 97.0,
+  "pct_late_response": 9.1
+ },
+ "Bread Financial Holdings, Inc.": {
+  "past_complaints": 3517,
+  "pct_monetary_relief": 22.3,
+  "pct_non_monetary_relief": 23.6,
+  "pct_explanation_only": 54.2,
+  "pct_late_response": 0.0
+ },
+ "Brelvis Consulting, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 46.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 53.3,
+  "pct_late_response": 0.0
+ },
+ "Bridgecrest Acceptance Corporation": {
+  "past_complaints": 384,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.3,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 4.7
+ },
+ "Brightfunders, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 3.3,
+  "pct_non_monetary_relief": 6.7,
+  "pct_explanation_only": 90.0,
+  "pct_late_response": 6.7
+ },
+ "Brock & Scott, PLLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 2.7
+ },
+ "Bronstein & Weiss Arbitration": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 48.4,
+  "pct_late_response": 83.9
+ },
+ "Brown and Joseph, Ltd": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.3,
+  "pct_explanation_only": 93.3,
+  "pct_late_response": 26.7
+ },
+ "Bull City Financial Solutions, Inc": {
+  "past_complaints": 137,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 5.1
+ },
+ "Byrider Franchising, LLC": {
+  "past_complaints": 181,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 99.4,
+  "pct_late_response": 1.1
+ },
+ "C/C Financial": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "CAC Financial Corp": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 47.6,
+  "pct_late_response": 0.0
+ },
+ "CAINE & WEINER COMPANY, INC.": {
+  "past_complaints": 579,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.2,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 0.2
+ },
+ "CAPITAL ONE FINANCIAL CORPORATION": {
+  "past_complaints": 12061,
+  "pct_monetary_relief": 8.4,
+  "pct_non_monetary_relief": 10.3,
+  "pct_explanation_only": 81.2,
+  "pct_late_response": 0.0
+ },
+ "CARD Corporation": {
+  "past_complaints": 52,
+  "pct_monetary_relief": 9.6,
+  "pct_non_monetary_relief": 32.7,
+  "pct_explanation_only": 57.7,
+  "pct_late_response": 3.8
+ },
+ "CARDINAL FINANCIAL COMPANY, LIMITED PARTNERSHIP": {
+  "past_complaints": 136,
+  "pct_monetary_relief": 8.8,
+  "pct_non_monetary_relief": 0.7,
+  "pct_explanation_only": 86.8,
+  "pct_late_response": 2.9
+ },
+ "CARRINGTON MORTGAGE SERVICES, LLC": {
+  "past_complaints": 949,
+  "pct_monetary_relief": 0.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 0.1
+ },
+ "CASHCALL, INC.": {
+  "past_complaints": 151,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "CAVALRY INVESTMENTS, LLC": {
+  "past_complaints": 524,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 28.1,
+  "pct_explanation_only": 71.8,
+  "pct_late_response": 0.2
+ },
+ "CBC Companies, Inc.": {
+  "past_complaints": 262,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.3,
+  "pct_explanation_only": 84.4,
+  "pct_late_response": 1.1
+ },
+ "CCF Intermediate Holdings LLC": {
+  "past_complaints": 107,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "CCS Financial Services, Inc.": {
+  "past_complaints": 1187,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 6.9
+ },
+ "CHARLES SCHWAB CORPORATION, THE": {
+  "past_complaints": 96,
+  "pct_monetary_relief": 7.3,
+  "pct_non_monetary_relief": 1.0,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 1.0
+ },
+ "CHECK INTO CASH INC.": {
+  "past_complaints": 108,
+  "pct_monetary_relief": 37.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 63.0,
+  "pct_late_response": 0.0
+ },
+ "CIG FINANCIAL LLC": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 3.0,
+  "pct_non_monetary_relief": 12.1,
+  "pct_explanation_only": 84.8,
+  "pct_late_response": 0.0
+ },
+ "CIT BANK, NATIONAL ASSOCIATION": {
+  "past_complaints": 177,
+  "pct_monetary_relief": 1.1,
+  "pct_non_monetary_relief": 2.8,
+  "pct_explanation_only": 93.2,
+  "pct_late_response": 4.5
+ },
+ "CITIBANK, N.A.": {
+  "past_complaints": 13452,
+  "pct_monetary_relief": 22.2,
+  "pct_non_monetary_relief": 13.4,
+  "pct_explanation_only": 64.4,
+  "pct_late_response": 0.1
+ },
+ "CITIZENS FINANCIAL GROUP, INC.": {
+  "past_complaints": 1490,
+  "pct_monetary_relief": 16.9,
+  "pct_non_monetary_relief": 0.5,
+  "pct_explanation_only": 82.6,
+  "pct_late_response": 0.0
+ },
+ "CITY NATIONAL BANK": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 4.8,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 90.5,
+  "pct_late_response": 4.8
+ },
+ "CL Holdings LLC": {
+  "past_complaints": 1066,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 31.6,
+  "pct_explanation_only": 68.4,
+  "pct_late_response": 0.0
+ },
+ "CMG MORTGAGE, INC": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.3
+ },
+ "CMRE Financial Services, Inc.": {
+  "past_complaints": 369,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.3,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 5.1
+ },
+ "CNG FINANCIAL CORPORATION": {
+  "past_complaints": 333,
+  "pct_monetary_relief": 0.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.8,
+  "pct_late_response": 0.9
+ },
+ "CNG HOLDINGS INC": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 2.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.9,
+  "pct_late_response": 6.4
+ },
+ "COAST PROFESSIONAL INC": {
+  "past_complaints": 60,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "COLLECTION SERVICES OF ATHENS, INC.": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 17.8
+ },
+ "COLORADO HOUSING AND FINANCE AUTHORITY": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "COMMERCE BANK": {
+  "past_complaints": 77,
+  "pct_monetary_relief": 20.8,
+  "pct_non_monetary_relief": 3.9,
+  "pct_explanation_only": 75.3,
+  "pct_late_response": 2.6
+ },
+ "COMMUNITY CHOICE FINANCIAL, INC.": {
+  "past_complaints": 211,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 4.7
+ },
+ "CONRAD CREDIT CORPORATION": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 38.1
+ },
+ "CONTRACT CALLERS INC": {
+  "past_complaints": 121,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 81.8,
+  "pct_late_response": 5.0
+ },
+ "CORELOGIC INC": {
+  "past_complaints": 421,
+  "pct_monetary_relief": 0.2,
+  "pct_non_monetary_relief": 0.2,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 0.7
+ },
+ "CREDICO. INC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.8
+ },
+ "CREDIGY USA CORP.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "CREDIT ACCEPTANCE CORPORATION": {
+  "past_complaints": 991,
+  "pct_monetary_relief": 3.7,
+  "pct_non_monetary_relief": 2.4,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 0.1
+ },
+ "CREDIT BUREAU OF NAPA COUNTY, INC.": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 14.3
+ },
+ "CULLEN/FROST BANKERS, INC.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 9.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.6,
+  "pct_late_response": 0.0
+ },
+ "CURO Intermediate Holdings": {
+  "past_complaints": 640,
+  "pct_monetary_relief": 1.9,
+  "pct_non_monetary_relief": 1.4,
+  "pct_explanation_only": 91.1,
+  "pct_late_response": 0.0
+ },
+ "Cadence Bank": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 17.2,
+  "pct_non_monetary_relief": 6.9,
+  "pct_explanation_only": 75.9,
+  "pct_late_response": 0.0
+ },
+ "Caliber Home Loans, Inc.": {
+  "past_complaints": 875,
+  "pct_monetary_relief": 5.4,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 90.6,
+  "pct_late_response": 0.5
+ },
+ "California Business Bureau, Inc.": {
+  "past_complaints": 74,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.4,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 6.8
+ },
+ "Capio Partners, LLC": {
+  "past_complaints": 270,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 98.9,
+  "pct_explanation_only": 0.4,
+  "pct_late_response": 0.4
+ },
+ "Capital Accounts, LLC": {
+  "past_complaints": 232,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 97.0,
+  "pct_late_response": 19.4
+ },
+ "Capital Management Services, LP": {
+  "past_complaints": 96,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 77.1,
+  "pct_late_response": 5.2
+ },
+ "Capital Markets Cooporative, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 8.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.3,
+  "pct_late_response": 21.7
+ },
+ "Capstone Credit & Collection, LLC.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 3.1
+ },
+ "CarFinance Capital LLC, Irvine, CA Branch": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.3
+ },
+ "CarMax, Inc.": {
+  "past_complaints": 247,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.4,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 0.8
+ },
+ "Carter-Young, Inc.": {
+  "past_complaints": 79,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 21.5
+ },
+ "Carvana Group, LLC": {
+  "past_complaints": 86,
+  "pct_monetary_relief": 1.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.8,
+  "pct_late_response": 3.5
+ },
+ "Cascade CISS Holdings, LLC": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Cascade Capital, LLC": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 6.4
+ },
+ "Castle Credit Co Holdings, LLC, Chicago, IL Branch": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Ceannate": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.3
+ },
+ "Cedars Business Services, LLC": {
+  "past_complaints": 74,
+  "pct_monetary_relief": 1.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 2.7
+ },
+ "Central Portfolio Control Inc.": {
+  "past_complaints": 122,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Central States Recovery, Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 51.7,
+  "pct_late_response": 0.0
+ },
+ "Certegy Holdings, LLC": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Check Security Associates, LLC": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 54.8
+ },
+ "Checkr, Inc": {
+  "past_complaints": 102,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 0.0
+ },
+ "Chime Financial Inc": {
+  "past_complaints": 1184,
+  "pct_monetary_relief": 2.5,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 96.5,
+  "pct_late_response": 0.8
+ },
+ "Choice Recovery, Inc.": {
+  "past_complaints": 131,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 81.7,
+  "pct_late_response": 0.8
+ },
+ "Chrysalis Holdings LLC": {
+  "past_complaints": 38,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 7.9
+ },
+ "Clarity Services": {
+  "past_complaints": 88,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.9,
+  "pct_late_response": 10.2
+ },
+ "Clark County Collection Service": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 2.2
+ },
+ "Clear Debt Solutions, LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.7,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 14.8
+ },
+ "Client Services, Inc.": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.9,
+  "pct_explanation_only": 96.1,
+  "pct_late_response": 0.0
+ },
+ "Coastal Credit, LLC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.2,
+  "pct_late_response": 17.2
+ },
+ "Coastline Financial Resources, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 63.6
+ },
+ "Coinbase, Inc.": {
+  "past_complaints": 959,
+  "pct_monetary_relief": 17.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 82.2,
+  "pct_late_response": 0.3
+ },
+ "Collection Bureau of America Ltd.": {
+  "past_complaints": 106,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 79.2,
+  "pct_late_response": 29.2
+ },
+ "Collection Bureau of Fort Walton Beach, Inc": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 7.7
+ },
+ "Collection Bureau of the Hudson Valley, Inc.": {
+  "past_complaints": 76,
+  "pct_monetary_relief": 1.3,
+  "pct_non_monetary_relief": 52.6,
+  "pct_explanation_only": 44.7,
+  "pct_late_response": 0.0
+ },
+ "Collection Consultants of California": {
+  "past_complaints": 52,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 23.1
+ },
+ "Collection Information Bureau, Inc.": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Collection Management Company": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Collection Management Holdings, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Collections Acquisition Company, Inc.": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.3,
+  "pct_explanation_only": 96.7,
+  "pct_late_response": 0.0
+ },
+ "College Foundation, Inc.": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Collins & Hilton Asset Group, LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 96.2,
+  "pct_late_response": 0.0
+ },
+ "Colony Brands, Inc.": {
+  "past_complaints": 300,
+  "pct_monetary_relief": 2.3,
+  "pct_non_monetary_relief": 3.3,
+  "pct_explanation_only": 75.0,
+  "pct_late_response": 25.3
+ },
+ "Comerica": {
+  "past_complaints": 456,
+  "pct_monetary_relief": 32.2,
+  "pct_non_monetary_relief": 1.5,
+  "pct_explanation_only": 66.2,
+  "pct_late_response": 0.0
+ },
+ "Commercial Acceptance Company": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.3
+ },
+ "Commonwealth Financial Systems, Inc.": {
+  "past_complaints": 725,
+  "pct_monetary_relief": 0.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 5.1
+ },
+ "Community Health Investment Company, LLC.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.6,
+  "pct_explanation_only": 84.4,
+  "pct_late_response": 0.0
+ },
+ "Community Loan Servicing, LLC (formerly known as Bayview Loan Servicing, LLC)": {
+  "past_complaints": 597,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 0.3
+ },
+ "Complete Credit Solutions, Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Concord Resolution Inc (Closed)": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 79.5,
+  "pct_late_response": 61.4
+ },
+ "Concord Servicing Corporation": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 0.0
+ },
+ "Conduent Incorporated": {
+  "past_complaints": 180,
+  "pct_monetary_relief": 6.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.8,
+  "pct_late_response": 36.1
+ },
+ "Conn's, Inc.": {
+  "past_complaints": 457,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 35.2,
+  "pct_explanation_only": 64.3,
+  "pct_late_response": 0.0
+ },
+ "Consolidated Information Services Solutions, LLC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.3
+ },
+ "Consolidated Recovery Group, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 0.0
+ },
+ "Consumer Adjustment Company Incorporated": {
+  "past_complaints": 135,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.9,
+  "pct_explanation_only": 94.1,
+  "pct_late_response": 0.7
+ },
+ "Consumer Collection Management. Inc": {
+  "past_complaints": 38,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 31.6
+ },
+ "Consumer Financial Services": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 0.0
+ },
+ "Consumer Portfolio Services, Inc.": {
+  "past_complaints": 281,
+  "pct_monetary_relief": 2.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.5,
+  "pct_late_response": 1.8
+ },
+ "Continental Credit Control": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 10.3,
+  "pct_explanation_only": 89.7,
+  "pct_late_response": 0.0
+ },
+ "Continental Finance Company, LLC": {
+  "past_complaints": 281,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.1
+ },
+ "Continental Services Group, Inc. d/b/a ConServe": {
+  "past_complaints": 137,
+  "pct_monetary_relief": 1.5,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 96.4,
+  "pct_late_response": 0.7
+ },
+ "Convergent Resources, Inc.": {
+  "past_complaints": 1526,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.9,
+  "pct_late_response": 0.0
+ },
+ "Cooling & Winter LLC": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Cooper Hoffman Klein Associates": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 18.8
+ },
+ "Core Advisory Group, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 95.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 5.0
+ },
+ "Cornerstone Home Lending Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 3.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 0.0
+ },
+ "Cottonwood Financial Ltd.": {
+  "past_complaints": 106,
+  "pct_monetary_relief": 0.9,
+  "pct_non_monetary_relief": 1.9,
+  "pct_explanation_only": 97.2,
+  "pct_late_response": 0.0
+ },
+ "CountryPlace Acceptance Corporation": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 9.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 85.7,
+  "pct_late_response": 23.8
+ },
+ "Credit Adjustments Inc": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Credit Bureau Collection Services, Inc.": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 85.7,
+  "pct_explanation_only": 11.4,
+  "pct_late_response": 2.9
+ },
+ "Credit Bureau Services Association": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.2
+ },
+ "Credit Bureau Systems, Inc., Paducah, KY Branch": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.7,
+  "pct_explanation_only": 92.3,
+  "pct_late_response": 0.0
+ },
+ "Credit Card Receivables Fund Incorporated": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 5.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.9,
+  "pct_late_response": 1.7
+ },
+ "Credit Central Holdings, LLC": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.4
+ },
+ "Credit Collections U.S.A., L.L.C.": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 64.9,
+  "pct_late_response": 81.1
+ },
+ "Credit Consulting Services, Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 9.1
+ },
+ "Credit Control, LLC": {
+  "past_complaints": 85,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Credit Corp Solutions Inc.": {
+  "past_complaints": 107,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Credit Karma, LLC": {
+  "past_complaints": 632,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 4.1
+ },
+ "Credit Management Control, Inc.": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 79.5,
+  "pct_late_response": 0.0
+ },
+ "Credit Plus Inc": {
+  "past_complaints": 94,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.9,
+  "pct_late_response": 1.1
+ },
+ "Credit Protection Association, L.P.": {
+  "past_complaints": 211,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 55.5,
+  "pct_explanation_only": 34.1,
+  "pct_late_response": 8.5
+ },
+ "Credit Service Company, INC": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Credit Systems International, Inc.": {
+  "past_complaints": 111,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.4
+ },
+ "Credit Technologies, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 22.2
+ },
+ "Creditors Bureau Associates": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.3,
+  "pct_explanation_only": 94.7,
+  "pct_late_response": 0.0
+ },
+ "Critical Resolution Mediation LLC": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 32.1,
+  "pct_late_response": 53.6
+ },
+ "CrossCountry Mortgage LLC": {
+  "past_complaints": 115,
+  "pct_monetary_relief": 3.5,
+  "pct_non_monetary_relief": 6.1,
+  "pct_explanation_only": 90.4,
+  "pct_late_response": 0.0
+ },
+ "Crow Creek Sioux Tribe": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 4.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 4.0
+ },
+ "Crown Asset Management, LLC, Duluth, GA Branch": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 82.9,
+  "pct_late_response": 0.0
+ },
+ "D&A Services, LLC": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.8,
+  "pct_late_response": 2.2
+ },
+ "D. SCOTT CARRUTHERS": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 39.2,
+  "pct_late_response": 68.6
+ },
+ "D2 Management LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 60.0,
+  "pct_late_response": 13.3
+ },
+ "DFC Global Corp.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 8.8,
+  "pct_non_monetary_relief": 8.8,
+  "pct_explanation_only": 82.4,
+  "pct_late_response": 11.8
+ },
+ "DHI Mortgage Company": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 25.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 75.0,
+  "pct_late_response": 0.0
+ },
+ "DISCOVER BANK": {
+  "past_complaints": 3858,
+  "pct_monetary_relief": 6.9,
+  "pct_non_monetary_relief": 17.0,
+  "pct_explanation_only": 76.1,
+  "pct_late_response": 0.0
+ },
+ "Data and Contact Management Solutions, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "DataMax Corporation": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 12.5
+ },
+ "Debt Recovery Solutions, LLC": {
+  "past_complaints": 326,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Delbert Services": {
+  "past_complaints": 58,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 5.2
+ },
+ "Delta Management Associates, Inc.": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Designed Receivable Solutions, Inc.": {
+  "past_complaints": 65,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.5,
+  "pct_explanation_only": 98.5,
+  "pct_late_response": 1.5
+ },
+ "Direct Recovery Services, LLC": {
+  "past_complaints": 90,
+  "pct_monetary_relief": 1.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 52.2,
+  "pct_late_response": 57.8
+ },
+ "Ditech Financial LLC": {
+  "past_complaints": 2643,
+  "pct_monetary_relief": 2.9,
+  "pct_non_monetary_relief": 10.0,
+  "pct_explanation_only": 87.0,
+  "pct_late_response": 0.2
+ },
+ "Diverse Funding Associates LLC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 3.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 0.0
+ },
+ "Diversified Adjustment Service, Inc.": {
+  "past_complaints": 177,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.3,
+  "pct_late_response": 0.6
+ },
+ "Diversified Consultants, Inc.": {
+  "past_complaints": 872,
+  "pct_monetary_relief": 0.1,
+  "pct_non_monetary_relief": 19.3,
+  "pct_explanation_only": 80.6,
+  "pct_late_response": 0.6
+ },
+ "Dovenmuehle Mortgage, Inc.": {
+  "past_complaints": 357,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 2.2
+ },
+ "Dream Center Education Holdings": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 17.1,
+  "pct_non_monetary_relief": 8.6,
+  "pct_explanation_only": 71.4,
+  "pct_late_response": 0.0
+ },
+ "DriveTime": {
+  "past_complaints": 191,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.6
+ },
+ "Duncan Solutions, lnc.": {
+  "past_complaints": 101,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 15.8
+ },
+ "Duvera Billing Services, LLC": {
+  "past_complaints": 77,
+  "pct_monetary_relief": 2.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.8,
+  "pct_late_response": 5.2
+ },
+ "Dyck-O'Neal, Inc.": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 1.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.2,
+  "pct_late_response": 3.5
+ },
+ "Dynamic Recovery Solutions, LLC": {
+  "past_complaints": 270,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 84.8,
+  "pct_explanation_only": 14.4,
+  "pct_late_response": 1.5
+ },
+ "E*TRADE BANK": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.4,
+  "pct_explanation_only": 58.6,
+  "pct_late_response": 6.9
+ },
+ "EAST WEST BANK": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.0,
+  "pct_late_response": 0.0
+ },
+ "ECMC GROUP, INC.": {
+  "past_complaints": 204,
+  "pct_monetary_relief": 3.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 0.0
+ },
+ "EMBRACE HOME LOANS": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 4.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 56.0,
+  "pct_late_response": 12.0
+ },
+ "EMCC Holdings, LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "ENCORE CAPITAL GROUP INC.": {
+  "past_complaints": 3651,
+  "pct_monetary_relief": 0.5,
+  "pct_non_monetary_relief": 37.9,
+  "pct_explanation_only": 61.6,
+  "pct_late_response": 0.1
+ },
+ "ENOVA INTERNATIONAL, INC.": {
+  "past_complaints": 455,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "EOS Holdings, Inc.": {
+  "past_complaints": 460,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.5,
+  "pct_explanation_only": 98.5,
+  "pct_late_response": 0.2
+ },
+ "EQUIFAX, INC.": {
+  "past_complaints": 84613,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.6,
+  "pct_explanation_only": 92.4,
+  "pct_late_response": 0.4
+ },
+ "ERC": {
+  "past_complaints": 2132,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 39.2,
+  "pct_explanation_only": 48.4,
+  "pct_late_response": 0.0
+ },
+ "ESCALLATE, LLC": {
+  "past_complaints": 38,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 65.8,
+  "pct_late_response": 0.0
+ },
+ "EVERBANK, NATIONAL ASSOCIATION": {
+  "past_complaints": 132,
+  "pct_monetary_relief": 0.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.2,
+  "pct_late_response": 7.6
+ },
+ "EVERGREEN PROFESSIONAL RECOVERIES, INC.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.8,
+  "pct_late_response": 0.0
+ },
+ "EXPERT GLOBAL SOLUTIONS, INC.": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "EZCORP, INC.": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 2.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.4,
+  "pct_late_response": 12.8
+ },
+ "Eagle Home Mortgage, LLC": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 8.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 0.0
+ },
+ "Early Warning Services, LLC": {
+  "past_complaints": 740,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.9,
+  "pct_late_response": 0.1
+ },
+ "Earnest Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 9.5,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 85.7,
+  "pct_late_response": 9.5
+ },
+ "Eastern Account Systems of Connecticut, Inc.": {
+  "past_complaints": 165,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Eastpoint Recovery Group, Inc": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 14.3
+ },
+ "EdFinancial Services": {
+  "past_complaints": 296,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 1.0
+ },
+ "Elevate Recoveries, LLC": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.8
+ },
+ "Empowerment Ventures, LLC": {
+  "past_complaints": 568,
+  "pct_monetary_relief": 49.3,
+  "pct_non_monetary_relief": 35.7,
+  "pct_explanation_only": 14.6,
+  "pct_late_response": 1.2
+ },
+ "Equitable Acceptance Corp": {
+  "past_complaints": 69,
+  "pct_monetary_relief": 10.1,
+  "pct_non_monetary_relief": 10.1,
+  "pct_explanation_only": 79.7,
+  "pct_late_response": 20.3
+ },
+ "Exeter Finance Corp.": {
+  "past_complaints": 551,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.4
+ },
+ "Experian Information Solutions Inc.": {
+  "past_complaints": 70638,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 36.1,
+  "pct_explanation_only": 63.5,
+  "pct_late_response": 0.0
+ },
+ "Express Aviation": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 81.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 13.6,
+  "pct_late_response": 0.0
+ },
+ "Express Recovery Services, Inc.": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.2,
+  "pct_explanation_only": 56.2,
+  "pct_late_response": 0.0
+ },
+ "F.H. Cann & Associates, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 8.3
+ },
+ "FACTUAL DATA CORP.": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "FAIR COLLECTIONS & OUTSOURCING, INC.": {
+  "past_complaints": 435,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 1.4
+ },
+ "FC HoldCo LLC": {
+  "past_complaints": 247,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 0.8,
+  "pct_explanation_only": 98.8,
+  "pct_late_response": 0.0
+ },
+ "FCI Lender Services Inc.": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.1,
+  "pct_late_response": 0.0
+ },
+ "FIDELITY CAPITAL HOLDINGS, INC": {
+  "past_complaints": 100,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.0,
+  "pct_late_response": 43.0
+ },
+ "FIFTH THIRD FINANCIAL CORPORATION": {
+  "past_complaints": 1198,
+  "pct_monetary_relief": 9.0,
+  "pct_non_monetary_relief": 8.6,
+  "pct_explanation_only": 82.4,
+  "pct_late_response": 0.2
+ },
+ "FINANCIAL ASSET MANAGEMENT SYSTEMS INC": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.9,
+  "pct_explanation_only": 84.1,
+  "pct_late_response": 0.0
+ },
+ "FIRST ADVANTAGE CORPORATION": {
+  "past_complaints": 123,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.7
+ },
+ "FIRST AMERICAN FINANCIAL CORPORATION": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "FIRST CITIZENS BANCSHARES, INC.": {
+  "past_complaints": 130,
+  "pct_monetary_relief": 15.4,
+  "pct_non_monetary_relief": 3.1,
+  "pct_explanation_only": 80.8,
+  "pct_late_response": 1.5
+ },
+ "FIRST GUARANTY MORTGAGE CORP": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 14.3,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 81.0,
+  "pct_late_response": 0.0
+ },
+ "FIRST HAWAIIAN, INC.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 17.9,
+  "pct_explanation_only": 82.1,
+  "pct_late_response": 0.0
+ },
+ "FIRST HERITAGE CREDIT LLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 5.4,
+  "pct_non_monetary_relief": 32.4,
+  "pct_explanation_only": 62.2,
+  "pct_late_response": 2.7
+ },
+ "FIRST HORIZON BANK": {
+  "past_complaints": 134,
+  "pct_monetary_relief": 9.7,
+  "pct_non_monetary_relief": 6.0,
+  "pct_explanation_only": 84.3,
+  "pct_late_response": 1.5
+ },
+ "FIRST HORIZON BANK - WEST CONGRESS STREET BRANCH": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 7.1,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 82.1,
+  "pct_late_response": 0.0
+ },
+ "FIRST INTERSTATE BANCSYSTEM, INC.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 13.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 87.0,
+  "pct_late_response": 13.0
+ },
+ "FIRST NATIONAL BANK OF OMAHA": {
+  "past_complaints": 314,
+  "pct_monetary_relief": 13.4,
+  "pct_non_monetary_relief": 12.4,
+  "pct_explanation_only": 74.2,
+  "pct_late_response": 0.6
+ },
+ "FIRST NATIONAL BANK OF PENNSYLVANIA": {
+  "past_complaints": 106,
+  "pct_monetary_relief": 31.1,
+  "pct_non_monetary_relief": 5.7,
+  "pct_explanation_only": 63.2,
+  "pct_late_response": 15.1
+ },
+ "FIRST NIAGARA FINANCIAL GROUP, INC.": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 6.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.5,
+  "pct_late_response": 0.0
+ },
+ "FIRST PORTFOLIO SERVICING INC": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 8.3
+ },
+ "FIRSTBANK": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 16.7,
+  "pct_non_monetary_relief": 6.7,
+  "pct_explanation_only": 70.0,
+  "pct_late_response": 0.0
+ },
+ "FIRSTBANK PUERTO RICO": {
+  "past_complaints": 69,
+  "pct_monetary_relief": 1.4,
+  "pct_non_monetary_relief": 1.4,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 4.3
+ },
+ "FISERV INC.": {
+  "past_complaints": 181,
+  "pct_monetary_relief": 2.2,
+  "pct_non_monetary_relief": 1.1,
+  "pct_explanation_only": 96.7,
+  "pct_late_response": 0.0
+ },
+ "FMA Alliance, Ltd.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 0.0
+ },
+ "FMS Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 0.0
+ },
+ "FORD MOTOR CREDIT CO.": {
+  "past_complaints": 321,
+  "pct_monetary_relief": 6.5,
+  "pct_non_monetary_relief": 11.8,
+  "pct_explanation_only": 81.6,
+  "pct_late_response": 0.0
+ },
+ "FRANKLIN AMERICAN MORTGAGE CO.": {
+  "past_complaints": 58,
+  "pct_monetary_relief": 6.9,
+  "pct_non_monetary_relief": 3.4,
+  "pct_explanation_only": 87.9,
+  "pct_late_response": 3.4
+ },
+ "FREEDOM FINANCIAL NETWORK": {
+  "past_complaints": 97,
+  "pct_monetary_relief": 9.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.7,
+  "pct_late_response": 8.2
+ },
+ "FRESNO CREDIT BUREAU": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "FULTON FINANCIAL CORPORATION": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 11.5,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 84.6,
+  "pct_late_response": 0.0
+ },
+ "Factor Trust": {
+  "past_complaints": 58,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.7,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 0.0
+ },
+ "Fairway Independent Mortgage Corporation": {
+  "past_complaints": 53,
+  "pct_monetary_relief": 11.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 88.7,
+  "pct_late_response": 0.0
+ },
+ "Farrell Holdings, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 0.0
+ },
+ "Fay Servicing, LLC": {
+  "past_complaints": 466,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 1.5
+ },
+ "Federal Adjustment Bureau, Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 32.4
+ },
+ "Fidelity National Financial, Inc": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Fidelity National Information Services, Inc. (FNIS)": {
+  "past_complaints": 744,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.9,
+  "pct_late_response": 0.1
+ },
+ "Fidelity Properties Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "FinCo Services Inc DBA Current": {
+  "past_complaints": 133,
+  "pct_monetary_relief": 7.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.5,
+  "pct_late_response": 1.5
+ },
+ "Finance System of Toledo, Inc.": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Finance of America Holdings LLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 0.0
+ },
+ "Finance of America Mortgage LLC": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 26.7,
+  "pct_non_monetary_relief": 4.4,
+  "pct_explanation_only": 68.9,
+  "pct_late_response": 0.0
+ },
+ "Financial Assistance Inc": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 0.0
+ },
+ "Financial Business and Consumer Solutions.": {
+  "past_complaints": 97,
+  "pct_monetary_relief": 2.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 7.2
+ },
+ "Financial Corporation of America": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 2.4
+ },
+ "Financial Credit Network Inc": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 16.9,
+  "pct_explanation_only": 81.4,
+  "pct_late_response": 0.0
+ },
+ "Financial Credit Service, Inc.": {
+  "past_complaints": 193,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 8.3
+ },
+ "Financial Data Systems": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 97.8,
+  "pct_late_response": 26.7
+ },
+ "Financial Management Solutions, LLC": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Financial Recovery Services, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.8,
+  "pct_late_response": 0.0
+ },
+ "First Advantage LNS Inc.": {
+  "past_complaints": 75,
+  "pct_monetary_relief": 5.3,
+  "pct_non_monetary_relief": 38.7,
+  "pct_explanation_only": 53.3,
+  "pct_late_response": 41.3
+ },
+ "First Associates Loan Servicing LLC": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 2.4
+ },
+ "First Credit Services Inc.": {
+  "past_complaints": 113,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "First Data Corporation": {
+  "past_complaints": 205,
+  "pct_monetary_relief": 3.4,
+  "pct_non_monetary_relief": 4.4,
+  "pct_explanation_only": 91.2,
+  "pct_late_response": 1.5
+ },
+ "First Federal Credit Control, Inc.": {
+  "past_complaints": 121,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.8
+ },
+ "First Investors Servicing Corporation, Atlanta, GA Branch": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 12.8,
+  "pct_non_monetary_relief": 21.3,
+  "pct_explanation_only": 66.0,
+  "pct_late_response": 0.0
+ },
+ "First National Collection Bureau, Inc.": {
+  "past_complaints": 184,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "First Recovery Solutions, Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 100.0
+ },
+ "First Technology Federal Credit Union": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 17.0,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 78.7,
+  "pct_late_response": 12.8
+ },
+ "FirstPoint Collection Resources": {
+  "past_complaints": 105,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.9
+ },
+ "Firstsource Business Process Services, LLC": {
+  "past_complaints": 153,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Flagstar Bank, N.A.": {
+  "past_complaints": 544,
+  "pct_monetary_relief": 1.8,
+  "pct_non_monetary_relief": 0.4,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 0.0
+ },
+ "Flatonia Investments, LLC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 19.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 76.2,
+  "pct_late_response": 0.0
+ },
+ "Focus Holding Company": {
+  "past_complaints": 181,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 24.3
+ },
+ "Foris DAX, Inc.": {
+  "past_complaints": 90,
+  "pct_monetary_relief": 2.2,
+  "pct_non_monetary_relief": 6.7,
+  "pct_explanation_only": 91.1,
+  "pct_late_response": 1.1
+ },
+ "Forster & Garbus LLP": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.1
+ },
+ "Franklin Collection Service, Inc.": {
+  "past_complaints": 277,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Franklin Credit Management Corporation": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Frederick J. Hanna & Associates, P.C. (closed)": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 9.1,
+  "pct_explanation_only": 88.6,
+  "pct_late_response": 4.5
+ },
+ "Freedom Mortgage Company": {
+  "past_complaints": 1142,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.6,
+  "pct_late_response": 0.9
+ },
+ "Frontline Asset Strategies, LLC": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.7
+ },
+ "Frost-Arnett Company": {
+  "past_complaints": 61,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.6
+ },
+ "GATEWAY FIRST BANK": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 6.5,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 89.1,
+  "pct_late_response": 0.0
+ },
+ "GLA Collection Company, Inc.": {
+  "past_complaints": 130,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.8
+ },
+ "GLOBAL CLIENT SOLUTIONS, LLC": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 4.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.0
+ },
+ "GMA Investments, LLC": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 2.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 89.6,
+  "pct_late_response": 20.8
+ },
+ "GOLD KEY CREDIT, INC.": {
+  "past_complaints": 61,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 52.5,
+  "pct_explanation_only": 47.5,
+  "pct_late_response": 0.0
+ },
+ "GOLDEN 1 CREDIT UNION, THE": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 6.2,
+  "pct_non_monetary_relief": 10.4,
+  "pct_explanation_only": 83.3,
+  "pct_late_response": 2.1
+ },
+ "GOLDMAN SACHS BANK USA": {
+  "past_complaints": 901,
+  "pct_monetary_relief": 10.5,
+  "pct_non_monetary_relief": 10.2,
+  "pct_explanation_only": 79.1,
+  "pct_late_response": 0.9
+ },
+ "GRANITE STATE MANAGEMENT & RESOURCES": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 5.0,
+  "pct_non_monetary_relief": 5.0,
+  "pct_explanation_only": 90.0,
+  "pct_late_response": 5.0
+ },
+ "GREAT LAKES": {
+  "past_complaints": 331,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 99.4,
+  "pct_late_response": 1.5
+ },
+ "GUARANTEED RATE INC.": {
+  "past_complaints": 132,
+  "pct_monetary_relief": 3.8,
+  "pct_non_monetary_relief": 0.8,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 1.5
+ },
+ "GULF COAST COLLECTION BUREAU, INC.": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.0,
+  "pct_late_response": 0.0
+ },
+ "GVA Holdings, LLC": {
+  "past_complaints": 120,
+  "pct_monetary_relief": 5.0,
+  "pct_non_monetary_relief": 3.3,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 7.5
+ },
+ "Gatestone & Co. International Inc.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 63.0,
+  "pct_explanation_only": 32.6,
+  "pct_late_response": 6.5
+ },
+ "General Motors Financial Company, Inc.": {
+  "past_complaints": 771,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 15.6,
+  "pct_explanation_only": 80.3,
+  "pct_late_response": 0.3
+ },
+ "Genesis Credit Management, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 70.0
+ },
+ "Genesis FS Card Services, Inc.": {
+  "past_complaints": 437,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 98.4,
+  "pct_late_response": 22.4
+ },
+ "Genesis Lending": {
+  "past_complaints": 129,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.1,
+  "pct_late_response": 10.9
+ },
+ "Gitsit Solutions, LLC.": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Glass Mountain Capital, LLC": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 7.1
+ },
+ "Glasser and Glasser, PLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 0.0
+ },
+ "Global Credit & Collection Corporation": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 88.9,
+  "pct_late_response": 0.0
+ },
+ "Global Lending Services LLC": {
+  "past_complaints": 173,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 99.4,
+  "pct_late_response": 2.3
+ },
+ "Global Trust Management LLC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Go Capital Holdings, LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Goal Structured Solutions, LLC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Google Compare Credit Cards Inc.": {
+  "past_complaints": 176,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 1.1,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 10.8
+ },
+ "Grain Technology, Inc.": {
+  "past_complaints": 123,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.1,
+  "pct_explanation_only": 95.9,
+  "pct_late_response": 3.3
+ },
+ "Grant & Weber": {
+  "past_complaints": 115,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.9
+ },
+ "Grant Mercantile Agency": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 9.8,
+  "pct_non_monetary_relief": 2.0,
+  "pct_explanation_only": 88.2,
+  "pct_late_response": 0.0
+ },
+ "Great American Finance Co": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 7.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.3,
+  "pct_late_response": 7.7
+ },
+ "Green Square Company LLC.": {
+  "past_complaints": 72,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 11.1,
+  "pct_late_response": 58.3
+ },
+ "Green Trust Cash, LLC": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 13.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.1,
+  "pct_late_response": 0.0
+ },
+ "GreenSky, LLC": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 17.2,
+  "pct_non_monetary_relief": 6.1,
+  "pct_explanation_only": 76.8,
+  "pct_late_response": 7.1
+ },
+ "Guild Mortgage Company LLC": {
+  "past_complaints": 82,
+  "pct_monetary_relief": 8.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.5,
+  "pct_late_response": 3.7
+ },
+ "Gurstel Law Firm, P.C.": {
+  "past_complaints": 64,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.6,
+  "pct_explanation_only": 95.3,
+  "pct_late_response": 0.0
+ },
+ "HANCOCK WHITNEY BANK": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 8.0,
+  "pct_non_monetary_relief": 4.0,
+  "pct_explanation_only": 88.0,
+  "pct_late_response": 0.0
+ },
+ "HCFS Healthcare Financial Services of TeamHealth": {
+  "past_complaints": 672,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 8.3
+ },
+ "HEARTLAND PAYMENT SYSTEMS INC": {
+  "past_complaints": 190,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 6.3
+ },
+ "HIGHER EDUCATION STUDENT ASSISTANCE AUTHORITY (HESAA)": {
+  "past_complaints": 58,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.4,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 1.7
+ },
+ "HOVG, LLC": {
+  "past_complaints": 79,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 38.0
+ },
+ "HSBC NORTH AMERICA HOLDINGS INC.": {
+  "past_complaints": 1205,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 2.3,
+  "pct_explanation_only": 94.9,
+  "pct_late_response": 2.4
+ },
+ "HUNTINGTON NATIONAL BANK, THE": {
+  "past_complaints": 653,
+  "pct_monetary_relief": 23.6,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 72.1,
+  "pct_late_response": 0.2
+ },
+ "HUNTINGTON NATIONAL BANK, THE - FIRSTMERIT BANK, N.A. BRANCH": {
+  "past_complaints": 49,
+  "pct_monetary_relief": 22.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 75.5,
+  "pct_late_response": 2.0
+ },
+ "HW Holding, Inc": {
+  "past_complaints": 765,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 10.8,
+  "pct_explanation_only": 87.7,
+  "pct_late_response": 0.0
+ },
+ "HYUNDAI CAPITAL AMERICA": {
+  "past_complaints": 732,
+  "pct_monetary_relief": 1.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 87.3,
+  "pct_late_response": 1.6
+ },
+ "Halsted Financial Services, LLC.": {
+  "past_complaints": 128,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.2
+ },
+ "Happy Money, Inc.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Harley Davidson Financial Services Inc": {
+  "past_complaints": 85,
+  "pct_monetary_relief": 1.2,
+  "pct_non_monetary_relief": 4.7,
+  "pct_explanation_only": 94.1,
+  "pct_late_response": 0.0
+ },
+ "Harpeth Financial Services, LLC": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 10.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 85.7,
+  "pct_late_response": 2.4
+ },
+ "Harris & Harris, Ltd.": {
+  "past_complaints": 220,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Harvard Collections, LLC": {
+  "past_complaints": 102,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.0,
+  "pct_explanation_only": 92.2,
+  "pct_late_response": 8.8
+ },
+ "Hayt Hayt & Landau, P.L. (FL)": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Healthcare Collections-I, LLC": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.0,
+  "pct_late_response": 3.0
+ },
+ "Healthcare Receivables Group, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.2,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 16.7
+ },
+ "Helvey & Associates, Inc., Warsaw, IN Branch": {
+  "past_complaints": 65,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.7,
+  "pct_explanation_only": 90.8,
+  "pct_late_response": 0.0
+ },
+ "Herbert P. Sears Co., Inc.": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 14.0,
+  "pct_explanation_only": 86.0,
+  "pct_late_response": 0.0
+ },
+ "High Point Asset Inc": {
+  "past_complaints": 80,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.2,
+  "pct_late_response": 85.0
+ },
+ "Hillcrest Davidson & Associates": {
+  "past_complaints": 73,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 83.6,
+  "pct_late_response": 11.0
+ },
+ "HireRight Solutions, Inc.": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Hollis Cobb Associates": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.8,
+  "pct_late_response": 0.0
+ },
+ "Holloway Credit Solutions": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 19.0,
+  "pct_explanation_only": 81.0,
+  "pct_late_response": 2.4
+ },
+ "Home Loan Center, Inc.": {
+  "past_complaints": 67,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 32.8
+ },
+ "Home Point Financial Corporation": {
+  "past_complaints": 126,
+  "pct_monetary_relief": 1.6,
+  "pct_non_monetary_relief": 2.4,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 1.6
+ },
+ "Hunt & Henriques": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.9,
+  "pct_late_response": 0.0
+ },
+ "I.C. System, Inc.": {
+  "past_complaints": 1532,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 0.1
+ },
+ "I.Q. DATA INTERNATIONAL, INC.": {
+  "past_complaints": 332,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.7,
+  "pct_explanation_only": 84.3,
+  "pct_late_response": 0.0
+ },
+ "ID Analytics, Inc.": {
+  "past_complaints": 300,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.7,
+  "pct_explanation_only": 94.7,
+  "pct_late_response": 1.0
+ },
+ "IMPAC MORTGAGE HOLDINGS, INC.": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 5.1,
+  "pct_non_monetary_relief": 7.7,
+  "pct_explanation_only": 84.6,
+  "pct_late_response": 10.3
+ },
+ "IOWA STUDENT LOAN LIQUIDITY CORPORATION": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "IQOR US INC": {
+  "past_complaints": 233,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 82.8,
+  "pct_explanation_only": 17.2,
+  "pct_late_response": 0.0
+ },
+ "Idaho Housing And Finance Association": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 4.3
+ },
+ "Ideal Collection Services, Inc.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 0.0
+ },
+ "Immediate Credit Recovery": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 7.7
+ },
+ "Incomm Holdings Inc.": {
+  "past_complaints": 276,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.6,
+  "pct_late_response": 8.7
+ },
+ "Innovate Managed Holdings, LLC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.9,
+  "pct_explanation_only": 93.1,
+  "pct_late_response": 51.7
+ },
+ "Innovis": {
+  "past_complaints": 123,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.8
+ },
+ "Integrated Recovery Services": {
+  "past_complaints": 82,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.1,
+  "pct_late_response": 85.4
+ },
+ "International Computer Systems, Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 6.2
+ },
+ "Investment Retrievers, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.8
+ },
+ "Io, Inc.": {
+  "past_complaints": 86,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.2,
+  "pct_explanation_only": 76.7,
+  "pct_late_response": 3.5
+ },
+ "J J Marshall & Associates, Inc": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.3
+ },
+ "JH Portfolio Debt Equities, LLC": {
+  "past_complaints": 186,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 91.9,
+  "pct_late_response": 2.7
+ },
+ "JP RECOVERY SERVICES, INC.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 43.5,
+  "pct_late_response": 8.7
+ },
+ "JPMORGAN CHASE & CO.": {
+  "past_complaints": 13910,
+  "pct_monetary_relief": 13.3,
+  "pct_non_monetary_relief": 6.7,
+  "pct_explanation_only": 79.8,
+  "pct_late_response": 0.0
+ },
+ "Javitch, Block & Rathbone LLC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Jim Bottin Enterprises, Inc": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 13.1
+ },
+ "John C. Heath, Attorney at Law, PLLC": {
+  "past_complaints": 149,
+  "pct_monetary_relief": 5.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.6,
+  "pct_late_response": 0.0
+ },
+ "Johnson Mark LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 8.7
+ },
+ "Jon Barry and Associates, Inc.": {
+  "past_complaints": 112,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 47.3,
+  "pct_explanation_only": 52.7,
+  "pct_late_response": 0.9
+ },
+ "KBR INC DBA RASH CURTIS & ASSOCIATES": {
+  "past_complaints": 98,
+  "pct_monetary_relief": 1.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 12.2
+ },
+ "KEYCORP": {
+  "past_complaints": 733,
+  "pct_monetary_relief": 17.6,
+  "pct_non_monetary_relief": 3.5,
+  "pct_explanation_only": 78.7,
+  "pct_late_response": 0.4
+ },
+ "KINGS CREDIT SERVICES": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "KLS Financial Services, Inc": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 55.0
+ },
+ "Kansas Counselors, Inc.": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 16.7,
+  "pct_explanation_only": 83.3,
+  "pct_late_response": 0.0
+ },
+ "Kashia Services": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 32.3
+ },
+ "Kelsting Group, Inc.": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 20.0,
+  "pct_explanation_only": 80.0,
+  "pct_late_response": 0.0
+ },
+ "Key 2 Recovery, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.7
+ },
+ "KeyBridge Medical Revenue Management": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Kikoff Inc.": {
+  "past_complaints": 92,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.2,
+  "pct_explanation_only": 84.8,
+  "pct_late_response": 0.0
+ },
+ "Kimball, Tirey & St. John LLP": {
+  "past_complaints": 85,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Kingston Data & Credit International Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.2
+ },
+ "Kinum, Inc., Indianapolis, IN Branch": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Klarna AB": {
+  "past_complaints": 65,
+  "pct_monetary_relief": 6.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 10.8
+ },
+ "Knight Adjustment Bureau": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Kohn Law Firm S.C.": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 18.2,
+  "pct_explanation_only": 81.8,
+  "pct_late_response": 0.0
+ },
+ "Kriya Capital, LLC": {
+  "past_complaints": 598,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 70.7,
+  "pct_explanation_only": 29.1,
+  "pct_late_response": 1.0
+ },
+ "Kross, Lieberman & Stone, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 81.0,
+  "pct_late_response": 61.9
+ },
+ "LAKEVIEW LOAN SERVICING, LLC": {
+  "past_complaints": 294,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.0,
+  "pct_late_response": 0.7
+ },
+ "LAND HOME FINANCIAL SERVICES": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 4.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 0.0
+ },
+ "LANIER COLLECTIONS AGENCY AND SERVICES INC": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.9
+ },
+ "LD Holdings Group, LLC": {
+  "past_complaints": 422,
+  "pct_monetary_relief": 4.5,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 94.5,
+  "pct_late_response": 2.4
+ },
+ "LDF Holdings, LLC": {
+  "past_complaints": 132,
+  "pct_monetary_relief": 5.3,
+  "pct_non_monetary_relief": 3.0,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 3.8
+ },
+ "LENDER LIVE": {
+  "past_complaints": 55,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 20.0,
+  "pct_explanation_only": 80.0,
+  "pct_late_response": 0.0
+ },
+ "LEXISNEXIS": {
+  "past_complaints": 1254,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.3,
+  "pct_explanation_only": 92.7,
+  "pct_late_response": 0.6
+ },
+ "LJ Ross Associates": {
+  "past_complaints": 147,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.0,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.7
+ },
+ "LOAN TO LEARN": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "LOBEL FINANCIAL CORPORATION": {
+  "past_complaints": 91,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.8,
+  "pct_explanation_only": 91.2,
+  "pct_late_response": 4.4
+ },
+ "LTD Financial Services, L.P.": {
+  "past_complaints": 69,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 18.8,
+  "pct_explanation_only": 81.2,
+  "pct_late_response": 7.2
+ },
+ "Law Office of Michael J. Scott, PC": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.9
+ },
+ "LendKey Technologies, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 87.5,
+  "pct_late_response": 0.0
+ },
+ "LendUp Loans LLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 89.2,
+  "pct_late_response": 5.4
+ },
+ "Lending Club Corp": {
+  "past_complaints": 240,
+  "pct_monetary_relief": 7.9,
+  "pct_non_monetary_relief": 7.9,
+  "pct_explanation_only": 84.2,
+  "pct_late_response": 10.4
+ },
+ "LendingPoint Holdings LLC": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.4,
+  "pct_late_response": 1.9
+ },
+ "Lendmark Financial Services": {
+  "past_complaints": 145,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 0.0
+ },
+ "Lennar Financial Services, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 9.1,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 86.4,
+  "pct_late_response": 0.0
+ },
+ "Lewis, McDonnell & Associates": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 20.8
+ },
+ "Lincoln Educational Services Corporation": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Linebarger Goggan Blair & Sampson LLP": {
+  "past_complaints": 134,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 2.2
+ },
+ "Lionstone Holdings Group": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 33.3
+ },
+ "LoanCare, LLC": {
+  "past_complaints": 1111,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.6,
+  "pct_late_response": 0.3
+ },
+ "Lockhart, Morris & Montgomery Inc.": {
+  "past_complaints": 98,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 6.1
+ },
+ "Louisiana Recovery Services Inc.": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.6,
+  "pct_late_response": 0.0
+ },
+ "Lustig, Glaser & Wilson, P.C.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.4,
+  "pct_explanation_only": 85.2,
+  "pct_late_response": 7.4
+ },
+ "M&T BANK CORPORATION": {
+  "past_complaints": 784,
+  "pct_monetary_relief": 13.6,
+  "pct_non_monetary_relief": 5.0,
+  "pct_explanation_only": 81.1,
+  "pct_late_response": 0.0
+ },
+ "M. G. Credit, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.7,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "M.A.R.S., Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "MARINER FINANCE, LLC": {
+  "past_complaints": 223,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 1.3,
+  "pct_explanation_only": 98.2,
+  "pct_late_response": 0.0
+ },
+ "MAS FINANCIAL SERVICES, INC.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 42.9
+ },
+ "MB FINANCIAL, INC.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 25.0,
+  "pct_non_monetary_relief": 6.2,
+  "pct_explanation_only": 68.8,
+  "pct_late_response": 31.2
+ },
+ "MECHANICS BANK": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "MERCANTILE ADJUSTMENT BUREAU, LLC": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "MERCHANTS ADJUSTMENT SERVICE, INC.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 0.0
+ },
+ "MIDCOUNTRY FINANCIAL CORP": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 87.5,
+  "pct_late_response": 0.0
+ },
+ "MIDFIRST BANK": {
+  "past_complaints": 186,
+  "pct_monetary_relief": 7.0,
+  "pct_non_monetary_relief": 14.5,
+  "pct_explanation_only": 78.0,
+  "pct_late_response": 0.5
+ },
+ "MNE Services, Inc": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 47.2
+ },
+ "MOHELA": {
+  "past_complaints": 489,
+  "pct_monetary_relief": 1.8,
+  "pct_non_monetary_relief": 10.2,
+  "pct_explanation_only": 87.7,
+  "pct_late_response": 2.0
+ },
+ "MONEY SOURCE, INC., THE": {
+  "past_complaints": 162,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 1.2,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 0.6
+ },
+ "MONEYGRAM PAYMENT SYSTEMS WORLDWIDE INC": {
+  "past_complaints": 438,
+  "pct_monetary_relief": 10.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 89.5,
+  "pct_late_response": 0.0
+ },
+ "MORGAN STANLEY & CO. LLC": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 6.8,
+  "pct_explanation_only": 89.8,
+  "pct_late_response": 3.4
+ },
+ "MOUNTAIN AMERICA FEDERAL CREDIT UNION": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 87.5,
+  "pct_late_response": 0.0
+ },
+ "MRS BPO, LLC": {
+  "past_complaints": 205,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 62.0,
+  "pct_explanation_only": 37.6,
+  "pct_late_response": 0.0
+ },
+ "MUFG AMERICAS HOLDINGS CORPORATION": {
+  "past_complaints": 60,
+  "pct_monetary_relief": 20.0,
+  "pct_non_monetary_relief": 30.0,
+  "pct_explanation_only": 50.0,
+  "pct_late_response": 0.0
+ },
+ "Machol & Johannes, LLC": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.0,
+  "pct_explanation_only": 98.0,
+  "pct_late_response": 2.0
+ },
+ "Mandarich Law Group, LLP": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Manhattan Beach Venture, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 4.3,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 47.8,
+  "pct_late_response": 78.3
+ },
+ "Marlette Funding, LLC": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 8.5
+ },
+ "Massachusetts Educational Financing Authority": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Maury Cobb, Attorney at Law, LLC": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 18.2,
+  "pct_explanation_only": 81.8,
+  "pct_late_response": 0.0
+ },
+ "Maximus Education, LLC dba Aidvantage": {
+  "past_complaints": 400,
+  "pct_monetary_relief": 0.8,
+  "pct_non_monetary_relief": 2.5,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 0.0
+ },
+ "McCalla Raymer Leibert Pierce, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 30.4
+ },
+ "McCarthy, Burgess & Wolff, Inc.": {
+  "past_complaints": 87,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Mcburberod Financial, Inc. d/b/a SeedFi": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 96.4,
+  "pct_late_response": 0.0
+ },
+ "Meade & Associates, Inc.": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 34.0,
+  "pct_late_response": 19.1
+ },
+ "Med-1 Solutions, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 26.1
+ },
+ "Media Collections, Inc": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 96.7,
+  "pct_explanation_only": 3.3,
+  "pct_late_response": 3.3
+ },
+ "Medical Business Bureau": {
+  "past_complaints": 64,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.6
+ },
+ "Medical Data Systems, Inc.": {
+  "past_complaints": 351,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.3
+ },
+ "Medical Society Business Services, Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 43.8,
+  "pct_explanation_only": 56.2,
+  "pct_late_response": 3.1
+ },
+ "Medical-Commercial Audit Inc": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 79.2,
+  "pct_explanation_only": 20.8,
+  "pct_late_response": 0.0
+ },
+ "Medical-Dental-Hospital Bureau of San Antonio": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 5.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 70.0,
+  "pct_late_response": 0.0
+ },
+ "Mercedes Benz Financial Services": {
+  "past_complaints": 223,
+  "pct_monetary_relief": 1.3,
+  "pct_non_monetary_relief": 1.3,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 1.3
+ },
+ "Merchants Credit Corporation": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Merchants and Medical Credit Corporation, Inc.": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 43.5,
+  "pct_explanation_only": 56.5,
+  "pct_late_response": 1.6
+ },
+ "Merchants and Professional Bureau, Inc.": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Merchants' Credit Guide Company": {
+  "past_complaints": 100,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 28.0,
+  "pct_explanation_only": 72.0,
+  "pct_late_response": 1.0
+ },
+ "Meridian Financial Services, Inc.": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.2,
+  "pct_late_response": 8.8
+ },
+ "Messerli & Kramer P.A.": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.5,
+  "pct_explanation_only": 92.5,
+  "pct_late_response": 0.0
+ },
+ "Metro Collection Service Inc.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 87.0,
+  "pct_late_response": 8.7
+ },
+ "MicroBilt / PRBC (formerly CL Verify)": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 0.0
+ },
+ "Mid-Atlantic Consumer Services": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 4.0
+ },
+ "Mid-Atlantic Finance Co., Inc.": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 87.5,
+  "pct_late_response": 6.2
+ },
+ "MidAmerica Mortgage Inc": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 14.3
+ },
+ "Midwest Recovery Systems": {
+  "past_complaints": 399,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.3,
+  "pct_explanation_only": 98.5,
+  "pct_late_response": 36.8
+ },
+ "Millco Management": {
+  "past_complaints": 78,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.3
+ },
+ "Miller, Stark, Klein and Associates": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 7.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.9,
+  "pct_late_response": 0.0
+ },
+ "Minto Financial dba Minto Money": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "MiraMed Revenue Group LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Mobiloans, LLC": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 100.0
+ },
+ "Monarch Recovery Holdings, Inc.": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "MoneyLion Inc.": {
+  "past_complaints": 282,
+  "pct_monetary_relief": 7.8,
+  "pct_non_monetary_relief": 9.2,
+  "pct_explanation_only": 83.0,
+  "pct_late_response": 12.8
+ },
+ "Monterey Financial Services LLC": {
+  "past_complaints": 218,
+  "pct_monetary_relief": 0.5,
+  "pct_non_monetary_relief": 10.6,
+  "pct_explanation_only": 89.0,
+  "pct_late_response": 0.0
+ },
+ "Mortgage Research Center, LLC": {
+  "past_complaints": 81,
+  "pct_monetary_relief": 3.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "Mountain Land Collections, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 91.7,
+  "pct_late_response": 8.3
+ },
+ "Mountain Run Solutions, LLC": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.2
+ },
+ "Movement Mortgage LLC": {
+  "past_complaints": 82,
+  "pct_monetary_relief": 6.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.9,
+  "pct_late_response": 1.2
+ },
+ "Mr. Cooper Group Inc.": {
+  "past_complaints": 1251,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 0.1,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 0.1
+ },
+ "N.A.R., Inc.": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 20.9
+ },
+ "NATIONSTAR MORTGAGE LLC": {
+  "past_complaints": 960,
+  "pct_monetary_relief": 0.1,
+  "pct_non_monetary_relief": 0.7,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 0.1
+ },
+ "NATIONWIDE ACCEPTANCE LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 7.7,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 88.5,
+  "pct_late_response": 0.0
+ },
+ "NAVY FEDERAL CREDIT UNION": {
+  "past_complaints": 1936,
+  "pct_monetary_relief": 7.7,
+  "pct_non_monetary_relief": 8.5,
+  "pct_explanation_only": 83.8,
+  "pct_late_response": 0.0
+ },
+ "NCB Management Services Inc.": {
+  "past_complaints": 335,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.3,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 0.3
+ },
+ "NCC Business Services, Inc.": {
+  "past_complaints": 183,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.6,
+  "pct_explanation_only": 98.4,
+  "pct_late_response": 13.1
+ },
+ "NELSON AND KENNARD": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.7,
+  "pct_explanation_only": 94.3,
+  "pct_late_response": 2.9
+ },
+ "NETWORK CAPITAL FUNDING CORP": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 13.0,
+  "pct_non_monetary_relief": 13.0,
+  "pct_explanation_only": 73.9,
+  "pct_late_response": 0.0
+ },
+ "NEW YORK COMMUNITY BANCORP INC": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "NEW YORK COMMUNITY BANK": {
+  "past_complaints": 55,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "NISSAN MOTOR ACCEPTANCE COMPANY LLC": {
+  "past_complaints": 532,
+  "pct_monetary_relief": 0.6,
+  "pct_non_monetary_relief": 0.4,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 0.6
+ },
+ "NRA Group, LLC": {
+  "past_complaints": 218,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 13.3,
+  "pct_explanation_only": 83.5,
+  "pct_late_response": 6.4
+ },
+ "NVR INC.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "National Arbitration Forum": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 80.0,
+  "pct_late_response": 80.0
+ },
+ "National Business Factors": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.0,
+  "pct_explanation_only": 95.0,
+  "pct_late_response": 0.0
+ },
+ "National Collection Systems, Inc.": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.9,
+  "pct_late_response": 0.0
+ },
+ "National Commercial Services, Inc": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.0,
+  "pct_explanation_only": 84.0,
+  "pct_late_response": 12.0
+ },
+ "National Consumer Telecom & Utilities Exchange, Inc.": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.4,
+  "pct_explanation_only": 84.6,
+  "pct_late_response": 0.0
+ },
+ "National Credit Adjusters, LLC": {
+  "past_complaints": 671,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.5
+ },
+ "National Credit Systems,Inc.": {
+  "past_complaints": 1103,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.5
+ },
+ "National Enterprise Systems, Inc.": {
+  "past_complaints": 107,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "National Principal Group, LLC": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "National Recoveries, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 83.3,
+  "pct_late_response": 16.7
+ },
+ "Nations Recovery Center": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 100.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 10.8
+ },
+ "Nationwide Biweekly Administration, Inc.": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.2
+ },
+ "Nationwide Credit & Collection, Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Nationwide Credit Corporation": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Nationwide Debt Management Solutions, LLC": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.1,
+  "pct_late_response": 52.9
+ },
+ "Nationwide Recovery Systems, Ltd": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.0
+ },
+ "Navient Solutions, LLC.": {
+  "past_complaints": 9007,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 2.1,
+  "pct_explanation_only": 96.2,
+  "pct_late_response": 0.0
+ },
+ "Neighborhood Assistance Corporation of America (\"NACA\")": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 16.0
+ },
+ "Nelnet, Inc.": {
+  "past_complaints": 1632,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.4,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 0.2
+ },
+ "Nelson Cruz & Associates LLC": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 77.8,
+  "pct_late_response": 33.3
+ },
+ "Netspend Corporation": {
+  "past_complaints": 646,
+  "pct_monetary_relief": 2.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 0.3
+ },
+ "Nevada Credico, Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.4,
+  "pct_explanation_only": 93.1,
+  "pct_late_response": 6.9
+ },
+ "New Century Financial Services, Inc.": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Nicholas Financial Inc.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 4.3
+ },
+ "North American Credit Services": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "North Shore Agency, LLC": {
+  "past_complaints": 56,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Northland Group Inc": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 87.1,
+  "pct_explanation_only": 12.9,
+  "pct_late_response": 0.0
+ },
+ "Northstar Location Services, LLC": {
+  "past_complaints": 95,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 36.8,
+  "pct_late_response": 0.0
+ },
+ "Novad Management Consulting LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 5.0
+ },
+ "OLD NATIONAL BANCORP": {
+  "past_complaints": 53,
+  "pct_monetary_relief": 26.4,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 67.9,
+  "pct_late_response": 0.0
+ },
+ "ONEMAIN FINANCE CORPORATION": {
+  "past_complaints": 61,
+  "pct_monetary_relief": 4.9,
+  "pct_non_monetary_relief": 14.8,
+  "pct_explanation_only": 78.7,
+  "pct_late_response": 1.6
+ },
+ "ONEMAIN FINANCIAL HOLDINGS, LLC.": {
+  "past_complaints": 473,
+  "pct_monetary_relief": 3.6,
+  "pct_non_monetary_relief": 9.9,
+  "pct_explanation_only": 86.3,
+  "pct_late_response": 0.2
+ },
+ "ONLINE Information Services, Inc.": {
+  "past_complaints": 254,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 34.3,
+  "pct_explanation_only": 65.4,
+  "pct_late_response": 0.0
+ },
+ "OPORTUN FINANCIAL CORPORATION": {
+  "past_complaints": 119,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 16.8,
+  "pct_explanation_only": 79.0,
+  "pct_late_response": 1.7
+ },
+ "OPTUM BANK, INC.": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 2.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 0.0
+ },
+ "ORG GC GP Buyer, LLC": {
+  "past_complaints": 243,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 38.3,
+  "pct_explanation_only": 61.3,
+  "pct_late_response": 0.0
+ },
+ "Ocwen Financial Corporation": {
+  "past_complaints": 4359,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 0.7,
+  "pct_explanation_only": 95.1,
+  "pct_late_response": 0.5
+ },
+ "Oklahoma Student Loan Authority": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Oliver Adjustment Co.": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.6,
+  "pct_explanation_only": 86.1,
+  "pct_late_response": 0.0
+ },
+ "Omega RMS, LLC": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 0.0
+ },
+ "OneMain Finance Corporation": {
+  "past_complaints": 495,
+  "pct_monetary_relief": 2.2,
+  "pct_non_monetary_relief": 9.1,
+  "pct_explanation_only": 88.7,
+  "pct_late_response": 0.0
+ },
+ "Open Dealer Exchange, LLC": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Opportunity Financial, LLC": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.4,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 4.3
+ },
+ "Optimum Outcomes, Inc.": {
+  "past_complaints": 140,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 17.9
+ },
+ "Optio Solutions, LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Oracle Financial Group LLC.": {
+  "past_complaints": 53,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 83.0,
+  "pct_explanation_only": 9.4,
+  "pct_late_response": 7.5
+ },
+ "Overton, Russell, Doerr and Donovan, LLP": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 89.3,
+  "pct_late_response": 14.3
+ },
+ "Oxford Law, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 40.0,
+  "pct_explanation_only": 60.0,
+  "pct_late_response": 0.0
+ },
+ "P&B Capital Group, LLC": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 85.7,
+  "pct_late_response": 50.0
+ },
+ "P.S.C., Inc": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.6
+ },
+ "PARAMOUNT RESIDENTIAL MORTGAGE GROUP": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 17.5,
+  "pct_non_monetary_relief": 2.5,
+  "pct_explanation_only": 75.0,
+  "pct_late_response": 5.0
+ },
+ "PDQ Services, Inc.": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 16.0,
+  "pct_explanation_only": 82.0,
+  "pct_late_response": 22.0
+ },
+ "PENNYMAC LOAN SERVICES, LLC.": {
+  "past_complaints": 710,
+  "pct_monetary_relief": 7.5,
+  "pct_non_monetary_relief": 7.6,
+  "pct_explanation_only": 84.9,
+  "pct_late_response": 0.0
+ },
+ "PENTAGON FEDERAL CREDIT UNION": {
+  "past_complaints": 501,
+  "pct_monetary_relief": 13.2,
+  "pct_non_monetary_relief": 13.8,
+  "pct_explanation_only": 73.1,
+  "pct_late_response": 0.0
+ },
+ "PEOPLE'S UNITED BANK, NATIONAL ASSOCIATION": {
+  "past_complaints": 73,
+  "pct_monetary_relief": 19.2,
+  "pct_non_monetary_relief": 5.5,
+  "pct_explanation_only": 75.3,
+  "pct_late_response": 0.0
+ },
+ "PHH Mortgage Services Corporation": {
+  "past_complaints": 370,
+  "pct_monetary_relief": 1.6,
+  "pct_non_monetary_relief": 0.5,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 1.1
+ },
+ "PINNACLE RECOVERY, INC.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 10.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 89.3,
+  "pct_late_response": 0.0
+ },
+ "PLANET HOME LENDING, LLC": {
+  "past_complaints": 186,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 71.0,
+  "pct_late_response": 21.0
+ },
+ "PLAZA HOME MORTGAGE, INC.": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 5.6,
+  "pct_non_monetary_relief": 1.9,
+  "pct_explanation_only": 92.6,
+  "pct_late_response": 3.7
+ },
+ "PLS GROUP, INC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 15.6,
+  "pct_non_monetary_relief": 43.8,
+  "pct_explanation_only": 40.6,
+  "pct_late_response": 0.0
+ },
+ "PMAB,LLC": {
+  "past_complaints": 65,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 12.3
+ },
+ "PNC Bank N.A.": {
+  "past_complaints": 2867,
+  "pct_monetary_relief": 10.7,
+  "pct_non_monetary_relief": 0.8,
+  "pct_explanation_only": 85.4,
+  "pct_late_response": 0.0
+ },
+ "POPULAR BANK": {
+  "past_complaints": 60,
+  "pct_monetary_relief": 20.0,
+  "pct_non_monetary_relief": 11.7,
+  "pct_explanation_only": 68.3,
+  "pct_late_response": 0.0
+ },
+ "PORTFOLIO RECOVERY ASSOCIATES INC": {
+  "past_complaints": 4000,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 30.2,
+  "pct_explanation_only": 69.8,
+  "pct_late_response": 0.0
+ },
+ "PREFERRED CREDIT INC": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "PRESTIGE FINANCIAL SERVICES INC": {
+  "past_complaints": 153,
+  "pct_monetary_relief": 4.6,
+  "pct_non_monetary_relief": 0.7,
+  "pct_explanation_only": 94.8,
+  "pct_late_response": 0.7
+ },
+ "PRIMARY RESIDENTIAL MORTGAGE": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 7.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.0,
+  "pct_late_response": 8.8
+ },
+ "PRIMELENDING, A PLAINSCAPITAL COMPANY": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 11.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 88.1,
+  "pct_late_response": 2.4
+ },
+ "PROSPERITY BANCSHARES, INC.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 10.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.2,
+  "pct_late_response": 3.4
+ },
+ "PROVIDENT FUNDING ASSOCIATES": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 2.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.7,
+  "pct_late_response": 0.0
+ },
+ "Pacific Union Financial, LLC": {
+  "past_complaints": 88,
+  "pct_monetary_relief": 3.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 3.4
+ },
+ "Palm Beach Credit Adjustors, Inc": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.5,
+  "pct_late_response": 0.0
+ },
+ "Paradigm Assets, LLC": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Paramount GR Holdings, LLC": {
+  "past_complaints": 95,
+  "pct_monetary_relief": 5.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.7,
+  "pct_late_response": 5.3
+ },
+ "Paramount Recovery Systems, L.P.": {
+  "past_complaints": 143,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 9.1,
+  "pct_explanation_only": 82.5,
+  "pct_late_response": 2.1
+ },
+ "Park Hill Holdings": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Patenaude & Felix A Professional Corporation": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.9
+ },
+ "Patient Accounting Service Center": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 10.8
+ },
+ "Payfare International Inc.": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Paypal Holdings, Inc": {
+  "past_complaints": 4065,
+  "pct_monetary_relief": 16.3,
+  "pct_non_monetary_relief": 22.3,
+  "pct_explanation_only": 61.3,
+  "pct_late_response": 0.2
+ },
+ "Payward Ventures Inc. dba Kraken": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.6
+ },
+ "Pendrick Capital Partners Holding, LLC": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.6,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.0
+ },
+ "Penn Credit Corporation": {
+  "past_complaints": 319,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.3
+ },
+ "Perfection Collection": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 63.8,
+  "pct_late_response": 8.5
+ },
+ "Performant Financial Corporation": {
+  "past_complaints": 133,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 30.1,
+  "pct_explanation_only": 69.9,
+  "pct_late_response": 3.0
+ },
+ "Persolve, LLC - Legal - Series 2": {
+  "past_complaints": 55,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.8
+ },
+ "Peter Roberts & Associates, Inc.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 36.0,
+  "pct_explanation_only": 64.0,
+  "pct_late_response": 0.0
+ },
+ "Phillips & Cohen Associates, Ltd.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 16.0,
+  "pct_explanation_only": 84.0,
+  "pct_late_response": 0.0
+ },
+ "Phoenix Financial Services LLC": {
+  "past_complaints": 392,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.3,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 2.3
+ },
+ "Pinnacle Credit Services, LLC": {
+  "past_complaints": 313,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 9.9,
+  "pct_explanation_only": 85.0,
+  "pct_late_response": 0.0
+ },
+ "Platinum Holdings Group, LLC": {
+  "past_complaints": 102,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 9.8
+ },
+ "PlusFour, Inc": {
+  "past_complaints": 74,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 78.4,
+  "pct_late_response": 20.3
+ },
+ "Populus Financial Group, Inc. (F/K/A Ace Cash Express)": {
+  "past_complaints": 422,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 3.6
+ },
+ "Porania, LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 35.0,
+  "pct_late_response": 70.0
+ },
+ "Possible Financial Inc": {
+  "past_complaints": 56,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.8,
+  "pct_explanation_only": 98.2,
+  "pct_late_response": 0.0
+ },
+ "Preferred Collection and Management, Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 22.7
+ },
+ "Premier Portfolio Group": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 29.4
+ },
+ "Premier\u00a0Student\u00a0Loan\u00a0Center": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 33.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 14.3,
+  "pct_late_response": 52.4
+ },
+ "Premium Credit Bureau": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.4
+ },
+ "Pressler & Pressler, LLP": {
+  "past_complaints": 143,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Prince Parker & Associates": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 2.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.0,
+  "pct_late_response": 12.0
+ },
+ "ProCollect, Inc.": {
+  "past_complaints": 520,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.2
+ },
+ "Professional Adjustment Corp. of S.W. FL., Inc.": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Professional Bureau of Collections of Maryland, Inc., GREENWOOD VILLAGE, CO Branch": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.6,
+  "pct_late_response": 21.3
+ },
+ "Professional Claims Bureau, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.8
+ },
+ "Professional Credit Management, Inc": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 29.8,
+  "pct_explanation_only": 70.2,
+  "pct_late_response": 0.0
+ },
+ "Professional Debt Mediation, Inc.": {
+  "past_complaints": 195,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.5,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 3.6
+ },
+ "Professional Finance Company, Inc.": {
+  "past_complaints": 88,
+  "pct_monetary_relief": 3.4,
+  "pct_non_monetary_relief": 37.5,
+  "pct_explanation_only": 59.1,
+  "pct_late_response": 0.0
+ },
+ "Professional Medical Management, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 81.5,
+  "pct_explanation_only": 11.1,
+  "pct_late_response": 22.2
+ },
+ "Professional Placement Services, LLC": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Professional Recovery Management": {
+  "past_complaints": 94,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 12.8,
+  "pct_explanation_only": 87.2,
+  "pct_late_response": 4.3
+ },
+ "Profit Services Group": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.0,
+  "pct_explanation_only": 88.0,
+  "pct_late_response": 60.0
+ },
+ "Progressive Financial Services, Inc.": {
+  "past_complaints": 52,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.8
+ },
+ "Prospect Mortgage, LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 19.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 76.9,
+  "pct_late_response": 46.2
+ },
+ "Prosper Marketplace, Inc.": {
+  "past_complaints": 136,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 4.4,
+  "pct_explanation_only": 94.9,
+  "pct_late_response": 0.0
+ },
+ "PulteGroup, Inc.": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "QC HOLDINGS INC": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.6,
+  "pct_explanation_only": 91.4,
+  "pct_late_response": 0.0
+ },
+ "QUALITY ACCEPTANCE LLC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.2,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 0.0
+ },
+ "Quality Asset Recovery LLC": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.4,
+  "pct_explanation_only": 90.5,
+  "pct_late_response": 0.0
+ },
+ "Quality Loan Service Corporation": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.2
+ },
+ "Quality Recovery Services, Inc.": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.9,
+  "pct_late_response": 22.7
+ },
+ "R & B Corporation of Virginia": {
+  "past_complaints": 167,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 99.4,
+  "pct_late_response": 4.2
+ },
+ "R.M. Galicia, Inc.": {
+  "past_complaints": 131,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 34.4,
+  "pct_explanation_only": 65.6,
+  "pct_late_response": 1.5
+ },
+ "RANDOLPH-BROOKS FEDERAL CREDIT UNION": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 87.5,
+  "pct_late_response": 4.2
+ },
+ "REGIONS FINANCIAL CORPORATION": {
+  "past_complaints": 832,
+  "pct_monetary_relief": 25.1,
+  "pct_non_monetary_relief": 14.3,
+  "pct_explanation_only": 60.6,
+  "pct_late_response": 0.0
+ },
+ "RFNA, LP": {
+  "past_complaints": 90,
+  "pct_monetary_relief": 2.2,
+  "pct_non_monetary_relief": 12.2,
+  "pct_explanation_only": 85.6,
+  "pct_late_response": 1.1
+ },
+ "RGS Financial, Inc.": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 28.6,
+  "pct_explanation_only": 71.4,
+  "pct_late_response": 4.8
+ },
+ "RIA FINANCIAL": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 1.9,
+  "pct_non_monetary_relief": 1.9,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 11.1
+ },
+ "RMS-Recovery Management Services, Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "ROBINHOOD MARKETS INC.": {
+  "past_complaints": 123,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 30.1
+ },
+ "ROC Asset Solutions, LLC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 50.0,
+  "pct_late_response": 81.2
+ },
+ "ROYAL UNITED MORTGAGE LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 30.4,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 65.2,
+  "pct_late_response": 8.7
+ },
+ "RS Clark and Associates, Inc.": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.7,
+  "pct_explanation_only": 92.9,
+  "pct_late_response": 22.9
+ },
+ "RSI Enterprises, Inc.": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 20.6,
+  "pct_explanation_only": 79.4,
+  "pct_late_response": 0.0
+ },
+ "RUSHMORE LOAN MANAGEMENT SERVICES LLC": {
+  "past_complaints": 522,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.4
+ },
+ "Radius Global Solutions LLC": {
+  "past_complaints": 434,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 0.0
+ },
+ "Rausch Sturm LLP": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Rausch, Sturm, Israel, Enerson & Hornik, LLP": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.7
+ },
+ "Ray Klein, Inc.": {
+  "past_complaints": 77,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 10.4,
+  "pct_explanation_only": 53.2,
+  "pct_late_response": 1.3
+ },
+ "Real Time Group, Inc.": {
+  "past_complaints": 167,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 23.4
+ },
+ "Receivable Management Group, Inc. (GA)": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Receivable Recovery Services, LLC": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.7,
+  "pct_late_response": 8.5
+ },
+ "Receivable Solutions, Inc.": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 6.5
+ },
+ "Receivables Management Corporation": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Receivables Management Partners, LLC": {
+  "past_complaints": 259,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 4.6
+ },
+ "Receivables Outsourcing, Inc.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 17.4
+ },
+ "Receivables Performance Management, LLC": {
+  "past_complaints": 448,
+  "pct_monetary_relief": 0.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.8,
+  "pct_late_response": 5.4
+ },
+ "Recovery One, LLC": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Regional Management Corporation": {
+  "past_complaints": 110,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 19.1,
+  "pct_explanation_only": 78.2,
+  "pct_late_response": 0.9
+ },
+ "Reliant Capital Solutions, LLC": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 94.7,
+  "pct_explanation_only": 5.3,
+  "pct_late_response": 1.8
+ },
+ "Remex, Inc.": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Remitly, Inc.": {
+  "past_complaints": 101,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.0,
+  "pct_late_response": 11.9
+ },
+ "Rent Recover, LLC": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 48.4,
+  "pct_late_response": 64.5
+ },
+ "Rent Recovery Solutions": {
+  "past_complaints": 226,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.4
+ },
+ "RentDebt Automated Collections, LLC": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.2
+ },
+ "Renton Collections Inc.": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.9,
+  "pct_late_response": 51.5
+ },
+ "ResidentCollect, Inc.": {
+  "past_complaints": 84,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 90.5,
+  "pct_late_response": 25.0
+ },
+ "Residential Credit Solutions, Inc.": {
+  "past_complaints": 114,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 87.7,
+  "pct_late_response": 0.9
+ },
+ "Resurgent Capital Services L.P.": {
+  "past_complaints": 2267,
+  "pct_monetary_relief": 0.3,
+  "pct_non_monetary_relief": 9.8,
+  "pct_explanation_only": 89.5,
+  "pct_late_response": 0.0
+ },
+ "Retail Merchants Associates": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.4,
+  "pct_late_response": 10.7
+ },
+ "Retrieval-Masters Creditors Bureau, Inc., Elmsford, NY Branch": {
+  "past_complaints": 134,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.0,
+  "pct_late_response": 3.0
+ },
+ "Revco Management, LLC": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 100.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 5.6
+ },
+ "Revenue Assistance Corporation dba Revenue Group": {
+  "past_complaints": 47,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.9,
+  "pct_late_response": 0.0
+ },
+ "Revenue Assurance Professionals LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.2,
+  "pct_late_response": 3.8
+ },
+ "Revenue Recovery Corporation": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 84.4,
+  "pct_late_response": 4.4
+ },
+ "Reverse Mortgage Solutions, Inc.": {
+  "past_complaints": 91,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.8,
+  "pct_late_response": 4.4
+ },
+ "Revolut Technologies Inc.": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 7.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.3,
+  "pct_late_response": 0.0
+ },
+ "Ridge & Valley Realty, Inc.": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Risecredit, LLC": {
+  "past_complaints": 177,
+  "pct_monetary_relief": 0.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.5,
+  "pct_late_response": 10.7
+ },
+ "Riverwalk Financial Corporation": {
+  "past_complaints": 88,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.3,
+  "pct_explanation_only": 85.2,
+  "pct_late_response": 43.2
+ },
+ "Rocket Mortgage, LLC": {
+  "past_complaints": 929,
+  "pct_monetary_relief": 7.6,
+  "pct_non_monetary_relief": 1.0,
+  "pct_explanation_only": 91.3,
+  "pct_late_response": 0.4
+ },
+ "Rosebud Economic Development Corporation": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 26.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 73.8,
+  "pct_late_response": 4.8
+ },
+ "RoundPoint Mortgage Servicing LLC": {
+  "past_complaints": 418,
+  "pct_monetary_relief": 0.5,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 0.7
+ },
+ "Rowland Avenue Management, Inc. A/KA Columbia Debt Recovery, LLC d/b/a Genesis": {
+  "past_complaints": 139,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.2
+ },
+ "Rozlin Financial Group, Inc.": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Rubin & Rothman, LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.4,
+  "pct_explanation_only": 92.6,
+  "pct_late_response": 0.0
+ },
+ "S&S Physician Services, Inc.": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 3.8,
+  "pct_non_monetary_relief": 3.8,
+  "pct_explanation_only": 88.5,
+  "pct_late_response": 38.5
+ },
+ "SANTANDER BANK, NATIONAL ASSOCIATION": {
+  "past_complaints": 439,
+  "pct_monetary_relief": 1.8,
+  "pct_non_monetary_relief": 0.5,
+  "pct_explanation_only": 70.8,
+  "pct_late_response": 5.2
+ },
+ "SANTANDER HOLDINGS USA, INC.": {
+  "past_complaints": 403,
+  "pct_monetary_relief": 0.7,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 97.0,
+  "pct_late_response": 0.0
+ },
+ "SCA Collections, Inc.": {
+  "past_complaints": 89,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.4
+ },
+ "SCHOOLSFIRST FEDERAL CREDIT UNION": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 13.3,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 86.7,
+  "pct_late_response": 0.0
+ },
+ "SCOTTRADE BANK": {
+  "past_complaints": 159,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 8.8,
+  "pct_late_response": 0.6
+ },
+ "SECURITY CREDIT SYSTEMS INC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "SECURITY FINANCE CORP": {
+  "past_complaints": 160,
+  "pct_monetary_relief": 1.2,
+  "pct_non_monetary_relief": 5.6,
+  "pct_explanation_only": 90.6,
+  "pct_late_response": 3.1
+ },
+ "SELECT PORTFOLIO SERVICING, INC.": {
+  "past_complaints": 1865,
+  "pct_monetary_relief": 0.4,
+  "pct_non_monetary_relief": 1.4,
+  "pct_explanation_only": 98.1,
+  "pct_late_response": 0.2
+ },
+ "SERVICEMAC, LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 3.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "SIERRA PACIFIC MORTGAGE": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 30.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 65.2,
+  "pct_late_response": 8.7
+ },
+ "SIMM Associates, Inc.": {
+  "past_complaints": 72,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 4.2
+ },
+ "SIMMONS FIRST NATIONAL CORPORATION": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 8.7,
+  "pct_non_monetary_relief": 4.3,
+  "pct_explanation_only": 87.0,
+  "pct_late_response": 0.0
+ },
+ "SLM CORPORATION": {
+  "past_complaints": 704,
+  "pct_monetary_relief": 8.1,
+  "pct_non_monetary_relief": 7.5,
+  "pct_explanation_only": 84.4,
+  "pct_late_response": 0.0
+ },
+ "SN SERVICING CORPORATION": {
+  "past_complaints": 74,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.4
+ },
+ "SQUARETWO FINANCIAL CORPORATION": {
+  "past_complaints": 116,
+  "pct_monetary_relief": 17.2,
+  "pct_non_monetary_relief": 9.5,
+  "pct_explanation_only": 73.3,
+  "pct_late_response": 0.0
+ },
+ "STATE EMPLOYEES CREDIT UNION": {
+  "past_complaints": 113,
+  "pct_monetary_relief": 0.9,
+  "pct_non_monetary_relief": 4.4,
+  "pct_explanation_only": 94.7,
+  "pct_late_response": 0.0
+ },
+ "STATE FARM BANK, FSB": {
+  "past_complaints": 117,
+  "pct_monetary_relief": 12.0,
+  "pct_non_monetary_relief": 9.4,
+  "pct_explanation_only": 78.6,
+  "pct_late_response": 1.7
+ },
+ "STERLING BANCORP": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "STERLING JEWELERS, INC.": {
+  "past_complaints": 275,
+  "pct_monetary_relief": 3.6,
+  "pct_non_monetary_relief": 4.7,
+  "pct_explanation_only": 89.5,
+  "pct_late_response": 0.0
+ },
+ "STONEGATE MORTGAGE CORPORATION": {
+  "past_complaints": 56,
+  "pct_monetary_relief": 10.7,
+  "pct_non_monetary_relief": 66.1,
+  "pct_explanation_only": 23.2,
+  "pct_late_response": 8.9
+ },
+ "STONELEIGH RECOVERY ASSOCIATES, LLC": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 84.4,
+  "pct_explanation_only": 15.6,
+  "pct_late_response": 6.2
+ },
+ "SUN LOAN COMPANY INC.": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 2.0,
+  "pct_non_monetary_relief": 4.0,
+  "pct_explanation_only": 94.0,
+  "pct_late_response": 4.0
+ },
+ "SUN WEST MORTGAGE COMPANY, INC.": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "SUNCOAST CREDIT UNION": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 0.0
+ },
+ "SUNRISE CREDIT SERVICES, INC": {
+  "past_complaints": 316,
+  "pct_monetary_relief": 0.6,
+  "pct_non_monetary_relief": 0.6,
+  "pct_explanation_only": 98.4,
+  "pct_late_response": 0.3
+ },
+ "SUNTRUST BANKS, INC.": {
+  "past_complaints": 1067,
+  "pct_monetary_relief": 15.9,
+  "pct_non_monetary_relief": 11.7,
+  "pct_explanation_only": 71.2,
+  "pct_late_response": 0.1
+ },
+ "SYNCHRONY FINANCIAL": {
+  "past_complaints": 6857,
+  "pct_monetary_relief": 19.8,
+  "pct_non_monetary_relief": 18.2,
+  "pct_explanation_only": 61.9,
+  "pct_late_response": 0.0
+ },
+ "Sa-Vit Enterprises, Inc.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Santander Consumer USA Holdings Inc.": {
+  "past_complaints": 2111,
+  "pct_monetary_relief": 2.3,
+  "pct_non_monetary_relief": 4.1,
+  "pct_explanation_only": 93.7,
+  "pct_late_response": 0.1
+ },
+ "Sarma": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.0
+ },
+ "Scott Fetzer Financial Group Inc.": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 29.0,
+  "pct_explanation_only": 71.0,
+  "pct_late_response": 19.4
+ },
+ "Seattle Service Bureau, Inc": {
+  "past_complaints": 62,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.2,
+  "pct_explanation_only": 79.0,
+  "pct_late_response": 11.3
+ },
+ "Second Round Limited Partnership, Austin, TX Branch": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.9,
+  "pct_explanation_only": 70.4,
+  "pct_late_response": 7.4
+ },
+ "Security Credit Services, LLC": {
+  "past_complaints": 146,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 3.4
+ },
+ "Security National Automotive Acceptance": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 17.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 82.8,
+  "pct_late_response": 0.0
+ },
+ "Securus J Holdings, LLC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 4.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.0
+ },
+ "Select Management Resources, LLC": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 93.5,
+  "pct_explanation_only": 6.5,
+  "pct_late_response": 4.3
+ },
+ "Selene Finance LP": {
+  "past_complaints": 263,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.2,
+  "pct_late_response": 0.4
+ },
+ "Selene Holdings LLC": {
+  "past_complaints": 194,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.5
+ },
+ "Self Financial Inc.": {
+  "past_complaints": 382,
+  "pct_monetary_relief": 0.5,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 95.0,
+  "pct_late_response": 9.9
+ },
+ "Selip & Stylianou, LLP": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.2
+ },
+ "Senex Services Corp.": {
+  "past_complaints": 54,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.6,
+  "pct_explanation_only": 94.4,
+  "pct_late_response": 29.6
+ },
+ "Sentry Credit, Inc.": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.9
+ },
+ "Sentry Recovery and Collections, Inc.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 96.4,
+  "pct_late_response": 0.0
+ },
+ "Sequium Asset Solutions, LLC": {
+  "past_complaints": 281,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.1
+ },
+ "Sequoia Financial Services": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 2.9
+ },
+ "Servatus Corporation": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 36.4,
+  "pct_explanation_only": 63.6,
+  "pct_late_response": 0.0
+ },
+ "Service Finance Holdings, LLC": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 13.0,
+  "pct_non_monetary_relief": 13.0,
+  "pct_explanation_only": 73.9,
+  "pct_late_response": 4.3
+ },
+ "Servis One, Inc., Titusville, PA Branch": {
+  "past_complaints": 258,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.2,
+  "pct_late_response": 0.0
+ },
+ "Seterus, Inc.": {
+  "past_complaints": 884,
+  "pct_monetary_relief": 1.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.1,
+  "pct_late_response": 0.1
+ },
+ "Sezzle Inc.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 4.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.0,
+  "pct_late_response": 48.0
+ },
+ "Shellpoint Partners, LLC": {
+  "past_complaints": 1540,
+  "pct_monetary_relief": 2.9,
+  "pct_non_monetary_relief": 2.8,
+  "pct_explanation_only": 94.3,
+  "pct_late_response": 1.2
+ },
+ "Sierra Holdings LLC": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.0,
+  "pct_explanation_only": 90.0,
+  "pct_late_response": 10.0
+ },
+ "Siggi LLC": {
+  "past_complaints": 49,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Simon's Agency, Inc.": {
+  "past_complaints": 93,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 4.3
+ },
+ "SinglePoint GI": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.2
+ },
+ "Skopos Financial, LLC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 6.9
+ },
+ "Skrill USA, Inc.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 7.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.9,
+  "pct_late_response": 25.0
+ },
+ "Smith, Rouchon & Associates, Inc.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Social Finance, Inc.": {
+  "past_complaints": 224,
+  "pct_monetary_relief": 0.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.1,
+  "pct_late_response": 0.0
+ },
+ "Solar Mosaic LLC": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 3.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 3.2
+ },
+ "Solidus Group LLC.": {
+  "past_complaints": 49,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 65.3,
+  "pct_late_response": 38.8
+ },
+ "Solomon and Solomon, P.C.": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 40.5,
+  "pct_explanation_only": 59.5,
+  "pct_late_response": 0.0
+ },
+ "Solutions To Portfolios, LLC": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Sortis Financial, Inc.": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 22.0,
+  "pct_explanation_only": 78.0,
+  "pct_late_response": 9.8
+ },
+ "Source Receivables Management LLC": {
+  "past_complaints": 194,
+  "pct_monetary_relief": 2.1,
+  "pct_non_monetary_relief": 6.2,
+  "pct_explanation_only": 91.8,
+  "pct_late_response": 0.5
+ },
+ "Southern Management Systems Inc.": {
+  "past_complaints": 83,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Southwest Business Corporation": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.6
+ },
+ "Southwest Credit Systems, L.P.": {
+  "past_complaints": 814,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 81.3,
+  "pct_late_response": 17.3
+ },
+ "Southwest Recovery Services, Inc.": {
+  "past_complaints": 94,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.9,
+  "pct_late_response": 1.1
+ },
+ "Specialized Loan Servicing Holdings LLC": {
+  "past_complaints": 1359,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 1.6
+ },
+ "Spring Oaks Capital, LLC": {
+  "past_complaints": 180,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 9.4,
+  "pct_explanation_only": 90.6,
+  "pct_late_response": 0.6
+ },
+ "Square Inc": {
+  "past_complaints": 381,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 1.0
+ },
+ "Stallings Financial Group, Inc.": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 0.0
+ },
+ "Stanislaus Credit Control Service, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 38.1,
+  "pct_explanation_only": 38.1,
+  "pct_late_response": 23.8
+ },
+ "State Collection Service, Inc.": {
+  "past_complaints": 100,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 8.0,
+  "pct_explanation_only": 92.0,
+  "pct_late_response": 0.0
+ },
+ "Statebridge Company": {
+  "past_complaints": 121,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 9.1
+ },
+ "States Recovery Systems, Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Stearns Ventures, LLC": {
+  "past_complaints": 98,
+  "pct_monetary_relief": 3.1,
+  "pct_non_monetary_relief": 1.0,
+  "pct_explanation_only": 95.9,
+  "pct_late_response": 8.2
+ },
+ "Stellantis Financial Services US Corp.": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 2.6,
+  "pct_non_monetary_relief": 20.5,
+  "pct_explanation_only": 76.9,
+  "pct_late_response": 0.0
+ },
+ "Stellar Recovery, Inc.": {
+  "past_complaints": 312,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.7,
+  "pct_late_response": 0.6
+ },
+ "Stenger & Stenger, P.C": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Sterling Infosystems Inc.": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.2
+ },
+ "Stillman Law Office, LLC, Farmington Hills, MI Branch": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.3,
+  "pct_late_response": 0.0
+ },
+ "Strategic Alliances, Inc.": {
+  "past_complaints": 78,
+  "pct_monetary_relief": 1.3,
+  "pct_non_monetary_relief": 10.3,
+  "pct_explanation_only": 88.5,
+  "pct_late_response": 17.9
+ },
+ "Stuart-Lippman and Associates, Inc": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.0,
+  "pct_late_response": 12.1
+ },
+ "Suburban Credit Corporation": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 66.7,
+  "pct_late_response": 3.3
+ },
+ "Sunlight Financial LLC": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Support Collectors, Inc.": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 9.5
+ },
+ "Supreme Lending": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 9.1,
+  "pct_non_monetary_relief": 3.0,
+  "pct_explanation_only": 84.8,
+  "pct_late_response": 9.1
+ },
+ "Suttell, Hammer & White, P.S": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 27.6
+ },
+ "Synergetic Communication Inc": {
+  "past_complaints": 46,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Synerprise Consulting Services, Inc.": {
+  "past_complaints": 78,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.3,
+  "pct_explanation_only": 97.4,
+  "pct_late_response": 1.3
+ },
+ "Synovus Bank": {
+  "past_complaints": 385,
+  "pct_monetary_relief": 4.4,
+  "pct_non_monetary_relief": 0.8,
+  "pct_explanation_only": 94.8,
+  "pct_late_response": 0.0
+ },
+ "T.S. Holdings": {
+  "past_complaints": 287,
+  "pct_monetary_relief": 1.0,
+  "pct_non_monetary_relief": 21.6,
+  "pct_explanation_only": 77.4,
+  "pct_late_response": 0.0
+ },
+ "TCF NATIONAL BANK": {
+  "past_complaints": 290,
+  "pct_monetary_relief": 22.1,
+  "pct_non_monetary_relief": 8.3,
+  "pct_explanation_only": 69.3,
+  "pct_late_response": 1.7
+ },
+ "TD BANK US HOLDING COMPANY": {
+  "past_complaints": 3112,
+  "pct_monetary_relief": 21.3,
+  "pct_non_monetary_relief": 21.8,
+  "pct_explanation_only": 57.0,
+  "pct_late_response": 0.0
+ },
+ "TENET HEALTHCARE CORPORATION": {
+  "past_complaints": 391,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.5,
+  "pct_late_response": 18.2
+ },
+ "TFS FINANCIAL CORPORATION": {
+  "past_complaints": 34,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "TIDEWATER FINANCE COMPANY, INC.": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "TMX Finance LLC": {
+  "past_complaints": 222,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.9,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 9.0
+ },
+ "TOYOTA MOTOR CREDIT CORPORATION": {
+  "past_complaints": 708,
+  "pct_monetary_relief": 4.4,
+  "pct_non_monetary_relief": 5.4,
+  "pct_explanation_only": 90.3,
+  "pct_late_response": 0.0
+ },
+ "TRANSUNION INTERMEDIATE HOLDINGS, INC.": {
+  "past_complaints": 71868,
+  "pct_monetary_relief": 0.2,
+  "pct_non_monetary_relief": 58.6,
+  "pct_explanation_only": 41.3,
+  "pct_late_response": 0.1
+ },
+ "TRANSWORLD SYSTEMS INC": {
+  "past_complaints": 1722,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.9,
+  "pct_late_response": 0.0
+ },
+ "TRUIST FINANCIAL CORPORATION": {
+  "past_complaints": 1507,
+  "pct_monetary_relief": 5.8,
+  "pct_non_monetary_relief": 8.1,
+  "pct_explanation_only": 86.1,
+  "pct_late_response": 4.6
+ },
+ "TRUSTMARK CORPORATION": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 3.4
+ },
+ "TSC Accounts Receivable Solutions": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.0
+ },
+ "Tate and Kirlin Assoc": {
+  "past_complaints": 31,
+  "pct_monetary_relief": 3.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 25.8
+ },
+ "TekCollect Inc.": {
+  "past_complaints": 79,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.5,
+  "pct_explanation_only": 97.5,
+  "pct_late_response": 1.3
+ },
+ "Telerecovery Corporation": {
+  "past_complaints": 23,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 78.3
+ },
+ "Telsa Motors Inc": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Terrill Outsourcing Group": {
+  "past_complaints": 26,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 15.4,
+  "pct_explanation_only": 84.6,
+  "pct_late_response": 7.7
+ },
+ "Texas Guaranteed": {
+  "past_complaints": 52,
+  "pct_monetary_relief": 1.9,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.4,
+  "pct_late_response": 1.9
+ },
+ "Thaxton Investment Corporation": {
+  "past_complaints": 121,
+  "pct_monetary_relief": 4.1,
+  "pct_non_monetary_relief": 1.7,
+  "pct_explanation_only": 94.2,
+  "pct_late_response": 3.3
+ },
+ "The Best Service Co.,Inc": {
+  "past_complaints": 51,
+  "pct_monetary_relief": 2.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.0,
+  "pct_late_response": 0.0
+ },
+ "The Bureaus, Inc.": {
+  "past_complaints": 135,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.3,
+  "pct_late_response": 1.5
+ },
+ "The CBE Group, Inc.": {
+  "past_complaints": 445,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.7,
+  "pct_explanation_only": 93.3,
+  "pct_late_response": 0.0
+ },
+ "The CMI Group, Inc.": {
+  "past_complaints": 394,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 66.2,
+  "pct_explanation_only": 33.8,
+  "pct_late_response": 0.0
+ },
+ "The J. G. Wentworth Company": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 7.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 92.6,
+  "pct_late_response": 14.8
+ },
+ "The Law Offices of Mitchell D. Bluhm & Associates": {
+  "past_complaints": 106,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 100.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 0.0
+ },
+ "The Outsource Group, Inc": {
+  "past_complaints": 120,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "The Phoenix Recovery Group": {
+  "past_complaints": 63,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 19.0,
+  "pct_explanation_only": 81.0,
+  "pct_late_response": 14.3
+ },
+ "The Receivable Management Services LLC": {
+  "past_complaints": 112,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 37.5,
+  "pct_explanation_only": 62.5,
+  "pct_late_response": 0.9
+ },
+ "The Regional Adjustment Bureau, Incorporated": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 75.0,
+  "pct_explanation_only": 25.0,
+  "pct_late_response": 3.6
+ },
+ "The Thomas Agency, Inc.": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 77.8,
+  "pct_late_response": 70.4
+ },
+ "Thunderbird Collection Specialists, Inc.": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 23.1
+ },
+ "Tormey Bewley Corporation": {
+  "past_complaints": 30,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 16.7,
+  "pct_late_response": 0.0
+ },
+ "Torres Credit Services, Inc.": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 3.6,
+  "pct_explanation_only": 64.3,
+  "pct_late_response": 0.0
+ },
+ "Total Card, Inc.": {
+  "past_complaints": 85,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 98.8,
+  "pct_late_response": 2.4
+ },
+ "Tower Loan of Mississippi, Inc.": {
+  "past_complaints": 162,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "TransferWise Ltd": {
+  "past_complaints": 134,
+  "pct_monetary_relief": 5.2,
+  "pct_non_monetary_relief": 2.2,
+  "pct_explanation_only": 92.5,
+  "pct_late_response": 8.2
+ },
+ "Transfinancial Companies, Inc": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.7,
+  "pct_explanation_only": 70.3,
+  "pct_late_response": 0.0
+ },
+ "Tribal Lending Enterprise, Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 31.0
+ },
+ "Trident Asset Management, L.L.C.": {
+  "past_complaints": 169,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 52.1,
+  "pct_explanation_only": 47.9,
+  "pct_late_response": 43.2
+ },
+ "TrueAccord Corp.": {
+  "past_complaints": 135,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.0
+ },
+ "Turning Point Solutions LLC": {
+  "past_complaints": 25,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 60.0,
+  "pct_explanation_only": 40.0,
+  "pct_late_response": 0.0
+ },
+ "U.S. Auto Credit Corporation": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 4.5,
+  "pct_non_monetary_relief": 13.6,
+  "pct_explanation_only": 81.8,
+  "pct_late_response": 9.1
+ },
+ "U.S. Auto Sales Inc.": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.8,
+  "pct_explanation_only": 97.2,
+  "pct_late_response": 19.4
+ },
+ "U.S. BANCORP": {
+  "past_complaints": 4665,
+  "pct_monetary_relief": 13.5,
+  "pct_non_monetary_relief": 20.0,
+  "pct_explanation_only": 66.2,
+  "pct_late_response": 0.0
+ },
+ "U.S. BANK NATIONAL ASSOCIATION - SAN FRANCISCO MAIN BRANCH": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 12.1,
+  "pct_non_monetary_relief": 7.1,
+  "pct_explanation_only": 79.8,
+  "pct_late_response": 2.0
+ },
+ "U.S. Collections West, Inc.": {
+  "past_complaints": 61,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.6,
+  "pct_explanation_only": 98.4,
+  "pct_late_response": 3.3
+ },
+ "UMB FINANCIAL CORPORATION": {
+  "past_complaints": 57,
+  "pct_monetary_relief": 24.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 75.4,
+  "pct_late_response": 0.0
+ },
+ "UMPQUA HOLDINGS CORPORATION": {
+  "past_complaints": 59,
+  "pct_monetary_relief": 8.5,
+  "pct_non_monetary_relief": 5.1,
+  "pct_explanation_only": 86.4,
+  "pct_late_response": 1.7
+ },
+ "UNITED SERVICES AUTOMOBILE ASSOCIATION": {
+  "past_complaints": 1977,
+  "pct_monetary_relief": 8.5,
+  "pct_non_monetary_relief": 7.9,
+  "pct_explanation_only": 83.5,
+  "pct_late_response": 0.0
+ },
+ "UNIVERSAL ACCEPTANCE CORPORATION (NE)": {
+  "past_complaints": 49,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 65.3,
+  "pct_explanation_only": 32.7,
+  "pct_late_response": 0.0
+ },
+ "URS Holding, LLC": {
+  "past_complaints": 169,
+  "pct_monetary_relief": 0.6,
+  "pct_non_monetary_relief": 1.8,
+  "pct_explanation_only": 84.0,
+  "pct_late_response": 0.6
+ },
+ "USA DISCOUNTERS LTD": {
+  "past_complaints": 28,
+  "pct_monetary_relief": 7.1,
+  "pct_non_monetary_relief": 7.1,
+  "pct_explanation_only": 64.3,
+  "pct_late_response": 0.0
+ },
+ "USCB Corporation": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 0.0
+ },
+ "USCB, Inc.": {
+  "past_complaints": 79,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 94.9,
+  "pct_late_response": 12.7
+ },
+ "USI Solutions Inc.": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 10.3,
+  "pct_explanation_only": 89.7,
+  "pct_late_response": 0.0
+ },
+ "Unifin Inc.": {
+  "past_complaints": 49,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.1
+ },
+ "United Collection Bureau, Inc.": {
+  "past_complaints": 133,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "United Collection Service, Inc (FL)": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.8,
+  "pct_explanation_only": 95.2,
+  "pct_late_response": 0.0
+ },
+ "United Consumers Inc": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "United Debt Holdings, LLC": {
+  "past_complaints": 21,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 90.5,
+  "pct_late_response": 0.0
+ },
+ "United PanAm Financial Corp.": {
+  "past_complaints": 99,
+  "pct_monetary_relief": 4.0,
+  "pct_non_monetary_relief": 17.2,
+  "pct_explanation_only": 75.8,
+  "pct_late_response": 3.0
+ },
+ "United Revenue Corporation": {
+  "past_complaints": 127,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 6.3,
+  "pct_explanation_only": 85.0,
+  "pct_late_response": 0.0
+ },
+ "United Shore Financial Services, LLC": {
+  "past_complaints": 178,
+  "pct_monetary_relief": 3.4,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.6,
+  "pct_late_response": 0.0
+ },
+ "United Student Aid (USA) Funds": {
+  "past_complaints": 48,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 52.1,
+  "pct_late_response": 0.0
+ },
+ "Universal Recovery Corporation": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.5,
+  "pct_explanation_only": 90.9,
+  "pct_late_response": 45.5
+ },
+ "Unlimited Progress Corp": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 93.1,
+  "pct_late_response": 0.0
+ },
+ "Upgrade, Inc.": {
+  "past_complaints": 251,
+  "pct_monetary_relief": 11.2,
+  "pct_non_monetary_relief": 0.4,
+  "pct_explanation_only": 88.4,
+  "pct_late_response": 0.0
+ },
+ "Uplift, Inc": {
+  "past_complaints": 37,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.7
+ },
+ "Upstart Holdings, Inc.": {
+  "past_complaints": 93,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 10.8
+ },
+ "Utah System of Higher Education": {
+  "past_complaints": 75,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 1.3,
+  "pct_explanation_only": 90.7,
+  "pct_late_response": 9.3
+ },
+ "V and H Portfolio": {
+  "past_complaints": 124,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 52.4,
+  "pct_explanation_only": 47.6,
+  "pct_late_response": 2.4
+ },
+ "VALLEY NATIONAL BANCORP": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 18.2,
+  "pct_non_monetary_relief": 6.1,
+  "pct_explanation_only": 75.8,
+  "pct_late_response": 0.0
+ },
+ "VANDERBILT MORTGAGE & FINANCE, INC": {
+  "past_complaints": 73,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "VIRTUOSO SOURCING GROUP, LLC.": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 36.1,
+  "pct_late_response": 16.7
+ },
+ "VW Credit": {
+  "past_complaints": 225,
+  "pct_monetary_relief": 12.0,
+  "pct_non_monetary_relief": 18.2,
+  "pct_explanation_only": 69.3,
+  "pct_late_response": 0.0
+ },
+ "VYSTAR CREDIT UNION": {
+  "past_complaints": 43,
+  "pct_monetary_relief": 11.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 88.4,
+  "pct_late_response": 0.0
+ },
+ "Valentine and Kebartas, Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Valor Intelligent Processing, LLC": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 9.1
+ },
+ "Van Ru Credit Corporation": {
+  "past_complaints": 50,
+  "pct_monetary_relief": 2.0,
+  "pct_non_monetary_relief": 68.0,
+  "pct_explanation_only": 28.0,
+  "pct_late_response": 2.0
+ },
+ "Velocity Portfolio Group": {
+  "past_complaints": 124,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.8,
+  "pct_late_response": 7.3
+ },
+ "Vengroff Williams, Inc": {
+  "past_complaints": 20,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 10.0,
+  "pct_explanation_only": 90.0,
+  "pct_late_response": 5.0
+ },
+ "Verisk Analytics Inc": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Veros Credit, LLC": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 9.8
+ },
+ "Viking Client Services": {
+  "past_complaints": 42,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.6,
+  "pct_late_response": 4.8
+ },
+ "Village Capital & Investment LLC": {
+  "past_complaints": 39,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "Vital Solutions, Inc.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.1
+ },
+ "W&A Intermediate Co., LLC": {
+  "past_complaints": 81,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 7.4,
+  "pct_explanation_only": 92.6,
+  "pct_late_response": 7.4
+ },
+ "WAKEFIELD & ASSOCIATES, INC.": {
+  "past_complaints": 415,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.5,
+  "pct_explanation_only": 98.8,
+  "pct_late_response": 8.4
+ },
+ "WASHINGTON FEDERAL BANK": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 8.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 91.4,
+  "pct_late_response": 5.7
+ },
+ "WEBSTER BANK, NATIONAL ASSOCIATION": {
+  "past_complaints": 126,
+  "pct_monetary_relief": 23.8,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 76.2,
+  "pct_late_response": 0.0
+ },
+ "WELLS FARGO & COMPANY": {
+  "past_complaints": 15006,
+  "pct_monetary_relief": 9.5,
+  "pct_non_monetary_relief": 9.1,
+  "pct_explanation_only": 81.1,
+  "pct_late_response": 6.5
+ },
+ "WESTERN UNION COMPANY, THE": {
+  "past_complaints": 551,
+  "pct_monetary_relief": 2.7,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 97.3,
+  "pct_late_response": 1.3
+ },
+ "WHEELS FINANCIAL GROUP, LLC.": {
+  "past_complaints": 100,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.0
+ },
+ "WINN LAW GROUP, APC": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ },
+ "WLCC": {
+  "past_complaints": 70,
+  "pct_monetary_relief": 38.6,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 61.4,
+  "pct_late_response": 0.0
+ },
+ "WSFS FINANCIAL CORPORATION": {
+  "past_complaints": 44,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 2.3
+ },
+ "Waterfall Revenue Group": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 11.4
+ },
+ "Waypoint Resource Group, LLC": {
+  "past_complaints": 104,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.9,
+  "pct_explanation_only": 97.1,
+  "pct_late_response": 5.8
+ },
+ "Webcollex, LLC": {
+  "past_complaints": 41,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 82.9,
+  "pct_late_response": 4.9
+ },
+ "Weber & Olcese, PLC": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 4.2,
+  "pct_explanation_only": 95.8,
+  "pct_late_response": 0.0
+ },
+ "Weltman, Weinberg & Reis Co., L.P.A.": {
+  "past_complaints": 126,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 3.2
+ },
+ "Westcreek Financial": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 21.2,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 78.8,
+  "pct_late_response": 0.0
+ },
+ "Western-Shamrock Corporation": {
+  "past_complaints": 35,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 5.7,
+  "pct_explanation_only": 91.4,
+  "pct_late_response": 2.9
+ },
+ "Westlake Services, LLC": {
+  "past_complaints": 789,
+  "pct_monetary_relief": 0.8,
+  "pct_non_monetary_relief": 0.4,
+  "pct_explanation_only": 98.6,
+  "pct_late_response": 2.4
+ },
+ "Wilber and Associates, P.C.": {
+  "past_complaints": 36,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 2.8,
+  "pct_explanation_only": 97.2,
+  "pct_late_response": 0.0
+ },
+ "William D. Meeker Enterprises, Inc.": {
+  "past_complaints": 24,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.2
+ },
+ "Williams & Fudge, Inc": {
+  "past_complaints": 155,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.6
+ },
+ "Williams, Rush & Associates, LLC": {
+  "past_complaints": 27,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 66.7
+ },
+ "Windham Professionals, Inc.": {
+  "past_complaints": 73,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 100.0,
+  "pct_explanation_only": 0.0,
+  "pct_late_response": 2.7
+ },
+ "Winklevoss Exchange LLC": {
+  "past_complaints": 146,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 4.1
+ },
+ "World Acceptance Corporation": {
+  "past_complaints": 281,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 99.6,
+  "pct_late_response": 6.4
+ },
+ "World Omni Financial Corp.": {
+  "past_complaints": 120,
+  "pct_monetary_relief": 4.2,
+  "pct_non_monetary_relief": 13.3,
+  "pct_explanation_only": 82.5,
+  "pct_late_response": 0.0
+ },
+ "WorldRemit Corp.": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 3.1,
+  "pct_non_monetary_relief": 3.1,
+  "pct_explanation_only": 93.8,
+  "pct_late_response": 3.1
+ },
+ "XOOM CORPORATION": {
+  "past_complaints": 40,
+  "pct_monetary_relief": 22.5,
+  "pct_non_monetary_relief": 12.5,
+  "pct_explanation_only": 65.0,
+  "pct_late_response": 2.5
+ },
+ "Yamaha Motor Finance Corporation USA": {
+  "past_complaints": 32,
+  "pct_monetary_relief": 3.1,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 96.9,
+  "pct_late_response": 0.0
+ },
+ "ZARVAD III S.A.": {
+  "past_complaints": 33,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 27.3
+ },
+ "ZENCO COLLECTION, LLC": {
+  "past_complaints": 45,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 66.7,
+  "pct_late_response": 13.3
+ },
+ "ZIONS BANCORPORATION": {
+  "past_complaints": 96,
+  "pct_monetary_relief": 15.6,
+  "pct_non_monetary_relief": 3.1,
+  "pct_explanation_only": 80.2,
+  "pct_late_response": 0.0
+ },
+ "ZWICKER & ASSOCIATES": {
+  "past_complaints": 83,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 19.3,
+  "pct_explanation_only": 80.7,
+  "pct_late_response": 0.0
+ },
+ "Zenith Financial Network Inc": {
+  "past_complaints": 22,
+  "pct_monetary_relief": 4.5,
+  "pct_non_monetary_relief": 9.1,
+  "pct_explanation_only": 81.8,
+  "pct_late_response": 31.8
+ },
+ "Zions Debt Holdings": {
+  "past_complaints": 29,
+  "pct_monetary_relief": 0.0,
+  "pct_non_monetary_relief": 0.0,
+  "pct_explanation_only": 100.0,
+  "pct_late_response": 0.0
+ }
+}

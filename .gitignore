@@ -1,0 +1,16 @@
+# Secrets: the API key, and n8n's database (holds the stored key and its encryption key)
+.env
+n8n/data/
+
+# Installed software, rebuilt by setup.ps1
+.venv/
+node_modules/
+.tools/
+
+# The 296 MB source archive, re-downloaded by eval/build_sample.py
+data/raw/
+
+# Editor and Python leftovers
+.vscode/
+__pycache__/
+*.pyc

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "FCRA",
+    "name": "Fair Credit Reporting Act (Regulation V)",
+    "citation": "15 U.S.C. 1681 et seq.; 12 CFR 1022",
+    "products": ["Credit reporting or other personal consumer reports", "Debt collection", "Credit card", "Mortgage", "Student loan", "Vehicle loan or lease"],
+    "keywords": ["credit report", "credit bureau", "dispute", "inaccurate", "incorrect information", "identity theft", "inquiry", "hard inquiry", "furnisher", "credit score", "equifax", "experian", "transunion", "reinvestigation", "late payment reported", "not mine", "fraud alert", "freeze"],
+    "rules": [
+      "Sec. 611 (15 U.S.C. 1681i): when a consumer disputes an item, the credit bureau must reinvestigate, generally within 30 days (up to 45 days if the consumer sends more information during the period), and delete or correct information that is inaccurate or cannot be verified.",
+      "Sec. 611(a)(6): the bureau must send the consumer written results within 5 business days after the reinvestigation ends.",
+      "Sec. 623(b) (15 U.S.C. 1681s-2(b)): a furnisher (the lender or collector that reported the data) must investigate a dispute forwarded by a bureau and correct inaccurate data with every bureau it reported to.",
+      "Sec. 605B (15 U.S.C. 1681c-2): a bureau must block information the consumer identifies as resulting from identity theft within 4 business days of receiving proof of identity and an identity theft report.",
+      "Sec. 604 (15 U.S.C. 1681b): a report may be pulled only for a permissible purpose, such as a credit application the consumer started.",
+      "Sec. 605 (15 U.S.C. 1681c): most negative items must come off a report after 7 years; bankruptcies after 10 years.",
+      "Sec. 612 (15 U.S.C. 1681j): consumers are entitled to a free report from each nationwide bureau once every 12 months."
+    ]
+  },
+  {
+    "id": "FDCPA",
+    "name": "Fair Debt Collection Practices Act (Regulation F)",
+    "citation": "15 U.S.C. 1692 et seq.; 12 CFR 1006",
+    "products": ["Debt collection"],
+    "keywords": ["debt collector", "collection agency", "collections", "validation", "validate the debt", "harass", "calls", "threat", "sue", "not my debt", "debt not owed", "cease and desist", "garnish", "third party", "employer", "time-barred"],
+    "rules": [
+      "Sec. 809 (15 U.S.C. 1692g): within 5 days of first contacting the consumer, a collector must send a validation notice stating the amount of the debt and the creditor's name. If the consumer disputes in writing within 30 days, the collector must stop collecting until it mails verification of the debt.",
+      "Sec. 805 (15 U.S.C. 1692c): a collector may not contact a consumer at inconvenient times (before 8 a.m. or after 9 p.m.) or at work if the employer prohibits it, and must stop contact after a written request to cease communication.",
+      "Sec. 806 (15 U.S.C. 1692d): harassment or abuse is prohibited, including repeated calls meant to annoy. Regulation F presumes a violation when a collector calls more than 7 times in 7 days about one debt.",
+      "Sec. 807 (15 U.S.C. 1692e): false or misleading statements are prohibited, including misstating the amount or legal status of a debt or threatening action the collector cannot or does not intend to take.",
+      "Sec. 808 (15 U.S.C. 1692f): unfair practices are prohibited, including collecting amounts not authorized by the agreement or by law.",
+      "The FDCPA covers third-party debt collectors and debt buyers. It generally does not cover an original creditor collecting its own debt."
+    ]
+  },
+  {
+    "id": "EFTA",
+    "name": "Electronic Fund Transfer Act (Regulation E)",
+    "citation": "15 U.S.C. 1693 et seq.; 12 CFR 1005",
+    "products": ["Checking or savings account", "Prepaid card", "Money transfer, virtual currency, or money service", "Payday loan, title loan, personal loan, or advance loan"],
+    "keywords": ["unauthorized transaction", "unauthorized transfer", "debit card", "atm", "ach", "zelle", "venmo", "cash app", "paypal", "wire", "electronic transfer", "fraud", "scam", "stolen card", "provisional credit", "error", "overdraft", "remittance", "prepaid", "direct deposit", "autopay"],
+    "rules": [
+      "12 CFR 1005.6: consumer liability for unauthorized electronic transfers is capped at $50 if the consumer tells the institution within 2 business days of learning of the loss or theft of the card or code, and at $500 after that. Liability can be unlimited for transfers that occur more than 60 days after a statement showing an unauthorized transfer was sent, if the consumer never reported it.",
+      "12 CFR 1005.11: when a consumer reports an error within 60 days of the statement, the institution must investigate within 10 business days. It may take up to 45 days if it gives provisional credit within those 10 business days. It must report results within 3 business days of finishing and correct an error within 1 business day of finding it.",
+      "12 CFR 1005.2(m): a transfer the consumer was tricked into making themselves is generally not an 'unauthorized' transfer under Regulation E; a transfer made by a fraudster who obtained the consumer's credentials generally is.",
+      "12 CFR 1005.17: an institution may charge overdraft fees on ATM and one-time debit card transactions only if the consumer opted in.",
+      "12 CFR 1005.10(e): a lender may not require repayment by preauthorized electronic transfers as a condition of credit.",
+      "12 CFR 1005.18: prepaid accounts get Regulation E error resolution and limited liability protections; for unverified accounts some protections may be limited until identity is verified.",
+      "12 CFR 1005.30-36 (remittance rule): international money transfers require disclosures of fees and exchange rate, a 30-minute cancellation right, and error resolution if the consumer reports within 180 days; the provider must investigate within 90 days."
+    ]
+  },
+  {
+    "id": "TILA",
+    "name": "Truth in Lending Act (Regulation Z), including the Fair Credit Billing Act and the CARD Act",
+    "citation": "15 U.S.C. 1601 et seq.; 12 CFR 1026",
+    "products": ["Credit card", "Mortgage", "Vehicle loan or lease", "Payday loan, title loan, personal loan, or advance loan", "Student loan"],
+    "keywords": ["credit card", "billing error", "billing dispute", "chargeback", "unauthorized charge", "interest rate", "apr", "late fee", "annual fee", "statement", "disclosure", "finance charge", "promotional", "payoff", "credit limit", "rewards", "merchant dispute"],
+    "rules": [
+      "12 CFR 1026.13 (billing errors): the consumer must send written notice within 60 days after the statement with the error. The creditor must acknowledge within 30 days and resolve within 2 billing cycles (no more than 90 days). During the dispute it may not collect the disputed amount or report it as delinquent.",
+      "12 CFR 1026.12(b): a cardholder's liability for unauthorized credit card use is capped at $50.",
+      "12 CFR 1026.12(c): a cardholder may assert against the card issuer claims and defenses they have against a merchant, subject to conditions (generally a purchase over $50 made in the cardholder's state or within 100 miles, after a good-faith attempt to resolve with the merchant).",
+      "12 CFR 1026.9(c)(2) and 1026.55 (CARD Act): issuers must give 45 days' notice before significant changes such as a rate increase, and generally may not raise the rate on an existing balance.",
+      "12 CFR 1026.5(b)(2)(ii): credit card statements must be mailed or delivered at least 21 days before the payment due date.",
+      "12 CFR 1026.10: payments must be credited as of the date received.",
+      "12 CFR 1026.36(c)(3): for a home loan, the servicer must send an accurate payoff statement within 7 business days of a written request.",
+      "12 CFR 1026.17-18: closed-end loans (auto, personal, payday) require clear disclosure of the APR, finance charge, amount financed and total of payments before the consumer is obligated."
+    ]
+  },
+  {
+    "id": "RESPA",
+    "name": "Real Estate Settlement Procedures Act (Regulation X) mortgage servicing rules",
+    "citation": "12 U.S.C. 2601 et seq.; 12 CFR 1024",
+    "products": ["Mortgage"],
+    "keywords": ["mortgage", "servicer", "escrow", "foreclosure", "loan modification", "loss mitigation", "forbearance", "payment not applied", "misapplied", "servicing transfer", "force-placed insurance", "property tax", "short sale", "notice of error", "qualified written request"],
+    "rules": [
+      "12 CFR 1024.35 (notices of error): the servicer must acknowledge a written notice of error within 5 business days and correct the error or explain why there is none within 30 business days (extendable by 15).",
+      "12 CFR 1024.36 (information requests): the servicer must acknowledge within 5 business days and respond within 30 business days.",
+      "12 CFR 1024.41 (loss mitigation): the servicer must acknowledge a loss mitigation application within 5 business days and evaluate a complete application within 30 days. It may not make the first foreclosure filing until the loan is more than 120 days delinquent, and may not proceed to foreclosure sale while a timely complete application is pending (dual tracking).",
+      "12 CFR 1024.17 (escrow): the servicer must analyze the escrow account annually, pay taxes and insurance on time, and refund a surplus of $50 or more within 30 days of the analysis.",
+      "12 CFR 1024.37: before charging for force-placed insurance the servicer must send two notices, the first at least 45 days before the charge.",
+      "12 CFR 1024.33: both servicers must notify the borrower of a servicing transfer (at least 15 days before the transfer date), and a payment sent to the old servicer within 60 days of transfer may not be treated as late."
+    ]
+  },
+  {
+    "id": "ECOA",
+    "name": "Equal Credit Opportunity Act (Regulation B)",
+    "citation": "15 U.S.C. 1691 et seq.; 12 CFR 1002",
+    "products": ["Credit card", "Mortgage", "Vehicle loan or lease", "Payday loan, title loan, personal loan, or advance loan", "Student loan"],
+    "keywords": ["discrimination", "denied", "application denied", "adverse action", "race", "gender", "age", "national origin", "marital status", "religion", "credit decision", "declined"],
+    "rules": [
+      "12 CFR 1002.4: a creditor may not discriminate in any part of a credit transaction on the basis of race, color, religion, national origin, sex, marital status, age, receipt of public assistance, or the exercise of consumer protection rights.",
+      "12 CFR 1002.9: a creditor must notify an applicant of its decision within 30 days of receiving a completed application, and an adverse action notice must state the specific reasons or tell the applicant how to get them."
+    ]
+  },
+  {
+    "id": "SCRA_MLA",
+    "name": "Servicemembers Civil Relief Act and Military Lending Act",
+    "citation": "50 U.S.C. 3901 et seq.; 10 U.S.C. 987; 32 CFR 232",
+    "products": ["Credit card", "Mortgage", "Vehicle loan or lease", "Payday loan, title loan, personal loan, or advance loan", "Student loan", "Debt collection"],
+    "keywords": ["military", "servicemember", "active duty", "deployed", "deployment", "veteran", "army", "navy", "air force", "marine", "national guard", "scra", "pcs orders"],
+    "rules": [
+      "SCRA, 50 U.S.C. 3937: interest on debts taken out before active duty is capped at 6% per year during service (and for one year after, for mortgages) when the servicemember sends written notice and a copy of orders.",
+      "SCRA, 50 U.S.C. 3953: a mortgage taken out before active duty may not be foreclosed during service or within one year after without a court order.",
+      "SCRA, 50 U.S.C. 3952: a vehicle bought with a deposit or payment made before active duty may not be repossessed during service without a court order.",
+      "MLA, 10 U.S.C. 987: most consumer credit to active-duty servicemembers and their dependents is capped at a 36% Military Annual Percentage Rate, and mandatory arbitration and prepayment penalties are prohibited."
+    ]
+  },
+  {
+    "id": "UDAAP",
+    "name": "Dodd-Frank Act prohibition on unfair, deceptive, or abusive acts or practices",
+    "citation": "12 U.S.C. 5531, 5536",
+    "products": ["Checking or savings account", "Credit card", "Credit reporting or other personal consumer reports", "Debt collection", "Debt or credit management", "Money transfer, virtual currency, or money service", "Mortgage", "Payday loan, title loan, personal loan, or advance loan", "Prepaid card", "Student loan", "Vehicle loan or lease"],
+    "keywords": ["misled", "misleading", "deceptive", "lied", "false advertising", "hidden fee", "bait and switch", "unfair", "not disclosed", "promised", "account closed without notice", "frozen account", "funds held", "customer service", "bonus not paid"],
+    "rules": [
+      "An act is unfair if it causes or is likely to cause substantial injury that consumers cannot reasonably avoid and that is not outweighed by benefits to consumers or competition.",
+      "An act is deceptive if it misleads or is likely to mislead a consumer acting reasonably, about something material.",
+      "An act is abusive if it materially interferes with a consumer's ability to understand a term, or takes unreasonable advantage of the consumer's lack of understanding, inability to protect their interests, or reasonable reliance on the company.",
+      "UDAAP is a general standard. It applies when no more specific rule covers the conduct, for example misleading marketing, undisclosed fees, or freezing a consumer's funds without explanation."
+    ]
+  },
+  {
+    "id": "DEPOSITS",
+    "name": "Deposit account rules: Truth in Savings (Regulation DD) and Expedited Funds Availability (Regulation CC)",
+    "citation": "12 CFR 1030; 12 CFR 229",
+    "products": ["Checking or savings account"],
+    "keywords": ["checking", "savings", "deposit", "hold", "funds availability", "check hold", "mobile deposit", "account fee", "maintenance fee", "overdraft fee", "nsf", "interest", "apy", "account closed", "cd", "certificate of deposit"],
+    "rules": [
+      "Regulation DD, 12 CFR 1030.4-1030.5: the institution must disclose fees, the annual percentage yield and account terms before an account is opened, and give 30 days' advance notice of a change that hurts the consumer.",
+      "Regulation DD, 12 CFR 1030.8: advertising may not be misleading or inaccurate, and an account may not be called 'free' if it carries a maintenance or activity fee.",
+      "Regulation CC, 12 CFR 229.10-229.12: cash, electronic payments and certain checks must be available the next business day; most other check deposits by the second business day.",
+      "Regulation CC, 12 CFR 229.13: longer holds are allowed in listed cases (new accounts, large deposits, repeated overdrafts, reasonable doubt about collectibility), but the institution must give the consumer a written hold notice.",
+      "Unauthorized electronic withdrawals from a deposit account fall under Regulation E (see EFTA)."
+    ]
+  },
+  {
+    "id": "SMALL_DOLLAR",
+    "name": "Payday, vehicle title and certain high-cost installment loans rule (payment provisions)",
+    "citation": "12 CFR 1041",
+    "products": ["Payday loan, title loan, personal loan, or advance loan"],
+    "keywords": ["payday", "title loan", "cash advance", "installment loan", "withdrawal", "repeated withdrawal", "bank account debited", "rollover", "high interest", "tribal lender", "earned wage"],
+    "rules": [
+      "12 CFR 1041.8: after two consecutive attempts to withdraw payment from a consumer's account fail for insufficient funds, the lender may not try again without a new, specific authorization from the consumer.",
+      "12 CFR 1041.9: the lender must send a written notice before its first payment withdrawal attempt and before any unusual attempt (different amount, date or channel).",
+      "Loan terms and rate caps for small-dollar loans are mostly set by state law, and many states cap rates or ban payday lending. Federal law still requires TILA cost disclosures (see TILA)."
+    ]
+  },
+  {
+    "id": "DEBT_RELIEF",
+    "name": "Debt relief and credit repair: Telemarketing Sales Rule and Credit Repair Organizations Act",
+    "citation": "16 CFR 310; 15 U.S.C. 1679 et seq.",
+    "products": ["Debt or credit management"],
+    "keywords": ["debt settlement", "debt relief", "credit repair", "debt consolidation", "credit counseling", "upfront fee", "advance fee", "program", "enrolled", "negotiate", "refund"],
+    "rules": [
+      "Telemarketing Sales Rule, 16 CFR 310.4(a)(5): a debt relief company may not collect a fee until it has settled or changed the terms of at least one debt and the consumer has made at least one payment under that settlement.",
+      "16 CFR 310.3(a)(1)(viii): debt relief companies must disclose how long results will take, the cost, and the negative consequences of stopping payments to creditors.",
+      "CROA, 15 U.S.C. 1679b(b): a credit repair organization may not charge or receive payment before the promised service is fully performed.",
+      "CROA, 15 U.S.C. 1679d-1679e: credit repair contracts must be in writing, and the consumer may cancel without charge within 3 business days."
+    ]
+  },
+  {
+    "id": "STUDENT",
+    "name": "Student loan servicing",
+    "citation": "20 U.S.C. 1070 et seq. (Higher Education Act); 34 CFR 685; TILA for private loans",
+    "products": ["Student loan"],
+    "keywords": ["student loan", "servicer", "forbearance", "deferment", "income-driven", "idr", "pslf", "public service loan forgiveness", "forgiveness", "discharge", "consolidation", "navient", "nelnet", "mohela", "private student loan", "cosigner", "misapplied payment"],
+    "rules": [
+      "Federal student loans: borrowers are entitled to income-driven repayment plans, deferment and forbearance when they qualify, and Public Service Loan Forgiveness after 120 qualifying payments (34 CFR 685.208-685.221). Servicers handle these on behalf of the Department of Education.",
+      "Federal student loans may be discharged for total and permanent disability, school closure, or a successful borrower defense claim (34 CFR 685.212-685.222).",
+      "Private student loans are consumer credit covered by TILA disclosures (12 CFR 1026.46-48) and have no federal right to income-driven repayment or forgiveness.",
+      "Steering borrowers into forbearance instead of explaining income-driven plans, or misapplying payments, has been treated as an unfair or abusive practice (see UDAAP).",
+      "Credit reporting of student loans is covered by the FCRA."
+    ]
+  },
+  {
+    "id": "AUTO",
+    "name": "Vehicle finance: Consumer Leasing Act (Regulation M) and repossession rules",
+    "citation": "15 U.S.C. 1667 et seq.; 12 CFR 1013; Uniform Commercial Code Article 9 (state law)",
+    "products": ["Vehicle loan or lease"],
+    "keywords": ["auto loan", "car loan", "vehicle", "lease", "repossession", "repossessed", "repo", "gap insurance", "title", "lien release", "payoff", "dealer", "deficiency", "total loss", "lease end", "excess wear"],
+    "rules": [
+      "Regulation M, 12 CFR 1013.4: a lease must disclose the amount due at signing, the payment schedule, end-of-lease charges, and early termination terms before the consumer signs.",
+      "UCC 9-609 to 9-616 (state law): after default a lender may repossess without a court order only if it does not breach the peace. It must send notice before selling the vehicle, sell it in a commercially reasonable way, and account for any surplus or deficiency.",
+      "After payoff, state law requires the lender to release the lien and title within a set time.",
+      "Refunds of unearned add-on products such as GAP coverage after early payoff or total loss, and misapplied payments, have been treated as unfair practices when not handled (see UDAAP).",
+      "Vehicle loans are closed-end credit under TILA; servicemember protections are in SCRA_MLA."
+    ]
+  }
+]

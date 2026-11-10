@@ -1,0 +1,109 @@
+{
+  "Checking or savings account": [
+    "Closing an account",
+    "Managing an account",
+    "Opening an account",
+    "Problem caused by your funds being low",
+    "Problem with a lender or other company charging your account"
+  ],
+  "Credit card": [
+    "Advertising and marketing, including promotional offers",
+    "Closing your account",
+    "Credit monitoring or identity theft protection services",
+    "Fees or interest",
+    "Getting a credit card",
+    "Improper use of your report",
+    "Incorrect information on your report",
+    "Other features, terms, or problems",
+    "Problem when making payments",
+    "Problem with a company's investigation into an existing problem",
+    "Problem with a purchase shown on your statement",
+    "Struggling to pay your bill",
+    "Trouble using your card"
+  ],
+  "Credit reporting or other personal consumer reports": [
+    "Credit monitoring or identity theft protection services",
+    "Identity theft protection or other monitoring services",
+    "Improper use of your report",
+    "Incorrect information on your report",
+    "Problem with a company's investigation into an existing issue",
+    "Problem with a company's investigation into an existing problem",
+    "Problem with fraud alerts or security freezes",
+    "Unable to get your credit report or credit score"
+  ],
+  "Debt collection": [
+    "Attempts to collect debt not owed",
+    "Communication tactics",
+    "Electronic communications",
+    "False statements or representation",
+    "Threatened to contact someone or share information improperly",
+    "Took or threatened to take negative or legal action",
+    "Written notification about debt"
+  ],
+  "Debt or credit management": [
+    "Charged upfront or unexpected fees",
+    "Confusing or misleading advertising or marketing",
+    "Confusing or missing disclosures",
+    "Didn't provide services promised",
+    "Problem with customer service",
+    "Unauthorized withdrawals or charges"
+  ],
+  "Money transfer, virtual currency, or money service": [
+    "Confusing or missing disclosures",
+    "Fraud or scam",
+    "Lost or stolen money order",
+    "Managing, opening, or closing your mobile wallet account",
+    "Money was not available when promised",
+    "Other service problem",
+    "Other transaction problem",
+    "Problem with customer service",
+    "Trouble accessing funds in your mobile or digital wallet",
+    "Unauthorized transactions or other transaction problem",
+    "Unexpected or other fees",
+    "Wrong amount charged or received"
+  ],
+  "Mortgage": [
+    "Applying for a mortgage or refinancing an existing mortgage",
+    "Closing on a mortgage",
+    "Improper use of your report",
+    "Incorrect information on your report",
+    "Problem with a company's investigation into an existing problem",
+    "Struggling to pay mortgage",
+    "Trouble during payment process"
+  ],
+  "Payday loan, title loan, personal loan, or advance loan": [
+    "Can't contact lender or servicer",
+    "Charged fees or interest you didn't expect",
+    "Getting a line of credit",
+    "Getting the loan",
+    "Incorrect information on your report",
+    "Loan payment wasn't credited to your account",
+    "Problem when making payments",
+    "Problem with additional add-on products or services",
+    "Problem with the payoff process at the end of the loan",
+    "Received a loan you didn't apply for",
+    "Struggling to pay your loan",
+    "Vehicle was repossessed or sold the vehicle"
+  ],
+  "Prepaid card": [
+    "Problem getting a card or closing an account",
+    "Problem with a purchase or transfer",
+    "Trouble using the card",
+    "Unexpected or other fees"
+  ],
+  "Student loan": [
+    "Dealing with your lender or servicer",
+    "Incorrect information on your report",
+    "Struggling to repay your loan"
+  ],
+  "Vehicle loan or lease": [
+    "Getting a loan or lease",
+    "Improper use of your report",
+    "Incorrect information on your report",
+    "Managing the loan or lease",
+    "Problem with a company's investigation into an existing problem",
+    "Problems at the end of the loan or lease",
+    "Repossession",
+    "Struggling to pay your loan"
+  ]
+}
