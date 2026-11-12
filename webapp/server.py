@@ -36,6 +36,13 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT))
 
+# Values pasted into a hosting dashboard often carry a trailing line break, spaces or
+# quotes. A key with a line break cannot even be sent (the SDK reports it as a
+# "Connection error"), so tidy them before anything reads them.
+for _name in ("ANTHROPIC_API_KEY", "DEMO_PASSCODE", "CLAUDE_MODEL"):
+    if _name in os.environ:
+        os.environ[_name] = os.environ[_name].strip().strip("\"'").strip()
+
 from shared.spec import EXAMPLE_IDS, MAX_REVISIONS, MODEL  # noqa: E402
 from webapp.agent import AgentError, run_agent, run_baseline  # noqa: E402
 

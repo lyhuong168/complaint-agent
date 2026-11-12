@@ -57,6 +57,17 @@ class Usage:
         self.output_tokens += response.usage.output_tokens
 
 
+def connection_message(e: Exception) -> str:
+    """Say why a request never reached Claude, in words the person can act on."""
+    cause = repr(getattr(e, "__cause__", None) or "")
+    if "Illegal header value" in cause:
+        return ("The Anthropic API key contains a space or line break, so it cannot be sent. "
+                "Paste it again without extra characters.")
+    if "Timeout" in type(e).__name__ or "Timeout" in cause:
+        return "Claude took too long to answer. Try again."
+    return "Could not reach the Claude API. Check the internet connection."
+
+
 def _create(client: anthropic.Anthropic, **kwargs):
     """One Messages API request, with the refusal fallback where the model allows it."""
     try:
@@ -70,8 +81,8 @@ def _create(client: anthropic.Anthropic, **kwargs):
         raise AgentError("Claude is rate limited right now. Wait a minute and try again.")
     except anthropic.APIStatusError as e:
         raise AgentError(f"Claude API error {e.status_code}: {e.message}")
-    except anthropic.APIConnectionError:
-        raise AgentError("Could not reach the Claude API. Check the internet connection.")
+    except anthropic.APIConnectionError as e:
+        raise AgentError(connection_message(e))
 
 
 def run_agent_step(client, usage: Usage, name: str, system: str, user: str, schema: dict,
@@ -404,6 +415,10 @@ def run_baseline(client: anthropic.Anthropic, company: str, state: str, narrativ
                        f"Complaint:\n{narrative}"}],
             output_format=BaselineResult,
         )
+    except anthropic.APIConnectionError as e:
+        raise AgentError(connection_message(e))
+    except anthropic.AuthenticationError:
+        raise AgentError("The Anthropic API key is missing or wrong.")
     except anthropic.APIError as e:
         raise AgentError(f"Claude API error: {getattr(e, 'message', e)}")
     if response.stop_reason != "end_turn" or response.parsed_output is None:
