@@ -36,7 +36,8 @@ EFFORT = "medium"                   # same as the n8n Claude node (adaptive thin
 FALLBACK_MODELS = {"claude-opus-5-5", "claude-opus-5", "claude-sonnet-5-5",
                    "claude-fable-5-2", "claude-fable-5-1"}
 
-Step = Callable[[str], None]        # called with a short progress message
+Event = Callable[[dict], None]      # called with each progress event (see run_agent)
+ToolSeen = Callable[[str, str, str], None]   # (tool name, query, result)
 
 
 class AgentError(RuntimeError):
@@ -75,7 +76,7 @@ def _create(client: anthropic.Anthropic, **kwargs):
 
 def run_agent_step(client, usage: Usage, name: str, system: str, user: str, schema: dict,
                    tools: dict[str, Callable[[str], str]] | None = None,
-                   max_iterations: int = 3, on_tool: Step | None = None) -> dict:
+                   max_iterations: int = 3, on_tool: ToolSeen | None = None) -> dict:
     """One agent: Claude with an output format and optional tools, looping over tool calls.
 
     Copies an n8n "AI Agent" node with a "Structured Output Parser" attached.
@@ -115,15 +116,17 @@ def run_agent_step(client, usage: Usage, name: str, system: str, user: str, sche
                 if block.type != "tool_use":
                     continue
                 query = str(block.input.get("query", ""))
-                if on_tool:
-                    on_tool(f"{block.name}(“{query}”)")
                 fn = (tools or {}).get(block.name)
                 if fn is None:
+                    result = f"Unknown tool {block.name}"
                     results.append({"type": "tool_result", "tool_use_id": block.id,
-                                    "content": f"Unknown tool {block.name}", "is_error": True})
+                                    "content": result, "is_error": True})
                 else:
+                    result = fn(query)
                     results.append({"type": "tool_result", "tool_use_id": block.id,
-                                    "content": fn(query)})
+                                    "content": result})
+                if on_tool:
+                    on_tool(block.name, query, result)
             messages.append({"role": "user", "content": results})
             continue
 
@@ -215,9 +218,41 @@ def _pretty(value) -> str:
     return json.dumps(value, indent=1, ensure_ascii=False)
 
 
+def tool_summary(name: str, result: str) -> str:
+    """One line saying what a tool call found, for the timeline."""
+    if name == "search_regulations":
+        ids = re.findall(r"^\[([^\]]+)\]", result, re.M)
+        return "found " + ", ".join(ids) if ids else "no matching regulation"
+    return result if len(result) <= 200 else result[:197] + "..."
+
+
+OUTCOME_WORDS = {"explanation_only": "explanation only",
+                 "non_monetary_relief": "non-monetary relief",
+                 "monetary_relief": "monetary relief"}
+
+
 def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: str,
-              on_step: Step = lambda _: None) -> dict:
-    """Handle one complaint. Returns the same fields as the n8n agent's response."""
+              on_event: Event = lambda _: None) -> dict:
+    """Handle one complaint. Returns the same fields as the n8n agent's response.
+
+    on_event receives, in order, for each step of the workflow:
+      {"type": "start", "step": ..., "title": ...}
+      {"type": "tool", "name": ..., "query": ..., "found": ...}    (resolution step only)
+      {"type": "end", "step": ..., "status": "ok" | "warn" | "fail",
+       "summary": ..., "items": [...]}
+    step is one of: triage, labels, resolution, citations, critic, routing.
+    """
+    def start(step, title):
+        on_event({"type": "start", "step": step, "title": title})
+
+    def end(step, status, summary, items=()):
+        on_event({"type": "end", "step": step, "status": status, "summary": summary,
+                  "items": list(items)})
+
+    def tool_seen(name, query, result):
+        on_event({"type": "tool", "name": name, "query": query,
+                  "found": tool_summary(name, result)})
+
     started = time.time()
     usage = Usage()
 
@@ -228,27 +263,38 @@ def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: 
     company, state = str(company or "Unknown"), str(state or "Unknown")
 
     # Triage agent.
-    on_step("Triage agent: classifying the complaint")
+    start("triage", "Triage agent")
     triage = run_agent_step(
         client, usage, "Triage agent", TRIAGE_SYSTEM,
         f"Company: {company}\nState: {state}\n\nComplaint:\n{narrative}", TRIAGE_SCHEMA)
 
+    end("triage", "ok", f"{triage['product']} · {triage['issue']}",
+        [f"Urgency: {triage['urgency']}",
+         "Risk flags: " + (", ".join(triage["risk_flags"]) or "none")])
+
     # Validate labels: the issue must come from the official CFPB list for the product.
+    start("labels", "Label check")
     allowed = taxonomy.get(triage["product"], [])
     label_valid = triage["issue"] in allowed
+    fixed = False
     if not label_valid and allowed:
         norm = lambda s: re.sub(r"[^a-z0-9]+", " ", str(s).lower()).strip()  # noqa: E731
         match = next((i for i in allowed if norm(i) == norm(triage["issue"])), None)
         if match:
-            triage["issue"], label_valid = match, True
+            triage["issue"], label_valid, fixed = match, True, True
     trace = [f"triage: {triage['product']} / {triage['issue']} (urgency {triage['urgency']})"]
-    on_step(trace[-1] + ("" if label_valid else " — label not in the official list"))
+    if label_valid:
+        end("labels", "ok", "Product and issue are on the official CFPB list"
+            + (" (spelling corrected to match it)" if fixed else ""))
+    else:
+        end("labels", "warn", "The issue is not on the official CFPB list for this product, "
+            "so the case will go to a person")
 
     revision, feedback, draft = 0, "", None
     by_id = {r["id"]: r for r in regulations}
     while True:
         # Resolution agent: research with the tools, predict the outcome, draft the reply.
-        on_step(f"Resolution agent: researching and writing draft {revision + 1}")
+        start("resolution", f"Resolution agent · draft {revision + 1}")
         user = (f"Company: {company}\nState: {state}\n\nTriage result:\n{_pretty(triage)}\n\n"
                 f"Complaint:\n{narrative}\n")
         if feedback:
@@ -256,9 +302,13 @@ def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: 
                      f"Feedback from the compliance reviewer (fix every point):\n{feedback}")
         draft = run_agent_step(client, usage, "Resolution agent", RESOLUTION_SYSTEM, user,
                                RESOLUTION_SCHEMA, tools=TOOLS, max_iterations=8,
-                               on_tool=lambda t: on_step("  tool: " + t))
+                               on_tool=tool_seen)
+        end("resolution", "ok", f"Predicts {OUTCOME_WORDS[draft['predicted_outcome']]}",
+            ["Cites " + (", ".join(draft["regulations_cited"]) or "no regulation")]
+            + (["Asks for a person: " + draft["escalation_reason"]] if draft["escalate"] else []))
 
         # Check citations: every cited regulation must be in the knowledge base.
+        start("citations", "Citation check")
         cited = [re.sub(r"[\[\]]", "", str(c)).strip().upper() for c in draft["regulations_cited"]]
         draft["regulations_cited"] = cited
         unknown = [c for c in cited if c not in by_id]
@@ -266,10 +316,14 @@ def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: 
         trace.append(f"draft {revision + 1}: predicts {draft['predicted_outcome']}, cites "
                      f"{', '.join(cited) or 'nothing'}"
                      + (f" (NOT IN KNOWLEDGE BASE: {', '.join(unknown)})" if unknown else ""))
-        on_step(trace[-1])
+        if unknown:
+            end("citations", "warn", "Not in the knowledge base: " + ", ".join(unknown))
+        else:
+            end("citations", "ok", "Every citation is in the knowledge base" if cited
+                else "No regulation cited")
 
         # Compliance critic: a separate agent reviews the draft.
-        on_step(f"Compliance critic: reviewing draft {revision + 1}")
+        start("critic", f"Compliance critic · draft {revision + 1}")
         critic = run_agent_step(
             client, usage, "Compliance critic", CRITIC_SYSTEM,
             f"Complaint:\n{narrative}\n\nTriage result:\n{_pretty(triage)}\n\n"
@@ -287,7 +341,13 @@ def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: 
         trace.append(f"critic on draft {revision + 1}: " + (
             "approved" if approved else
             f"revise ({len(problems)} problem{'' if len(problems) == 1 else 's'})"))
-        on_step(trace[-1])
+        if approved:
+            end("critic", "ok", "Approved")
+        elif revision >= MAX_REVISIONS:
+            end("critic", "fail", f"Still not approved after {MAX_REVISIONS} revisions", problems)
+        else:
+            end("critic", "warn", f"Sent back with {len(problems)} problem"
+                f"{'' if len(problems) == 1 else 's'} to fix", problems)
         if approved or revision >= MAX_REVISIONS:
             break
         revision += 1
@@ -307,8 +367,10 @@ def run_agent(client: anthropic.Anthropic, company: str, state: str, narrative: 
     if not label_valid:
         reasons.append("Triage issue label is not in the official list")
     needs_human = bool(reasons)
+    start("routing", "Routing rules")
     trace.append("routed to human review" if needs_human else "ready to send")
-    on_step(trace[-1])
+    end("routing", "warn" if needs_human else "ok",
+        "Sent to a person for review" if needs_human else "Ready to send", reasons)
 
     return {
         "status": "needs_human_review" if needs_human else "ready_to_send",

@@ -33,7 +33,7 @@ Webhook -> Triage Agent -> label check -> Resolution Agent -> citation check
 | `n8n/build_workflow.py` | The n8n agent's tools and wiring. Generates the workflow file |
 | `n8n/complaint_agent.workflow.json` | The generated workflow that n8n imports |
 | `n8n/knowledge/` | Regulation summaries, CFPB product/issue lists, company complaint history |
-| `webapp/` | Streamlit demo app with a Python copy of the agent (for hosting online) |
+| `webapp/` | Web demo for hosting online: a Python copy of the agent, its server and page |
 | `eval/` | Scripts that build the data, run both systems and score them |
 | `results/` | Created by the evaluation scripts |
 | `.tools/node24/` | A private copy of Node 24, used only to run n8n |
@@ -137,41 +137,48 @@ anything you want to keep back into `build_workflow.py`.
 The model is set once, as `CLAUDE_MODEL` in `.env`, and used by both the agent
 and the baseline. After changing it, rebuild and reload the workflow as above.
 
-## Streamlit app (to put online)
+## Web demo (to put online)
 
-`webapp/` holds a Streamlit version of the demo page. n8n cannot run on
-Streamlit's free hosting, so behind this page is a Python copy of the agent
-(`webapp/agent.py`): same prompts, output formats, routing rules and knowledge
-(all from `shared/spec.py`), with the two tools translated line for line from the
-n8n code. The n8n workflow remains the version that was evaluated; the Python
-copy calls the Claude API directly instead of through n8n's LangChain nodes, so
-answers can differ slightly.
+n8n needs more memory than free hosting gives, so the online demo runs a Python
+copy of the agent (`webapp/agent.py`): same prompts, output formats, routing
+rules and knowledge (all from `shared/spec.py`), with the two tools translated
+line for line from the n8n code. The n8n workflow remains the version that was
+evaluated; the Python copy calls the Claude API directly instead of through n8n's
+LangChain nodes, so answers can differ slightly.
+
+The page shows the baseline and the agent side by side, and a live timeline of
+every step the agent takes: each agent, each tool call and what it found, the
+guardrail checks, the critic's verdicts and the routing decision. The server
+(`webapp/server.py`, FastAPI) streams each step to the browser the moment it
+happens (Server-Sent Events); the page is plain HTML and JavaScript in
+`webapp/static/`, styled after the "ledger paper" look of the Receipts project.
 
 Run it on your PC (uses `ANTHROPIC_API_KEY`, `DEMO_PASSCODE` and `CLAUDE_MODEL` from `.env`):
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
-streamlit run webapp\streamlit_app.py
+uvicorn webapp.server:app --port 8010
 ```
 
-Put it online with [Streamlit Community Cloud](https://share.streamlit.io) (free):
+Then open http://localhost:8010.
+
+Put it online with [Render](https://render.com) (free plan, about 100 MB of the 512 MB):
 
 1. Push the repo to GitHub.
-2. On share.streamlit.io: **Create app**, pick this repo and branch, and set the
-   main file path to `webapp/streamlit_app.py`. Under **Advanced settings**,
-   choose Python 3.12 and paste the secrets:
+2. In the Render dashboard: **New > Blueprint**, pick this repo and branch.
+   Render reads `render.yaml` and asks for `ANTHROPIC_API_KEY` and
+   `DEMO_PASSCODE`. `CLAUDE_MODEL` is set in `render.yaml`.
+3. Click **Apply**. The first build takes a few minutes; the address is shown
+   at the top of the service page.
 
-   ```toml
-   ANTHROPIC_API_KEY = "your-key"
-   DEMO_PASSCODE = "a passcode for your class"
-   CLAUDE_MODEL = "claude-opus-5-5"
-   ```
+Give the passcode only to people who may use the demo; every submission costs
+API credit. At most 3 runs happen at once (`MAX_PARALLEL_RUNS`), and complaints
+are limited to 8,000 characters. A free Render service sleeps after 15 minutes
+without visitors, and the next visit takes about a minute to wake it, so open
+the page a few minutes before a presentation.
 
-3. Deploy. Streamlit installs only `webapp/requirements.txt`. Give the
-   passcode only to people who may use the demo; every submission costs API credit.
-
-An app with no visitors for a while goes to sleep; the first visitor wakes it
-with one click, which takes under a minute.
+`webapp/streamlit_app.py` is an older Streamlit version of the same page, kept
+as a backup (`streamlit run webapp\streamlit_app.py`; theme in `.streamlit/config.toml`).
 
 ## Rebuilding the data
 

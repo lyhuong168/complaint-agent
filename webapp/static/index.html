@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Complaint Agent</title>
+  <meta name="description" content="CFPB complaint triage: a one-prompt baseline next to a multi-agent workflow, with a live timeline of every step.">
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="page">
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Complaint Agent, home">
+        <svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+          <path d="M2 1h18v21.5l-3-2.2-3 2.2-3-2.2-3 2.2-3-2.2-3 2.2z" fill="#1c1a16"/>
+          <path d="M6 7h10M6 11h10M6 15h5" stroke="#f5f1e8" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M13 15.2l1.7 1.7 3.2-3.6" stroke="#f6d860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+        <span class="rc-word">Complaint Agent</span>
+      </a>
+      <div class="top-right">
+        <span class="chip" title="Claude model used by both systems">model <b id="model" class="mono">…</b></span>
+        <form class="lock" id="lock" autocomplete="off">
+          <label class="kicker" for="passcode">Passcode</label>
+          <input class="input" id="passcode" type="password" placeholder="Enter passcode" autocomplete="current-password">
+          <span id="lockState"></span>
+          <button class="btn btn-sm" id="lockBtn" type="submit">Unlock</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">CFPB consumer complaints · triage and reply</div>
+      <h1>One prompt <em>vs.</em> a multi-agent workflow</h1>
+      <p>The same complaint goes to both. Watch the agent classify it, look up the rules, draft a reply,
+        get checked by a second agent and decide whether a person must see it, step by step.</p>
+    </section>
+
+    <form class="card form" id="form">
+      <label class="field"><span>Example complaint (real, from the test set)</span>
+        <select id="example"><option value="">Write your own…</option></select>
+      </label>
+      <div class="form-row">
+        <label class="field"><span>Company</span>
+          <input class="input" id="company" maxlength="200" placeholder="e.g. WELLS FARGO &amp; COMPANY"></label>
+        <label class="field"><span>State</span>
+          <input class="input" id="state" maxlength="40" placeholder="e.g. CA"></label>
+      </div>
+      <label class="field"><span>Complaint text</span>
+        <textarea id="narrative" placeholder="Describe the problem as the consumer would."></textarea>
+      </label>
+      <div class="truth" id="truth" hidden></div>
+      <div class="form-foot">
+        <button class="btn btn-primary" id="submit" type="submit" disabled>Submit to both</button>
+        <span class="hint" id="hint">Enter the passcode at the top to submit.</span>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="alert" id="formError" role="alert" hidden></div>
+    </form>
+
+    <div class="section-head">
+      <h2>How the agent works</h2>
+      <div class="statusline" id="statusline" aria-live="polite"></div>
+    </div>
+    <div id="pipe"></div>
+
+    <div class="cols" style="margin-top: 22px">
+      <section class="col" aria-labelledby="h-base">
+        <h2 id="h-base">Baseline</h2>
+        <p class="sub">One Claude call. No tools, no review, no rules.</p>
+        <div id="baseline"><div class="placeholder">The baseline's receipt prints here.</div></div>
+      </section>
+      <section class="col" aria-labelledby="h-agent">
+        <h2 id="h-agent">Agent</h2>
+        <p class="sub">Six steps, two tools, a critic that can send drafts back, fixed routing rules.</p>
+        <div class="stack">
+          <div id="agent"></div>
+          <div id="timeline"><div class="placeholder">Submit a complaint to watch the agent work, step by step.</div></div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="notes">
+      <span>The agent on this page is a Python copy of the n8n workflow, with the same prompts, tools and rules.
+        The evaluated version runs in n8n.</span>
+      <span>Regulation summaries were drafted by an AI and have not been checked by a lawyer.</span>
+    </footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
