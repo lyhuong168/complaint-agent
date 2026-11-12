@@ -30,5 +30,14 @@ services:
         value: "false"
       - key: N8N_PERSONALIZATION_ENABLED
         value: "false"
-      - key: NODE_OPTIONS           # the free plan has 512 MB of memory
-        value: "--max-old-space-size=384"
+      # The free plan has 512 MB of memory and a slow CPU. n8n runs two Node
+      # processes (n8n itself and the task runner that executes Code steps),
+      # so both get a memory cap, and the slow start gets longer time limits.
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=300"
+      - key: N8N_RUNNERS_MAX_OLD_SPACE_SIZE
+        value: "128"
+      - key: N8N_RUNNERS_GRANT_TOKEN_TTL
+        value: "120"
+      - key: DB_PING_TIMEOUT_MS
+        value: "15000"
