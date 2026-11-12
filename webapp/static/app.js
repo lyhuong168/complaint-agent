@@ -182,6 +182,7 @@ function addNode(ev) {
   li.append(el("div", "tl-time", "+" + clock(ev.t)), rail, body);
   app.run.tl.ol.append(li);
   Object.assign(node, { li, body, stampHold, dur, wait });
+  node.bar = ganttStart(ev);
   app.run.nodes.push(node);
   const n = app.run.nodes.length;
   app.run.tl.label.textContent = `Agent timeline · ${n} step${n === 1 ? "" : "s"}`;
@@ -195,6 +196,7 @@ function addTool(ev) {
     el("span", "found", ev.found));
   node.body.insertBefore(line, node.wait);
   node.tools += 1;
+  ganttTool(node.bar, ev);
   node.wait.textContent = "Claude is reading the results and writing the draft…";
 }
 function endNode(ev) {
@@ -210,6 +212,7 @@ function closeNode(node, status, t1, summary, items) {
   node.stampHold.replaceChildren(stamp(...STATUS[status]));
   if (!CODE_STEPS.has(node.step)) node.dur.textContent = `${(t1 - node.t0).toFixed(1)} s`;
   node.wait.remove();
+  ganttEnd(node.bar, status, t1);
   if (summary) node.body.append(el("div", "tl-sum rise", summary));
   if (items && items.length) {
     const ul = el("ul", "tl-items rise");
@@ -221,6 +224,116 @@ function closeNode(node, status, t1, summary, items) {
 function failOpenNodes(message) {
   const now = elapsed();
   for (const n of app.run.nodes) if (n.status === "run") closeNode(n, "fail", now, message, []);
+}
+
+// ---------------------------------------------------------------- timing chart
+// One row per agent: a bar from when it started to when it finished (a row gets one
+// bar per draft), marks where tool calls began, diamonds for the code checks, and a
+// seconds scale. Bars are created once; while a run is going, tick() only moves them.
+const GANTT_ROWS = [
+  ["baseline", "Baseline", "one call"],
+  ["triage", "Triage agent", ""],
+  ["resolution", "Resolution agent", "tools"],
+  ["critic", "Compliance critic", ""],
+  ["checks", "Code checks", "guardrails, routing"],
+];
+const CODE_LABEL = { labels: "Label check", citations: "Citation check", routing: "Routing rules" };
+
+function buildGantt() {
+  const card = el("div", "card gantt rise");
+  const head = el("div", "gantt-head");
+  const total = el("span", "mono", "0.0 s");
+  head.append(el("span", "kicker", "Time per agent"), total);
+  const grid = el("div", "gantt-grid");
+  const rows = {};
+  for (const [key, name, note] of GANTT_ROWS) {
+    const label = el("div", "g-label");
+    label.append(el("span", "g-name", name));
+    if (note) label.append(el("span", "g-note", note));
+    const track = el("div", "g-track g-" + key);
+    const sum = el("div", "g-sum", "");
+    grid.append(label, track, sum);
+    rows[key] = { track, sum, bars: [] };
+  }
+  const axis = el("div", "g-axis");
+  grid.append(el("div"), axis, el("div"));
+  const legend = el("div", "g-legend");
+  for (const [cls, text] of [["bar", "agent finished"], ["run", "working now"], ["warn", "sent back by the critic"],
+    ["tool", "tool call"], ["check", "code check (instant)"]]) {
+    const item = el("span", "g-item");
+    item.append(el("span", "g-key g-key-" + cls), document.createTextNode(text));
+    legend.append(item);
+  }
+  card.append(head, grid, legend);
+  $("gantt").replaceChildren(card);
+  app.run.gantt = { rows, axis, total, axisStep: 0, axisSpan: 0 };
+}
+function ganttBar(rowKey, s, title) {
+  const row = app.run.gantt.rows[rowKey];
+  const node = el("div", "g-bar is-run");
+  node.title = title;
+  row.track.append(node);
+  const bar = { row: rowKey, s, e: null, status: "run", node, tools: [], title };
+  row.bars.push(bar);
+  return bar;
+}
+function ganttStart(ev) {
+  if (!app.run.gantt) return null;
+  if (CODE_STEPS.has(ev.step)) {
+    const row = app.run.gantt.rows.checks;
+    const node = el("div", "g-check is-run");
+    node.title = CODE_LABEL[ev.step] || ev.title;
+    row.track.append(node);
+    const mark = { row: "checks", s: ev.t, e: ev.t, status: "run", node, tools: [], check: true, title: node.title };
+    row.bars.push(mark);
+    return mark;
+  }
+  return ganttBar(ev.step, ev.t, ev.title);
+}
+function ganttTool(bar, ev) {
+  if (!bar) return;
+  const tick = el("i", "g-tool");
+  tick.title = `${ev.name}("${ev.query}")`;
+  app.run.gantt.rows[bar.row].track.append(tick);
+  bar.tools.push({ t: ev.t, node: tick });
+}
+function ganttEnd(bar, status, t) {
+  if (!bar) return;
+  bar.status = status;
+  bar.e = bar.check ? bar.s : t;
+  bar.node.className = (bar.check ? "g-check" : "g-bar") + " is-" + status;
+  if (!bar.check) bar.node.title = `${bar.title} · ${(bar.e - bar.s).toFixed(1)} s`;
+}
+function renderGantt(now) {
+  const g = app.run && app.run.gantt;
+  if (!g) return;
+  let end = Math.max(1, now);
+  for (const key in g.rows) for (const b of g.rows[key].bars) if (b.e != null) end = Math.max(end, b.e);
+  const pos = (t) => Math.max(0, Math.min(100, (t / end) * 100));
+  for (const key in g.rows) {
+    const row = g.rows[key];
+    let busy = 0;
+    for (const b of row.bars) {
+      const e = b.e != null ? b.e : now;
+      if (b.check) { b.node.style.left = pos(b.s) + "%"; continue; }
+      b.node.style.left = pos(b.s) + "%";
+      b.node.style.width = `max(4px, ${pos(e) - pos(b.s)}%)`;
+      busy += Math.max(0, e - b.s);
+      for (const tk of b.tools) tk.node.style.left = pos(tk.t) + "%";
+    }
+    const text = key === "checks" ? (row.bars.length ? `${row.bars.length}×` : "")
+      : row.bars.length ? `${busy.toFixed(1)} s` : "";
+    if (row.sum.textContent !== text) row.sum.textContent = text;
+  }
+  g.total.textContent = `${end.toFixed(1)} s`;
+  const step = end > 120 ? 30 : end > 60 ? 15 : end > 30 ? 10 : end > 12 ? 5 : end > 5 ? 2 : 1;
+  const count = Math.floor(end / step);
+  if (step !== g.axisStep || count !== g.axisCount) {
+    g.axisStep = step;
+    g.axisCount = count;
+    g.axis.replaceChildren(...Array.from({ length: count + 1 }, (_, i) => el("span", null, `${i * step}s`)));
+  }
+  g.axis.querySelectorAll("span").forEach((s, i) => { s.style.left = pos(i * step) + "%"; });
 }
 
 // ---------------------------------------------------------------- receipts
@@ -302,6 +415,7 @@ function tick() {
   for (const n of app.run.nodes) {
     if (n.status === "run" && !CODE_STEPS.has(n.step)) n.dur.textContent = `${Math.max(0, t - n.t0).toFixed(1)} s`;
   }
+  renderGantt(t);
 }
 
 // ---------------------------------------------------------------- the run
@@ -317,10 +431,12 @@ function handleEvent(type, data) {
     case "baseline":
       $("baseline").replaceChildren(receipt(data, "baseline", run.truth));
       run.status.base.textContent = `(baseline answered in ${data.seconds} s)`;
+      ganttEnd(run.baseBar, "ok", data.seconds);
       break;
     case "baseline_error":
       run.hadError = true;
       $("baseline").replaceChildren(errorBox(data.message));
+      ganttEnd(run.baseBar, "fail", elapsed());
       break;
     case "agent":
       $("agent").replaceChildren(receipt(data, "agent", run.truth));
@@ -364,6 +480,8 @@ async function submit(e) {
   buildPipe();
   buildStatus();
   buildTimeline();
+  buildGantt();
+  app.run.baseBar = ganttBar("baseline", 0, "Baseline · one Claude call");
   $("agent").replaceChildren();
   $("baseline").replaceChildren(el("div", "placeholder scan", "One Claude call, usually a few seconds…"));
   document.querySelector(".section-head").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -409,6 +527,8 @@ function finish(failed) {
   if (failed) {
     showError(failed);
     failOpenNodes(failed);
+    if (run.baseBar.status === "run") ganttEnd(run.baseBar, "fail", elapsed());
+    if (!run.nodes.length) $("gantt").replaceChildren();
     if (!run.nodes.length) $("timeline").replaceChildren(errorBox(failed));
     else run.tl.state.replaceChildren(stamp("stamp-fail", "Stopped"));
     if (!$("baseline").querySelector(".receipt")) $("baseline").replaceChildren(errorBox(failed));
@@ -417,6 +537,7 @@ function finish(failed) {
     run.status.st.replaceChildren(run.hadError ? stamp("stamp-warn", "Done, with an error") : stamp("stamp-ok", "Done"));
     run.status.word.textContent = "total";
   }
+  renderGantt(0);      // final: the scale ends where the last bar ends
   app.running = false;
   refreshForm();
 }
