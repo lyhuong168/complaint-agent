@@ -29,9 +29,11 @@ Webhook -> Triage Agent -> label check -> Resolution Agent -> citation check
 | Path | Contents |
 |---|---|
 | `data/complaints_sample.csv` | The 527 test complaints with their real labels |
-| `n8n/build_workflow.py` | The agent's prompts, tools and wiring. Generates the workflow file |
+| `shared/spec.py` | The agent's prompts, output formats, rules and knowledge, shared by every version |
+| `n8n/build_workflow.py` | The n8n agent's tools and wiring. Generates the workflow file |
 | `n8n/complaint_agent.workflow.json` | The generated workflow that n8n imports |
 | `n8n/knowledge/` | Regulation summaries, CFPB product/issue lists, company complaint history |
+| `webapp/` | Streamlit demo app with a Python copy of the agent (for hosting online) |
 | `eval/` | Scripts that build the data, run both systems and score them |
 | `results/` | Created by the evaluation scripts |
 | `.tools/node24/` | A private copy of Node 24, used only to run n8n |
@@ -119,7 +121,8 @@ Drop `--limit` to run all 527 complaints.
 
 ## Changing the agent
 
-Edit `n8n/build_workflow.py`, then:
+Prompts, output formats and routing rules are in `shared/spec.py`; the n8n
+wiring and tool code are in `n8n/build_workflow.py`. Edit either, then:
 
 ```powershell
 python n8n\build_workflow.py
@@ -134,29 +137,41 @@ anything you want to keep back into `build_workflow.py`.
 The model is set once, as `CLAUDE_MODEL` in `.env`, and used by both the agent
 and the baseline. After changing it, rebuild and reload the workflow as above.
 
-## Put it online (Render)
+## Streamlit app (to put online)
 
-[Render](https://render.com) can host a copy so others can try the demo page.
-`render.yaml` and `deploy/` hold everything it needs; secrets are typed into
-Render, never committed.
+`webapp/` holds a Streamlit version of the demo page. n8n cannot run on
+Streamlit's free hosting, so behind this page is a Python copy of the agent
+(`webapp/agent.py`): same prompts, output formats, routing rules and knowledge
+(all from `shared/spec.py`), with the two tools translated line for line from the
+n8n code. The n8n workflow remains the version that was evaluated; the Python
+copy calls the Claude API directly instead of through n8n's LangChain nodes, so
+answers can differ slightly.
 
-1. Push the repo to GitHub. Rebuild the workflow files first if you changed the agent.
-2. On render.com: **New > Blueprint**, pick this repo and branch. Render reads `render.yaml`.
-3. Fill in the secrets it asks for:
-   - `ANTHROPIC_API_KEY`: your key
-   - `DEMO_PASSCODE`: the passcode you give to people who may use the demo
-   - `N8N_OWNER_EMAIL` / `N8N_OWNER_PASSWORD`: your login for the n8n editor
-4. Wait for the first build (about 5 minutes). The demo page is at
-   `https://<your-service>.onrender.com/webhook/app`; the editor is at the bare address.
+Run it on your PC (uses `ANTHROPIC_API_KEY`, `DEMO_PASSCODE` and `CLAUDE_MODEL` from `.env`):
 
-How it works: Render's free plan forgets all files when it restarts, so
-`deploy/start.sh` rebuilds n8n at every boot: owner account, credentials, both
-workflows. Changes made on the hosted canvas are lost at the next restart.
+```powershell
+.\.venv\Scripts\Activate.ps1
+streamlit run webapp\streamlit_app.py
+```
 
-Limits of the free plan: it sleeps after 15 minutes without visitors and takes
-about a minute to wake, so open the page a few minutes before presenting. If
-n8n runs out of memory (the log shows "out of memory" or restarts), switch the
-service to the Starter plan.
+Put it online with [Streamlit Community Cloud](https://share.streamlit.io) (free):
+
+1. Push the repo to GitHub.
+2. On share.streamlit.io: **Create app**, pick this repo and branch, and set the
+   main file path to `webapp/streamlit_app.py`. Under **Advanced settings**,
+   choose Python 3.12 and paste the secrets:
+
+   ```toml
+   ANTHROPIC_API_KEY = "your-key"
+   DEMO_PASSCODE = "a passcode for your class"
+   CLAUDE_MODEL = "claude-opus-5-5"
+   ```
+
+3. Deploy. Streamlit installs only `webapp/requirements.txt`. Give the
+   passcode only to people who may use the demo; every submission costs API credit.
+
+An app with no visitors for a while goes to sleep; the first visitor wakes it
+with one click, which takes under a minute.
 
 ## Rebuilding the data
 

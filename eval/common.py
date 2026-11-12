@@ -1,6 +1,7 @@
 """Shared settings and helpers for the evaluation scripts."""
 import json
 import os
+import sys
 import threading
 from pathlib import Path
 
@@ -9,6 +10,7 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
+sys.path.insert(0, str(ROOT))   # so scripts can import shared/spec.py
 
 SAMPLE = ROOT / "data" / "complaints_sample.csv"
 RESULTS = ROOT / "results"

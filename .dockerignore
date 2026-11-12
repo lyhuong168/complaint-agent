@@ -1,6 +1,0 @@
-# The server image only needs the deploy scripts and the two workflow files.
-# Everything else (data, results, .env, installed software) stays out.
-*
-!deploy/
-!n8n/complaint_agent.workflow.json
-!n8n/demo_ui.workflow.json

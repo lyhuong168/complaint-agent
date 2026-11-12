@@ -1,0 +1,6 @@
+# What Streamlit Community Cloud installs for webapp/streamlit_app.py.
+# Kept small on purpose: the evaluation's libraries are in the top-level requirements.txt.
+anthropic==2.8.0
+pydantic==2.14.3
+python-dotenv==1.2.4
+streamlit==1.67.0
