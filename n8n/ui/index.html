@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Complaint Agent Demo</title>
+<style>
+  /* Colors taken from n8n's design system (@n8n/design-system theme.css):
+     neutral grays, pink brand accent, green success, gold warning, red danger. */
+  :root {
+    --bg: #f5f5f5;                          /* n8n canvas, light (neutral-125) */
+    --card: oklch(100% 0 0);                /* neutral-white */
+    --text: oklch(20.46% 0 0);              /* neutral-950 */
+    --muted: oklch(55.55% 0 0);             /* neutral-600 */
+    --line: oklch(92.19% 0 0);              /* neutral-200 */
+    --accent: oklch(68.08% .148 5.02);      /* pink-600 (brand) */
+    --accent-text: oklch(100% 0 0);
+    --soft: oklch(97.02% 0 0);              /* neutral-100 */
+    --ok-bg: oklch(96.24% .0434 156.74);    --ok-text: oklch(44.68% .1187 151.4);   /* green-100 / 800 */
+    --warn-bg: oklch(92.41% .0463 78.84);   --warn-text: oklch(40.5% .0793 72.23);  /* gold-100 / 800 */
+    --err-bg: oklch(93.65% .032 17.74);     --err-text: oklch(44.46% .1774 26.79);  /* red-100 / 800 */
+    --tag-bg: oklch(95.51% 0 0);            --tag-text: oklch(31.71% 0 0);          /* neutral-150 / 800 */
+    --mono: "Geist Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: oklch(20.46% 0 0);              /* n8n canvas, dark (neutral-950) */
+      --card: #2b2b2b;                      /* neutral-850, like n8n's nodes */
+      --text: oklch(100% 0 0);
+      --muted: oklch(79.21% 0 0);           /* neutral-400 */
+      --line: #424242;                      /* neutral-750 */
+      --accent: oklch(78.07% .136 5.02);    /* pink-500 (brand) */
+      --accent-text: oklch(20.46% 0 0);
+      --soft: oklch(26.86% 0 0);            /* neutral-900 */
+      --ok-bg: oklch(26.54% .0651 152.77);  --ok-text: oklch(87.04% .149 154.62);   /* green-950 / 300 */
+      --warn-bg: oklch(24.57% .0436 73.41); --warn-text: oklch(84.14% .0975 76.95); /* gold-900 / 300 */
+      --err-bg: oklch(25.75% .0918 25.84);  --err-text: oklch(80.53% .1109 19.78);  /* red-950 / 300 */
+      --tag-bg: oklch(31.71% 0 0);          --tag-text: oklch(95.51% 0 0);          /* neutral-800 / 150 */
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: oklch(20.46% 0 0); --card: #2b2b2b; --text: oklch(100% 0 0); --muted: oklch(79.21% 0 0);
+    --line: #424242; --accent: oklch(78.07% .136 5.02); --accent-text: oklch(20.46% 0 0);
+    --soft: oklch(26.86% 0 0);
+    --ok-bg: oklch(26.54% .0651 152.77);  --ok-text: oklch(87.04% .149 154.62);
+    --warn-bg: oklch(24.57% .0436 73.41); --warn-text: oklch(84.14% .0975 76.95);
+    --err-bg: oklch(25.75% .0918 25.84);  --err-text: oklch(80.53% .1109 19.78);
+    --tag-bg: oklch(31.71% 0 0);          --tag-text: oklch(95.51% 0 0);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 24px; margin: 0; }
+  .sub { color: var(--muted); margin: 2px 0 0; font-size: 14px; }
+  .controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .switch { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; font-size: 14px; }
+  .switch input { width: 18px; height: 18px; accent-color: var(--accent); }
+  .ghost { background: transparent; color: var(--text); border: 1px solid var(--line); border-radius: 8px;
+           padding: 6px 10px; cursor: pointer; font: inherit; font-size: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+  form.card { margin-top: 16px; display: grid; gap: 12px; }
+  .row { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
+  label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); font-weight: 600; }
+  input[type=text], select, textarea { font: inherit; color: var(--text); background: var(--bg);
+           border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
+  textarea { min-height: 150px; resize: vertical; }
+  .actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  button.primary { background: var(--accent); color: var(--accent-text); border: 0; border-radius: 8px;
+           padding: 10px 22px; font: inherit; font-weight: 600; cursor: pointer; }
+  button.primary:disabled { opacity: .55; cursor: default; }
+  .hint { font-size: 14px; color: var(--muted); }
+  .hint.demo { color: var(--warn-text); background: var(--warn-bg); padding: 6px 10px; border-radius: 8px; }
+  .truth { font-size: 14px; background: var(--soft); border-radius: 8px; padding: 8px 12px; display: none; }
+  .truth b { font-weight: 600; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; align-items: start; }
+  .col h2 { font-size: 18px; margin: 0; }
+  .col .what { color: var(--muted); font-size: 13px; margin: 2px 0 14px; }
+  .state { color: var(--muted); padding: 24px 0; text-align: center; }
+  .timer { font: 600 32px/1 var(--mono); color: var(--text); margin-bottom: 8px; }
+  .steps { list-style: none; padding: 0; margin: 12px auto 0; display: inline-block; text-align: left; font-size: 14px; }
+  .steps li::before { content: "○ "; color: var(--muted); }
+  .error { background: var(--err-bg); color: var(--err-text); border-radius: 8px; padding: 10px 12px; font-size: 14px; }
+  .badge { display: inline-block; font-weight: 700; border-radius: 999px; padding: 4px 12px; font-size: 14px; }
+  .badge.ok { background: var(--ok-bg); color: var(--ok-text); }
+  .badge.warn { background: var(--warn-bg); color: var(--warn-text); }
+  .reasons { margin: 8px 0 0; padding-left: 18px; font-size: 14px; }
+  dl { display: grid; grid-template-columns: 130px 1fr; gap: 6px 12px; margin: 16px 0; font-size: 14px; }
+  dt { color: var(--muted); font-weight: 600; }
+  dd { margin: 0; }
+  .tag { display: inline-block; background: var(--tag-bg); color: var(--tag-text); border-radius: 6px;
+         padding: 1px 8px; margin: 0 4px 4px 0; font-size: 13px; }
+  .tag.match { outline: 2px solid var(--ok-text); }
+  .tag.miss { outline: 2px solid var(--err-text); }
+  h3 { font-size: 14px; margin: 16px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .reply { background: var(--soft); border-radius: 8px; padding: 12px; white-space: pre-wrap; font-size: 14px; }
+  .reply-head { display: flex; align-items: center; justify-content: space-between; }
+  ol.trace { margin: 0; padding-left: 20px; font-size: 14px; }
+  ol.trace li { margin: 2px 0; }
+  details { font-size: 14px; margin-top: 8px; }
+  summary { cursor: pointer; color: var(--muted); }
+  .foot { margin-top: 14px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; }
+  @media (max-width: 860px) { .cols { grid-template-columns: 1fr; } .row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Complaint Triage and Resolution Agent</h1>
+      <p class="sub">The same complaint goes to a one-prompt baseline and to the multi-agent workflow.</p>
+    </div>
+    <div class="controls">
+      <label class="switch" title="Send the agent request to n8n's test address so the canvas animates">
+        <input type="checkbox" id="demo"> Demo mode (watch the canvas)
+      </label>
+      <button class="ghost" id="theme" type="button">Theme</button>
+    </div>
+  </header>
+
+  <form class="card" id="form">
+    <div class="row">
+      <label>Example complaint
+        <select id="example"><option value="">Write your own…</option></select>
+      </label>
+      <label>Company <input type="text" id="company" placeholder="e.g. WELLS FARGO &amp; COMPANY"></label>
+      <label>State <input type="text" id="state" placeholder="e.g. CA" maxlength="20"></label>
+    </div>
+    <label>Complaint text
+      <textarea id="narrative" placeholder="Describe the problem as the consumer would." required></textarea>
+    </label>
+    <div class="truth" id="truth"></div>
+    <div class="actions">
+      <button class="primary" id="submit" type="submit">Submit to both</button>
+      <span class="hint" id="hint">Each submission makes real Claude calls (about one cent).</span>
+    </div>
+  </form>
+
+  <div class="cols">
+    <section class="card col">
+      <h2>Baseline</h2>
+      <p class="what">One Claude call. No tools, no review, no rules.</p>
+      <div id="out-baseline"><div class="state">Waiting for a complaint.</div></div>
+    </section>
+    <section class="card col">
+      <h2>Agent</h2>
+      <p class="what">Triage agent → resolution agent with tools → compliance critic → routing rules.</p>
+      <div id="out-agent"><div class="state">Waiting for a complaint.</div></div>
+    </section>
+  </div>
+</div>
+
+<script>
+const EXAMPLES = /*__EXAMPLES__*/[];
+const OUTCOME_LABEL = {
+  explanation_only: "Explanation only",
+  non_monetary_relief: "Non-monetary relief",
+  monetary_relief: "Monetary relief",
+};
+const TRUE_TO_OUTCOME = {
+  "Closed with explanation": "explanation_only",
+  "Closed with non-monetary relief": "non_monetary_relief",
+  "Closed with monetary relief": "monetary_relief",
+};
+
+const $ = (id) => document.getElementById(id);
+const base = new URL("/", location.href);
+const url = (path) => new URL(path, base).href;
+
+// Browser storage may be blocked on this page; it is only a convenience.
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+};
+
+// --- theme --------------------------------------------------------------
+function applyTheme(t) { if (t) document.documentElement.dataset.theme = t; }
+applyTheme(store.get("theme"));
+$("theme").onclick = () => {
+  const dark = document.documentElement.dataset.theme
+    ? document.documentElement.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  const next = dark ? "light" : "dark";
+  applyTheme(next); store.set("theme", next);
+};
+
+// --- demo mode ------------------------------------------------------------
+$("demo").checked = store.get("demo") === "1";
+function showHint() {
+  const h = $("hint");
+  if ($("demo").checked) {
+    h.className = "hint demo";
+    h.textContent = "Demo mode: click “Execute workflow” on the n8n canvas first, then Submit. Repeat for each complaint.";
+  } else {
+    h.className = "hint";
+    h.textContent = "Each submission makes real Claude calls (about one cent).";
+  }
+}
+$("demo").onchange = () => { store.set("demo", $("demo").checked ? "1" : "0"); showHint(); };
+showHint();
+
+// --- examples -------------------------------------------------------------
+EXAMPLES.forEach((ex, i) => {
+  const o = document.createElement("option");
+  o.value = String(i); o.textContent = ex.label;
+  $("example").appendChild(o);
+});
+let current = null;   // the example loaded, while its text is unchanged
+$("example").onchange = () => {
+  const ex = EXAMPLES[Number($("example").value)];
+  current = ex || null;
+  $("company").value = ex ? ex.company : "";
+  $("state").value = ex ? ex.state : "";
+  $("narrative").value = ex ? ex.narrative : "";
+  showTruth();
+};
+$("narrative").oninput = () => {
+  if (current && $("narrative").value !== current.narrative) { current = null; $("example").value = ""; showTruth(); }
+};
+function showTruth() {
+  const t = $("truth");
+  if (!current) { t.style.display = "none"; return; }
+  t.style.display = "block";
+  t.replaceChildren();
+  t.append("Real CFPB record: ");
+  const b = document.createElement("b"); b.textContent = `${current.product} / ${current.issue}`;
+  t.append(b, " — company ");
+  const o = document.createElement("b"); o.textContent = current.outcome.toLowerCase();
+  t.append(o, current.tags ? ` — tags: ${current.tags}` : "");
+}
+
+// --- rendering helpers (model text is always inserted as text, never as HTML)
+function el(tag, attrs = {}, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) n.append(k);
+  return n;
+}
+function tags(list, cls = () => "") {
+  const d = el("dd");
+  if (!list || !list.length) { d.append("—"); return d; }
+  list.forEach((t) => d.append(el("span", { class: "tag " + cls(t), text: t })));
+  return d;
+}
+function waiting(target, steps) {
+  const start = Date.now();
+  const timer = el("div", { class: "timer", text: "0.0 s" });
+  const box = el("div", { class: "state" }, timer, el("div", { text: "Working…" }));
+  if (steps) {
+    const ul = el("ul", { class: "steps" });
+    steps.forEach((s) => ul.append(el("li", { text: s })));
+    box.append(ul);
+  }
+  target.replaceChildren(box);
+  const id = setInterval(() => { timer.textContent = ((Date.now() - start) / 1000).toFixed(1) + " s"; }, 100);
+  return () => clearInterval(id);
+}
+function showError(target, msg) { target.replaceChildren(el("div", { class: "error", text: msg })); }
+
+function render(target, r, kind) {
+  const out = [];
+  const review = r.needs_human_review;
+  out.push(el("span", { class: "badge " + (review ? "warn" : "ok"),
+    text: review ? "Needs human review" : "Ready to send" }));
+  if (kind === "agent" && r.review_reasons && r.review_reasons.length) {
+    const ul = el("ul", { class: "reasons" });
+    r.review_reasons.forEach((x) => ul.append(el("li", { text: x })));
+    out.push(ul);
+  }
+  if (kind === "baseline") {
+    out.push(el("p", { class: "hint", text: "The baseline only answers yes or no here; it gives no reason." }));
+  }
+
+  const truthOutcome = current ? TRUE_TO_OUTCOME[current.outcome] : null;
+  const mark = (ok) => (current ? (ok ? "match" : "miss") : "");
+  const dl = el("dl");
+  dl.append(el("dt", { text: "Product" }), tags([r.product], (t) => mark(t === current?.product)));
+  dl.append(el("dt", { text: "Issue" }), tags([r.issue], (t) => mark(t === current?.issue)));
+  if (kind === "agent") {
+    dl.append(el("dt", { text: "Urgency" }), tags([r.urgency]));
+    dl.append(el("dt", { text: "Risk flags" }), tags(r.risk_flags));
+  }
+  dl.append(el("dt", { text: "Predicted outcome" }),
+    tags([OUTCOME_LABEL[r.predicted_outcome] || r.predicted_outcome],
+         () => mark(r.predicted_outcome === truthOutcome)));
+  dl.append(el("dt", { text: "Laws cited" }), tags(r.regulations_cited));
+  out.push(dl);
+  if (current) out.push(el("p", { class: "hint", text: "Green outline: matches the real CFPB record. Red: does not." }));
+
+  if (kind === "agent" && r.outcome_reasoning) {
+    out.push(el("h3", { text: "Why this outcome" }), el("p", { style: "margin:0;font-size:14px", text: r.outcome_reasoning }));
+  }
+
+  const copy = el("button", { class: "ghost", type: "button", text: "Copy" });
+  copy.onclick = async () => {
+    try { await navigator.clipboard.writeText(r.reply); copy.textContent = "Copied"; }
+    catch { copy.textContent = "Select and copy"; }
+    setTimeout(() => (copy.textContent = "Copy"), 1500);
+  };
+  out.push(el("div", { class: "reply-head" }, el("h3", { text: "Drafted reply" }), copy));
+  out.push(el("div", { class: "reply", text: r.reply }));
+
+  if (kind === "agent" && r.trace) {
+    const ol = el("ol", { class: "trace" });
+    r.trace.forEach((t) => ol.append(el("li", { text: t })));
+    out.push(el("h3", { text: "What the agent did" }), ol);
+    if (r.critic_suggestions && r.critic_suggestions.length) {
+      const ul = el("ul", { class: "reasons" });
+      r.critic_suggestions.forEach((s) => ul.append(el("li", { text: s })));
+      out.push(el("details", {}, el("summary", { text: `Critic's minor suggestions (${r.critic_suggestions.length}), not blocking` }), ul));
+    }
+  }
+
+  const foot = kind === "agent"
+    ? `${r.seconds} s · ${r.revisions} revision${r.revisions === 1 ? "" : "s"} · ${r.agent_runs} agent runs`
+    : `${r.seconds} s · 1 Claude call · ${r.input_tokens + r.output_tokens} tokens`;
+  out.push(el("div", { class: "foot", text: foot }));
+  target.replaceChildren(...out);
+}
+
+// --- submit -----------------------------------------------------------------
+async function call(path, payload) {
+  let res;
+  try {
+    res = await fetch(url(path), {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+    });
+  } catch {
+    throw new Error("Could not reach n8n. Is it running?" +
+      (path.includes("webhook-test") ? " In demo mode, click “Execute workflow” on the canvas first." : ""));
+  }
+  const text = await res.text();
+  if (res.status === 404 && path.includes("webhook-test")) {
+    throw new Error("n8n is not listening yet. Click “Execute workflow” on the canvas, then Submit again.");
+  }
+  let data = null;
+  try { data = JSON.parse(text); } catch {}
+  if (!res.ok || !data || data.message === "Error in workflow") {
+    throw new Error(`The workflow failed (HTTP ${res.status}). Open the Executions tab in n8n to see why.`);
+  }
+  return data;
+}
+
+$("form").onsubmit = async (e) => {
+  e.preventDefault();
+  const payload = {
+    complaint_id: current ? current.complaint_id : "demo-" + Date.now(),
+    company: $("company").value.trim() || "Unknown",
+    state: $("state").value.trim() || "Unknown",
+    narrative: $("narrative").value.trim(),
+  };
+  if (!payload.narrative) return;
+  $("submit").disabled = true;
+
+  const agentPath = $("demo").checked ? "webhook-test/complaint" : "webhook/complaint";
+  const stopB = waiting($("out-baseline"));
+  const stopA = waiting($("out-agent"),
+    ["Triage", "Research (regulations, company history)", "Draft reply", "Compliance review", "Routing"]);
+
+  const jobs = [
+    call("webhook/baseline", payload)
+      .then((r) => render($("out-baseline"), r, "baseline"))
+      .catch((err) => showError($("out-baseline"), err.message))
+      .finally(stopB),
+    call(agentPath, payload)
+      .then((r) => render($("out-agent"), r, "agent"))
+      .catch((err) => showError($("out-agent"), err.message))
+      .finally(stopA),
+  ];
+  await Promise.allSettled(jobs);
+  $("submit").disabled = false;
+};
+</script>
+</body>
+</html>

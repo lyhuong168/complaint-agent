@@ -1,0 +1,37 @@
+{
+  "baseline": {
+    "complaints_scored": 527,
+    "product_accuracy": 0.825426944971537,
+    "product_macro_f1": 0.8061368625653035,
+    "issue_accuracy": 0.523719165085389,
+    "issue_accuracy_when_product_right": 0.6275862068965518,
+    "outcome_accuracy": 0.3719165085388994,
+    "outcome_macro_f1": 0.3436345228186631,
+    "relief_precision": 0.2526041666666667,
+    "relief_recall": 0.8016528925619835,
+    "relief_f1": 0.38415841584158417,
+    "human_review_rate": 0.9848197343453511,
+    "monetary_cases_sent_to_human": 1.0,
+    "avg_seconds": 5.90303605313093,
+    "avg_input_tokens": 2555.4136622390893,
+    "avg_output_tokens": 1062.5483870967741
+  },
+  "agent": {
+    "complaints_scored": 527,
+    "product_accuracy": 0.8007590132827325,
+    "product_macro_f1": 0.7848488590854206,
+    "issue_accuracy": 0.5047438330170778,
+    "issue_accuracy_when_product_right": 0.6208530805687204,
+    "outcome_accuracy": 0.6565464895635673,
+    "outcome_macro_f1": 0.4769042463044911,
+    "relief_precision": 0.3468208092485549,
+    "relief_recall": 0.49586776859504134,
+    "relief_f1": 0.40816326530612246,
+    "human_review_rate": 0.31688804554079697,
+    "monetary_cases_sent_to_human": 0.375,
+    "avg_seconds": 25.745540796963947,
+    "avg_revisions": 0.3036053130929791,
+    "critic_approval_rate": 0.9886148007590133,
+    "avg_agent_runs": 3.6072106261859584
+  }
+}
