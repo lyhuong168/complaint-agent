@@ -7,7 +7,8 @@
         "httpMethod": "POST",
         "path": "complaint",
         "responseMode": "responseNode",
-        "options": {}
+        "options": {},
+        "authentication": "headerAuth"
       },
       "id": "node-01",
       "name": "Webhook",
@@ -17,7 +18,13 @@
         0,
         300
       ],
-      "webhookId": "complaint-agent-webhook"
+      "webhookId": "complaint-agent-webhook",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "DemoPasscode001",
+          "name": "Demo passcode"
+        }
+      }
     },
     {
       "parameters": {

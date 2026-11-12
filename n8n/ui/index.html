@@ -63,10 +63,12 @@
   form.card { margin-top: 16px; display: grid; gap: 12px; }
   .row { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
   label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); font-weight: 600; }
-  input[type=text], select, textarea { font: inherit; color: var(--text); background: var(--bg);
+  input[type=text], input[type=password], select, textarea { font: inherit; color: var(--text); background: var(--bg);
            border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
   textarea { min-height: 150px; resize: vertical; }
-  .actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .actions { display: flex; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+  .passcode { width: 180px; }
+  .actions .hint { align-self: center; }
   button.primary { background: var(--accent); color: var(--accent-text); border: 0; border-radius: 8px;
            padding: 10px 22px; font: inherit; font-weight: 600; cursor: pointer; }
   button.primary:disabled { opacity: .55; cursor: default; }
@@ -132,6 +134,9 @@
     </label>
     <div class="truth" id="truth"></div>
     <div class="actions">
+      <label class="passcode">Passcode
+        <input type="password" id="passcode" autocomplete="current-password" required>
+      </label>
       <button class="primary" id="submit" type="submit">Submit to both</button>
       <span class="hint" id="hint">Each submission makes real Claude calls (about one cent).</span>
     </div>
@@ -198,6 +203,10 @@ function showHint() {
   }
 }
 $("demo").onchange = () => { store.set("demo", $("demo").checked ? "1" : "0"); showHint(); };
+
+// --- passcode (sent as the X-Passcode header; n8n rejects requests without it) ---
+$("passcode").value = store.get("passcode") || "";
+$("passcode").onchange = () => store.set("passcode", $("passcode").value);
 showHint();
 
 // --- examples -------------------------------------------------------------
@@ -326,13 +335,18 @@ async function call(path, payload) {
   let res;
   try {
     res = await fetch(url(path), {
-      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Passcode": $("passcode").value },
+      body: JSON.stringify(payload),
     });
   } catch {
     throw new Error("Could not reach n8n. Is it running?" +
       (path.includes("webhook-test") ? " In demo mode, click “Execute workflow” on the canvas first." : ""));
   }
   const text = await res.text();
+  if (res.status === 401 || res.status === 403) {
+    throw new Error("Wrong passcode. Check it and Submit again.");
+  }
   if (res.status === 404 && path.includes("webhook-test")) {
     throw new Error("n8n is not listening yet. Click “Execute workflow” on the canvas, then Submit again.");
   }

@@ -1,0 +1,34 @@
+# Render Blueprint: tells Render how to host the app. See README "Put it online".
+# Values marked "sync: false" are secrets you type into the Render dashboard;
+# they are never stored in this repo.
+services:
+  - type: web
+    name: complaint-agent
+    runtime: docker
+    plan: free
+    dockerfilePath: ./deploy/Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: DEMO_PASSCODE          # give this to the people who may use the demo page
+        sync: false
+      - key: N8N_OWNER_EMAIL        # your login for the n8n editor
+        sync: false
+      - key: N8N_OWNER_PASSWORD
+        sync: false
+      - key: N8N_ENCRYPTION_KEY     # encrypts stored credentials; Render makes one up
+        generateValue: true
+      - key: PORT
+        value: "5678"
+      - key: N8N_PROXY_HOPS         # n8n sits behind Render's proxy
+        value: "1"
+      - key: N8N_DIAGNOSTICS_ENABLED
+        value: "false"
+      - key: N8N_VERSION_NOTIFICATIONS_ENABLED
+        value: "false"
+      - key: N8N_PERSONALIZATION_ENABLED
+        value: "false"
+      - key: NODE_OPTIONS           # the free plan has 512 MB of memory
+        value: "--max-old-space-size=384"

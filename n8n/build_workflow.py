@@ -36,6 +36,11 @@ MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-5-5")
 MAX_REVISIONS = 2              # how many times the critic may send a draft back
 WORKFLOW_ID = "ComplaintAgent01"
 CREDENTIAL = {"id": "AnthropicCred001", "name": "Anthropic account"}
+# The POST webhooks only answer requests that send the header X-Passcode with
+# the value of DEMO_PASSCODE (stored in n8n by setup_agent.ps1 or deploy/start.sh).
+# This stops strangers from spending API credit when the app is online.
+PASSCODE = {"id": "DemoPasscode001", "name": "Demo passcode"}
+PASSCODE_AUTH = {"authentication": "headerAuth"}
 
 taxonomy = json.loads((KNOW / "taxonomy.json").read_text(encoding="utf-8"))
 regulations = json.loads((KNOW / "regulations.json").read_text(encoding="utf-8"))
@@ -462,7 +467,8 @@ def is_equal(name, pos, field, value):
 Y = 300
 webhook = node("Webhook", "n8n-nodes-base.webhook", 2, (0, Y), {
     "httpMethod": "POST", "path": "complaint", "responseMode": "responseNode", "options": {},
-}, webhookId="complaint-agent-webhook")
+    **PASSCODE_AUTH,
+}, webhookId="complaint-agent-webhook", credentials={"httpHeaderAuth": PASSCODE})
 prepare = code("Prepare case", (220, Y), PREPARE_JS)
 triage = agent("Triage Agent", (440, Y), TRIAGE_SYSTEM, TRIAGE_USER, 3)
 validate = code("Validate labels", (800, Y), VALIDATE_JS)
@@ -638,7 +644,8 @@ link(app_hook, app_reply)
 Y = 480
 base_hook = node("Baseline request", "n8n-nodes-base.webhook", 2, (0, Y), {
     "httpMethod": "POST", "path": "baseline", "responseMode": "responseNode", "options": {},
-}, webhookId="complaint-demo-baseline")
+    **PASSCODE_AUTH,
+}, webhookId="complaint-demo-baseline", credentials={"httpHeaderAuth": PASSCODE})
 base_prep = code("Prepare baseline request", (240, Y), BASELINE_PREPARE_JS)
 base_call = node("Claude (one call)", "n8n-nodes-base.httpRequest", 4.2, (480, Y), {
     "method": "POST",
@@ -659,7 +666,8 @@ base_reply = node("Send baseline answer", "n8n-nodes-base.respondToWebhook", 1.1
 for a, b in [(base_hook, base_prep), (base_prep, base_call), (base_call, base_read), (base_read, base_reply)]:
     link(a, b)
 
-note("## Demo page\nOpen http://localhost:5678/webhook/app in a browser.", (-40, 40), 520, 120, 4)
+note("## Demo page\nOpen /webhook/app in a browser (locally: http://localhost:5678/webhook/app). "
+     "Enter the passcode (DEMO_PASSCODE) once.", (-40, 40), 520, 120, 4)
 note("## Baseline for the side-by-side\nOne Claude call with the same prompt and output format as "
      "eval/run_baseline.py. No tools, no critic, no rules.", (-40, 320), 1240, 130, 5)
 

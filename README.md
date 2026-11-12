@@ -74,7 +74,9 @@ installs n8n. It takes about 10 minutes. Nothing is installed outside this folde
 
 ## Demo page (side by side)
 
-With n8n running, open **http://localhost:5678/webhook/app**. Pick an example
+With n8n running, open **http://localhost:5678/webhook/app** and type the
+passcode (`DEMO_PASSCODE` in `.env`; `setup_agent.ps1` makes one up the first
+time and prints it). The page remembers it. Pick an example
 complaint (real ones from the dataset) or type your own, and click Submit. The
 same complaint goes to the one-prompt baseline (left) and the agent (right).
 For examples, outlines show whether each answer matches the real CFPB record.
@@ -94,7 +96,8 @@ With n8n running, in a second PowerShell terminal:
 ```powershell
 $body = @{ company = "WELLS FARGO & COMPANY"; state = "CA"
            narrative = "Someone used my debit card for charges I did not make and the bank refuses to refund me." } | ConvertTo-Json
-Invoke-RestMethod -Method Post -Uri http://localhost:5678/webhook/complaint -ContentType "application/json" -Body $body
+$pass = ((Get-Content .env | Select-String '^DEMO_PASSCODE=') -split '=', 2)[1]
+Invoke-RestMethod -Method Post -Uri http://localhost:5678/webhook/complaint -ContentType "application/json" -Headers @{ "X-Passcode" = $pass } -Body $body
 ```
 
 Each run appears under **Executions** in n8n, where you can click through every
@@ -130,6 +133,30 @@ anything you want to keep back into `build_workflow.py`.
 
 The model is set once, as `CLAUDE_MODEL` in `.env`, and used by both the agent
 and the baseline. After changing it, rebuild and reload the workflow as above.
+
+## Put it online (Render)
+
+[Render](https://render.com) can host a copy so others can try the demo page.
+`render.yaml` and `deploy/` hold everything it needs; secrets are typed into
+Render, never committed.
+
+1. Push the repo to GitHub. Rebuild the workflow files first if you changed the agent.
+2. On render.com: **New > Blueprint**, pick this repo and branch. Render reads `render.yaml`.
+3. Fill in the secrets it asks for:
+   - `ANTHROPIC_API_KEY`: your key
+   - `DEMO_PASSCODE`: the passcode you give to people who may use the demo
+   - `N8N_OWNER_EMAIL` / `N8N_OWNER_PASSWORD`: your login for the n8n editor
+4. Wait for the first build (about 5 minutes). The demo page is at
+   `https://<your-service>.onrender.com/webhook/app`; the editor is at the bare address.
+
+How it works: Render's free plan forgets all files when it restarts, so
+`deploy/start.sh` rebuilds n8n at every boot: owner account, credentials, both
+workflows. Changes made on the hosted canvas are lost at the next restart.
+
+Limits of the free plan: it sleeps after 15 minutes without visitors and takes
+about a minute to wake, so open the page a few minutes before presenting. If
+n8n runs out of memory (the log shows "out of memory" or restarts), switch the
+service to the Starter plan.
 
 ## Rebuilding the data
 
