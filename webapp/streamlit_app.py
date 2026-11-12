@@ -311,9 +311,6 @@ with st.sidebar:
         st.error("Wrong passcode.")
     if not os.getenv("ANTHROPIC_API_KEY"):
         st.error("ANTHROPIC_API_KEY is not set.")
-    st.divider()
-    st.caption("The agent here is a Python copy of the n8n workflow, with the same prompts, "
-               "tools and rules. The evaluated version runs in n8n.")
 
 
 def use_example():
