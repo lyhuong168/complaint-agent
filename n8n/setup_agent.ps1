@@ -42,11 +42,19 @@ try {
     Remove-Item $tmp -ErrorAction SilentlyContinue
 }
 
-# 3. Import the workflow and publish it so its webhook URL is live
-& $n8n import:workflow --input="$root\n8n\complaint_agent.workflow.json" | Select-String -Pattern "import|error" | Write-Host
-if ($LASTEXITCODE -ne 0) { Write-Host "Workflow import failed." -ForegroundColor Red; exit 1 }
-& $n8n publish:workflow --id=ComplaintAgent01 | Select-String -Pattern "publish|cannot|fail|error" | Write-Host
-if ($LASTEXITCODE -ne 0) { Write-Host "Publish failed." -ForegroundColor Red; exit 1 }
+# 3. Import the workflows and publish them so their web addresses are live:
+#    the agent, and the demo page with its baseline.
+$workflows = @(
+    @{ file = "complaint_agent.workflow.json"; id = "ComplaintAgent01" },
+    @{ file = "demo_ui.workflow.json"; id = "ComplaintDemoUI01" }
+)
+foreach ($w in $workflows) {
+    & $n8n import:workflow --input="$root\n8n\$($w.file)" | Select-String -Pattern "import|error" | Write-Host
+    if ($LASTEXITCODE -ne 0) { Write-Host "Import of $($w.file) failed." -ForegroundColor Red; exit 1 }
+    & $n8n publish:workflow --id=$($w.id) | Select-String -Pattern "publish|cannot|fail|error" | Write-Host
+    if ($LASTEXITCODE -ne 0) { Write-Host "Publish of $($w.id) failed." -ForegroundColor Red; exit 1 }
+}
 
 Write-Host "`nDone. Start n8n with .\n8n\start_n8n.ps1" -ForegroundColor Green
-Write-Host "The agent will answer at http://localhost:5678/webhook/complaint"
+Write-Host "Demo page:  http://localhost:5678/webhook/app"
+Write-Host "Agent:      http://localhost:5678/webhook/complaint"

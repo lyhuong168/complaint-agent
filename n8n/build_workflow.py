@@ -20,13 +20,19 @@ Flow (one complaint per run):
             -> Respond to Webhook
 """
 import json
+import os
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 HERE = Path(__file__).resolve().parent
 KNOW = HERE / "knowledge"
 OUT = HERE / "complaint_agent.workflow.json"
+load_dotenv(HERE.parent / ".env")
 
-MODEL = "claude-opus-5-5"      # keep the same as CLAUDE_MODEL used by eval/run_baseline.py
+# Set CLAUDE_MODEL in .env. The baseline (eval/run_baseline.py) reads the same
+# setting, so both systems always use the same model.
+MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-5-5")
 MAX_REVISIONS = 2              # how many times the critic may send a draft back
 WORKFLOW_ID = "ComplaintAgent01"
 CREDENTIAL = {"id": "AnthropicCred001", "name": "Anthropic account"}
@@ -96,8 +102,16 @@ or monetary_relief (it refunds or credits money). Weigh the facts of this compla
 the company's history; most complaints are closed with an explanation only.
 - regulations_cited: the bracketed ids (for example FCRA) of the regulations your reply relies \
 on. Cite only what search_regulations returned. If it returned nothing relevant, cite nothing.
-- escalate: true when a person should decide, for example the facts are unclear, the consumer \
-may be owed money, or the consumer is at risk of serious harm.
+- escalate: whether a person must decide this case instead of the standard complaints process. \
+Most complaints do not need this. Disputes about a credit report entry, requests to validate a \
+debt, fee or billing questions and routine servicing problems follow a standard procedure, even \
+when the consumer is upset or the company may have made a mistake. Set escalate to true only \
+when at least one of these applies: the consumer faces serious harm within days (a scheduled \
+foreclosure sale or repossession, or money needed for living costs being held or lost); the \
+facts conflict so badly that the standard process cannot decide; or the complaint alleges \
+something the standard process cannot handle, such as discrimination, a threat of legal \
+action, or misconduct by staff. Possible refunds and risk flags are already sent to a person \
+by separate rules, so do not escalate for those reasons alone.
 
 The reply is read by the consumer, who is upset and is not a lawyer. Write 120 to 200 words in \
 plain language. Acknowledge the specific problem, say what the company will look into or do \
@@ -120,22 +134,38 @@ Complaint:
 {{ $json.feedback ? '\\nYour previous draft:\\n' + $json.draft.reply + '\\n\\nFeedback from the compliance reviewer (fix every point):\\n' + $json.feedback : '' }}"""
 
 CRITIC_SYSTEM = """You are the compliance reviewer in the complaints team of a US consumer finance company. \
-You check a colleague's draft reply before it can be sent to a consumer. You did not write it, \
-so judge it on the evidence in front of you.
+A colleague drafted the first reply to a consumer complaint. You decide whether it is safe to send. \
+You did not write it, so judge it on the evidence in front of you.
 
-Check each point:
-1. Grounded: every factual statement about the consumer's case appears in the complaint. \
-Nothing is invented.
-2. Citations: every rule the reply names is in the regulation extracts provided, and the reply \
-states it correctly (deadlines, amounts, who it applies to). A rule that is named but missing \
-from the extracts fails this check.
-3. No over-promising: the reply does not admit legal fault or promise a refund, correction or \
-outcome that has not been decided.
-4. Responsive: the reply addresses what the consumer actually asked for and gives a next step.
-5. Tone: plain, respectful, not defensive, and understandable by a non-lawyer.
+What this reply is: the company's first written response. It acknowledges the complaint, says \
+what the company will look into, and points to the rules that protect the consumer. It is not \
+the final decision on the case; the team that investigates follows up separately. So the reply \
+should not contain dates, refunds or outcomes the company has not decided, and you must never \
+ask the writer to add them.
 
-Set verdict to approve only when all five pass. Otherwise set it to revise and list each \
-problem as an instruction the writer can act on."""
+What happens after your review: if you approve, the reply can be sent. If you send it back, the \
+writer revises it, at most twice. After that the case goes to a person, which is slow and costly \
+for the team. Send a draft back only when sending it as it is would cause a real problem.
+
+Blocking problems (the only reasons to send a draft back):
+1. Invented facts: it states something about the consumer's case, account or earlier contacts \
+that is not in the complaint.
+2. Wrong law: it names a rule that is not in the regulation extracts, applies a rule that clearly \
+does not fit the situation, or states a deadline, amount or right incorrectly.
+3. Over-promising: it admits legal fault, or promises a refund, correction, date or outcome that \
+has not been decided.
+4. Ignores the main request: it does not address the main thing the consumer asked for at all.
+5. Harmful tone: it is rude, blames the consumer, or is so legalistic that the consumer cannot \
+tell what happens next.
+
+Everything else is a suggestion, not a problem: wording that could be clearer, extra detail that \
+would be nice, a secondary point covered only briefly, a rule that could be explained more fully. \
+Put these in suggestions. They never block the reply. A reply does not need to be perfect to be \
+safe to send.
+
+Set verdict to approve when there is no blocking problem. Otherwise set it to revise and list \
+in problems at most the 3 most serious blocking problems, each as one instruction the writer can \
+act on. Never list something you consider correct."""
 
 CRITIC_USER = """=Complaint:
 {{ $json.narrative }}
@@ -187,8 +217,9 @@ CRITIC_SCHEMA = {
     "properties": {
         "verdict": {"type": "string", "enum": ["approve", "revise"]},
         "problems": {"type": "array", "items": {"type": "string"}},
+        "suggestions": {"type": "array", "items": {"type": "string"}},
     },
-    "required": ["verdict", "problems"],
+    "required": ["verdict", "problems", "suggestions"],
     "additionalProperties": False,
 }
 
@@ -312,11 +343,13 @@ const MAX_REVISIONS = __MAX__;
 const REVIEW_FLAGS = __REVIEW_FLAGS__;
 const state = $('Check citations').last().json;
 const critic = $input.first().json.output;
-const problems = [...(critic.problems || [])];
+// Only blocking problems count. A "revise" verdict with no problem listed is
+// treated as an approval, since the writer would have nothing to fix.
+const problems = [...(critic.problems || [])].slice(0, 3);
 if (state.unknown_citations.length) {
   problems.push('Remove or replace these citations, which are not in the knowledge base: ' + state.unknown_citations.join(', '));
 }
-const approved = critic.verdict === 'approve' && state.unknown_citations.length === 0;
+const approved = problems.length === 0;
 const trace = [...state.trace, 'critic on draft ' + (state.revision + 1) + ': ' +
   (approved ? 'approved' : 'revise (' + problems.length + ' problem' + (problems.length === 1 ? '' : 's') + ')')];
 
@@ -354,6 +387,7 @@ return [{ json: {
   reply: state.draft.reply,
   critic_approved: approved,
   critic_problems: approved ? [] : problems,
+  critic_suggestions: critic.suggestions || [],
   revisions: state.revision,
   agent_runs: 1 + 2 * (state.revision + 1),
   seconds: Math.round((Date.now() - state.started_at) / 100) / 10,
@@ -505,3 +539,134 @@ workflow = {
 }
 OUT.write_text(json.dumps(workflow, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Wrote {OUT.name}: {len(nodes)} nodes, {OUT.stat().st_size // 1024} KB")
+
+
+# ============================================================================
+# Second workflow: the demo page and the baseline it compares against.
+#
+# Kept separate so the agent's canvas keeps a single entry point, and clicking
+# "Execute workflow" there always listens for the agent request.
+#
+#   GET  /webhook/app        the input page (n8n/ui/index.html)
+#   POST /webhook/baseline   one Claude call, same request as eval/run_baseline.py
+# ============================================================================
+import csv
+import sys
+
+sys.path.insert(0, str(HERE.parent / "eval"))
+from anthropic.lib._parse._transform import transform_schema  # noqa: E402  (what the SDK itself sends)
+from run_baseline import SYSTEM as BASELINE_SYSTEM, Result as BaselineResult  # noqa: E402
+
+DEMO_OUT = HERE / "demo_ui.workflow.json"
+DEMO_ID = "ComplaintDemoUI01"
+API_VERSION = "2026-10-21"   # the anthropic-version header the Python SDK sends
+
+# Real complaints from the test sample for the page's "Example" menu.
+EXAMPLE_IDS = [
+    ("Fraud: $7,500 branch withdrawal (older consumer)", "8018321"),
+    ("Credit report: accounts that are not mine", "7552447"),
+    ("Debt collector calling several times a day", "7673803"),
+    ("Mortgage: escrow surplus not refunded", "7776127"),
+    ("Card scam, servicemember", "7711475"),
+]
+with open(HERE.parent / "data" / "complaints_sample.csv", encoding="utf-8") as f:
+    by_id = {r["complaint_id"]: r for r in csv.DictReader(f)}
+examples = [{
+    "label": label, "complaint_id": cid, "company": by_id[cid]["company"],
+    "state": by_id[cid]["state"], "narrative": by_id[cid]["narrative"],
+    "product": by_id[cid]["product"], "issue": by_id[cid]["issue"],
+    "outcome": by_id[cid]["company_response"], "tags": by_id[cid]["tags"],
+} for label, cid in EXAMPLE_IDS]
+
+page = (HERE / "ui" / "index.html").read_text(encoding="utf-8")
+page = page.replace("/*__EXAMPLES__*/[]", js(examples).replace("</", "<\\/"))
+
+BASELINE_PREPARE_JS = """// Build the same request eval/run_baseline.py sends with the Anthropic SDK.
+const SYSTEM = __SYSTEM__;
+const SCHEMA = __SCHEMA__;
+const body = $input.first().json.body || {};
+const narrative = String(body.narrative || '').trim();
+if (!narrative) throw new Error('Request must include "narrative" (the complaint text).');
+const user = 'Company: ' + String(body.company || '') + '\\nState: ' + String(body.state || '') +
+  '\\n\\nComplaint:\\n' + narrative;
+return [{ json: {
+  complaint_id: String(body.complaint_id || ''),
+  started_at: Date.now(),
+  request: {
+    model: __MODEL__,
+    max_tokens: 8000,
+    system: SYSTEM,
+    messages: [{ role: 'user', content: user }],
+    output_config: { format: { type: 'json_schema', schema: SCHEMA } },
+  },
+} }];
+""".replace("__SYSTEM__", js(BASELINE_SYSTEM)) \
+   .replace("__SCHEMA__", js(transform_schema(BaselineResult.model_json_schema()))) \
+   .replace("__MODEL__", js(MODEL))
+
+BASELINE_READ_JS = """// Turn Claude's answer into the same fields eval/run_baseline.py saves.
+const res = $input.first().json;
+const prep = $('Prepare baseline request').first().json;
+if (res.stop_reason !== 'end_turn') throw new Error('Claude stopped early: ' + res.stop_reason);
+const block = (res.content || []).find(b => b.type === 'text');
+if (!block) throw new Error('Claude returned no text.');
+return [{ json: {
+  ...JSON.parse(block.text),
+  complaint_id: prep.complaint_id,
+  llm_calls: 1,
+  input_tokens: res.usage.input_tokens,
+  output_tokens: res.usage.output_tokens,
+  seconds: Math.round((Date.now() - prep.started_at) / 100) / 10,
+  model: res.model,
+} }];
+"""
+
+nodes, connections = [], {}
+Y = 200
+app_hook = node("Open page", "n8n-nodes-base.webhook", 2, (0, Y), {
+    "httpMethod": "GET", "path": "app", "responseMode": "responseNode", "options": {},
+}, webhookId="complaint-demo-page")
+app_reply = node("Send page", "n8n-nodes-base.respondToWebhook", 1.1, (240, Y), {
+    "respondWith": "text", "responseBody": page,
+    "options": {"responseHeaders": {"entries": [
+        {"name": "Content-Type", "value": "text/html; charset=utf-8"},
+        {"name": "Cache-Control", "value": "no-store"},
+    ]}},
+})
+link(app_hook, app_reply)
+
+Y = 480
+base_hook = node("Baseline request", "n8n-nodes-base.webhook", 2, (0, Y), {
+    "httpMethod": "POST", "path": "baseline", "responseMode": "responseNode", "options": {},
+}, webhookId="complaint-demo-baseline")
+base_prep = code("Prepare baseline request", (240, Y), BASELINE_PREPARE_JS)
+base_call = node("Claude (one call)", "n8n-nodes-base.httpRequest", 4.2, (480, Y), {
+    "method": "POST",
+    "url": "https://api.anthropic.com/v1/messages",
+    "authentication": "predefinedCredentialType",
+    "nodeCredentialType": "anthropicApi",
+    "sendHeaders": True,
+    "headerParameters": {"parameters": [{"name": "anthropic-version", "value": API_VERSION}]},
+    "sendBody": True,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify($json.request) }}",
+    "options": {"timeout": 300000},
+}, credentials={"anthropicApi": CREDENTIAL})
+base_read = code("Read answer", (720, Y), BASELINE_READ_JS)
+base_reply = node("Send baseline answer", "n8n-nodes-base.respondToWebhook", 1.1, (960, Y), {
+    "respondWith": "firstIncomingItem", "options": {},
+})
+for a, b in [(base_hook, base_prep), (base_prep, base_call), (base_call, base_read), (base_read, base_reply)]:
+    link(a, b)
+
+note("## Demo page\nOpen http://localhost:5678/webhook/app in a browser.", (-40, 40), 520, 120, 4)
+note("## Baseline for the side-by-side\nOne Claude call with the same prompt and output format as "
+     "eval/run_baseline.py. No tools, no critic, no rules.", (-40, 320), 1240, 130, 5)
+
+demo = {
+    "id": DEMO_ID, "name": "Complaint Demo Page and Baseline", "nodes": nodes,
+    "connections": connections, "settings": {"executionOrder": "v1"},
+    "active": False, "pinData": {},
+}
+DEMO_OUT.write_text(json.dumps(demo, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Wrote {DEMO_OUT.name}: {len(nodes)} nodes, {DEMO_OUT.stat().st_size // 1024} KB")

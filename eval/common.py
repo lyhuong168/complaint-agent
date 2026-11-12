@@ -1,6 +1,7 @@
 """Shared settings and helpers for the evaluation scripts."""
 import json
 import os
+import threading
 from pathlib import Path
 
 import pandas as pd
@@ -65,7 +66,25 @@ def load_results(path: Path) -> dict[str, dict]:
     return rows
 
 
+_write_lock = threading.Lock()
+
+
 def append_result(path: Path, row: dict) -> None:
+    """Add one result line. Safe to call from several threads at once."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    line = json.dumps({**row, "model": MODEL}, ensure_ascii=False) + "\n"
+    with _write_lock, open(path, "a", encoding="utf-8") as f:
+        f.write(line)
+
+
+def check_model(path: Path) -> None:
+    """Stop if a results file holds answers from a different model.
+
+    Resuming would otherwise mix two models in one results file.
+    """
+    models = {row.get("model") for row in load_results(path).values()}
+    other = models - {MODEL, None}
+    if other:
+        raise SystemExit(
+            f"{path.name} already has results from {', '.join(sorted(other))}, but CLAUDE_MODEL "
+            f"is {MODEL}. Move that file to another folder before running again.")

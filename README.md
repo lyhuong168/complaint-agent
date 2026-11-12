@@ -72,6 +72,21 @@ installs n8n. It takes about 10 minutes. Nothing is installed outside this folde
    owner account (it stays on this computer). The workflow is called
    "Complaint Triage and Resolution Agent".
 
+## Demo page (side by side)
+
+With n8n running, open **http://localhost:5678/webhook/app**. Pick an example
+complaint (real ones from the dataset) or type your own, and click Submit. The
+same complaint goes to the one-prompt baseline (left) and the agent (right).
+For examples, outlines show whether each answer matches the real CFPB record.
+
+To watch the agent run live on the n8n canvas, put the page and the canvas
+side by side (Win + Left / Win + Right), tick **Demo mode** on the page, click
+**Execute workflow** on the canvas, then Submit. Click Execute workflow again
+before each complaint.
+
+The page and the baseline are a second, small workflow ("Complaint Demo Page
+and Baseline"). The page is in `n8n/ui/index.html`.
+
 ## Try one complaint
 
 With n8n running, in a second PowerShell terminal:
@@ -113,8 +128,8 @@ powershell -ExecutionPolicy Bypass -File .\n8n\start_n8n.ps1
 Changes made on the n8n canvas are overwritten by the next import, so copy
 anything you want to keep back into `build_workflow.py`.
 
-The model is set in two places that must match: `MODEL` in
-`n8n/build_workflow.py` and `CLAUDE_MODEL` in `.env` (default `claude-opus-5-5`).
+The model is set once, as `CLAUDE_MODEL` in `.env`, and used by both the agent
+and the baseline. After changing it, rebuild and reload the workflow as above.
 
 ## Rebuilding the data
 
