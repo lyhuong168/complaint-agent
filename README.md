@@ -29,9 +29,11 @@ Webhook -> Triage Agent -> label check -> Resolution Agent -> citation check
 | Path | Contents |
 |---|---|
 | `data/complaints_sample.csv` | The 527 test complaints with their real labels |
-| `n8n/build_workflow.py` | The agent's prompts, tools and wiring. Generates the workflow file |
+| `shared/spec.py` | The agent's prompts, output formats, rules and knowledge, shared by every version |
+| `n8n/build_workflow.py` | The n8n agent's tools and wiring. Generates the workflow file |
 | `n8n/complaint_agent.workflow.json` | The generated workflow that n8n imports |
 | `n8n/knowledge/` | Regulation summaries, CFPB product/issue lists, company complaint history |
+| `webapp/` | Web demo for hosting online: a Python copy of the agent, its server and page |
 | `eval/` | Scripts that build the data, run both systems and score them |
 | `results/` | Created by the evaluation scripts |
 | `.tools/node24/` | A private copy of Node 24, used only to run n8n |
@@ -74,7 +76,9 @@ installs n8n. It takes about 10 minutes. Nothing is installed outside this folde
 
 ## Demo page (side by side)
 
-With n8n running, open **http://localhost:5678/webhook/app**. Pick an example
+With n8n running, open **http://localhost:5678/webhook/app** and type the
+passcode (`DEMO_PASSCODE` in `.env`; `setup_agent.ps1` makes one up the first
+time and prints it). The page remembers it. Pick an example
 complaint (real ones from the dataset) or type your own, and click Submit. The
 same complaint goes to the one-prompt baseline (left) and the agent (right).
 For examples, outlines show whether each answer matches the real CFPB record.
@@ -94,7 +98,8 @@ With n8n running, in a second PowerShell terminal:
 ```powershell
 $body = @{ company = "WELLS FARGO & COMPANY"; state = "CA"
            narrative = "Someone used my debit card for charges I did not make and the bank refuses to refund me." } | ConvertTo-Json
-Invoke-RestMethod -Method Post -Uri http://localhost:5678/webhook/complaint -ContentType "application/json" -Body $body
+$pass = ((Get-Content .env | Select-String '^DEMO_PASSCODE=') -split '=', 2)[1]
+Invoke-RestMethod -Method Post -Uri http://localhost:5678/webhook/complaint -ContentType "application/json" -Headers @{ "X-Passcode" = $pass } -Body $body
 ```
 
 Each run appears under **Executions** in n8n, where you can click through every
@@ -116,7 +121,8 @@ Drop `--limit` to run all 527 complaints.
 
 ## Changing the agent
 
-Edit `n8n/build_workflow.py`, then:
+Prompts, output formats and routing rules are in `shared/spec.py`; the n8n
+wiring and tool code are in `n8n/build_workflow.py`. Edit either, then:
 
 ```powershell
 python n8n\build_workflow.py
@@ -130,6 +136,49 @@ anything you want to keep back into `build_workflow.py`.
 
 The model is set once, as `CLAUDE_MODEL` in `.env`, and used by both the agent
 and the baseline. After changing it, rebuild and reload the workflow as above.
+
+## Web demo (to put online)
+
+n8n needs more memory than free hosting gives, so the online demo runs a Python
+copy of the agent (`webapp/agent.py`): same prompts, output formats, routing
+rules and knowledge (all from `shared/spec.py`), with the two tools translated
+line for line from the n8n code. The n8n workflow remains the version that was
+evaluated; the Python copy calls the Claude API directly instead of through n8n's
+LangChain nodes, so answers can differ slightly.
+
+The page shows the baseline and the agent side by side, and a live timeline of
+every step the agent takes: each agent, each tool call and what it found, the
+guardrail checks, the critic's verdicts and the routing decision. The server
+(`webapp/server.py`, FastAPI) streams each step to the browser the moment it
+happens (Server-Sent Events); the page is plain HTML and JavaScript in
+`webapp/static/`, styled after the "ledger paper" look of the Receipts project.
+
+Run it on your PC (uses `ANTHROPIC_API_KEY`, `DEMO_PASSCODE` and `CLAUDE_MODEL` from `.env`):
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+uvicorn webapp.server:app --port 8010
+```
+
+Then open http://localhost:8010.
+
+Put it online with [Render](https://render.com) (free plan, about 100 MB of the 512 MB):
+
+1. Push the repo to GitHub.
+2. In the Render dashboard: **New > Blueprint**, pick this repo and branch.
+   Render reads `render.yaml` and asks for `ANTHROPIC_API_KEY` and
+   `DEMO_PASSCODE`. `CLAUDE_MODEL` is set in `render.yaml`.
+3. Click **Apply**. The first build takes a few minutes; the address is shown
+   at the top of the service page.
+
+Give the passcode only to people who may use the demo; every submission costs
+API credit. At most 3 runs happen at once (`MAX_PARALLEL_RUNS`), and complaints
+are limited to 8,000 characters. A free Render service sleeps after 15 minutes
+without visitors, and the next visit takes about a minute to wake it, so open
+the page a few minutes before a presentation.
+
+`webapp/streamlit_app.py` is an older Streamlit version of the same page, kept
+as a backup (`streamlit run webapp\streamlit_app.py`; theme in `.streamlit/config.toml`).
 
 ## Rebuilding the data
 

@@ -1,0 +1,7 @@
+# What Render installs for the web demo (webapp/server.py). Kept small on purpose:
+# the evaluation's libraries are in the top-level requirements.txt.
+anthropic==2.8.0
+fastapi==0.162.5
+pydantic==2.14.3
+python-dotenv==1.2.4
+uvicorn==0.54.0

@@ -1,0 +1,25 @@
+# Streamlit theme: the "ledger paper" colours and fonts of the Receipts project.
+# The custom parts of the page (receipts, timeline) are styled in webapp/static/style.css.
+[theme]
+base = "light"
+primaryColor = "#1c1a16"
+backgroundColor = "#f5f1e8"
+secondaryBackgroundColor = "#ece6d8"
+textColor = "#1c1a16"
+linkColor = "#1b47bd"
+borderColor = "#d6cfbc"
+showWidgetBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Instrument Sans:https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap, sans-serif"
+headingFont = "Fraunces:https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&display=swap, serif"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap, monospace"
+
+[theme.sidebar]
+backgroundColor = "#ece6d8"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

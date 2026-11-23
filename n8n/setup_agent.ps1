@@ -23,17 +23,31 @@ if (-not (Test-Path $EnvFile)) {
     Write-Host "No .env file at $EnvFile. Create it with one line: ANTHROPIC_API_KEY=your-key" -ForegroundColor Red
     exit 1
 }
-$line = Get-Content $EnvFile | Where-Object { $_ -match '^\s*ANTHROPIC_API_KEY\s*=' } | Select-Object -First 1
-$key = if ($line) { ($line -split '=', 2)[1].Trim().Trim('"').Trim("'") } else { "" }
+function Read-EnvValue($name) {
+    $line = Get-Content $EnvFile | Where-Object { $_ -match "^\s*$name\s*=" } | Select-Object -First 1
+    if ($line) { ($line -split '=', 2)[1].Trim().Trim('"').Trim("'") } else { "" }
+}
+$key = Read-EnvValue "ANTHROPIC_API_KEY"
 if (-not $key) {
     Write-Host "ANTHROPIC_API_KEY is missing or empty in $EnvFile" -ForegroundColor Red
     exit 1
 }
 
-# 2. Store the key as an n8n credential. n8n encrypts it in its own database;
-#    the temporary file is deleted straight away.
+# The passcode the demo page and eval/run_agent.py must send. Made up once if missing.
+$passcode = Read-EnvValue "DEMO_PASSCODE"
+if (-not $passcode) {
+    $passcode = -join ((48..57) + (97..122) | Get-Random -Count 10 | ForEach-Object { [char]$_ })
+    Add-Content -Path $EnvFile -Value "`r`nDEMO_PASSCODE=$passcode" -Encoding ascii
+    Write-Host "Added a new DEMO_PASSCODE to .env: $passcode" -ForegroundColor Yellow
+}
+
+# 2. Store the key and the passcode as n8n credentials. n8n encrypts them in its
+#    own database; the temporary file is deleted straight away.
 $tmp = Join-Path $env:TEMP "n8n-cred-$PID.json"
-$cred = @(@{ id = "AnthropicCred001"; name = "Anthropic account"; type = "anthropicApi"; data = @{ apiKey = $key } })
+$cred = @(
+    @{ id = "AnthropicCred001"; name = "Anthropic account"; type = "anthropicApi"; data = @{ apiKey = $key } },
+    @{ id = "DemoPasscode001"; name = "Demo passcode"; type = "httpHeaderAuth"; data = @{ name = "X-Passcode"; value = $passcode } }
+)
 try {
     [IO.File]::WriteAllText($tmp, (ConvertTo-Json -InputObject $cred -Depth 5))
     & $n8n import:credentials --input=$tmp | Select-String -Pattern "import|error" | Write-Host

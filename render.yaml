@@ -1,0 +1,22 @@
+# Render Blueprint for the web demo: a small Python web service (no Docker, no n8n).
+# Render dashboard: New > Blueprint > pick this repo and branch. It asks for the two
+# secrets marked sync: false; they are never stored in the repo.
+services:
+  - type: web
+    name: complaint-agent-web
+    runtime: python
+    plan: free
+    buildCommand: pip install -r webapp/requirements.txt
+    startCommand: uvicorn webapp.server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: DEMO_PASSCODE
+        sync: false
+      # The model both the agent and the baseline use. Change it here or in the dashboard.
+      - key: CLAUDE_MODEL
+        value: claude-haiku-5-5

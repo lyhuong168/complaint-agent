@@ -15,47 +15,20 @@ import argparse
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Literal
 
 import anthropic
-from pydantic import BaseModel
 from tqdm import tqdm
 
-from common import (MODEL, PRODUCTS, RESULTS, append_result, check_model, done_ids, load_sample,
-                    taxonomy_text)
+from common import MODEL, RESULTS, append_result, check_model, done_ids, load_sample
+from shared.spec import BASELINE_SYSTEM, BaselineResult
 
 OUT = RESULTS / "baseline.jsonl"
 
-SYSTEM = f"""You work in the complaints team of a US consumer finance company. \
-For the complaint you are given, do the whole job in one pass:
-
-1. Classify it. Choose the product, then choose one issue from that product's list. \
-Copy both exactly as written below.
-2. Predict how the company will close it: explanation_only (the company explains but \
-changes nothing), non_monetary_relief (it fixes something, such as correcting a record), \
-or monetary_relief (it refunds or credits money).
-3. Decide whether a human must review the case before any reply is sent.
-4. Draft the reply to the consumer. Name any US consumer finance law that applies.
-
-Complaint text has personal details replaced with XXXX.
-
-{taxonomy_text()}"""
-
-
-class Result(BaseModel):
-    product: Literal[tuple(PRODUCTS)]  # type: ignore[valid-type]
-    issue: str
-    predicted_outcome: Literal["explanation_only", "non_monetary_relief", "monetary_relief"]
-    needs_human_review: bool
-    regulations_cited: list[str]
-    reply: str
-
+# The prompt and output format are shared with the demo pages (shared/spec.py).
+SYSTEM, Result = BASELINE_SYSTEM, BaselineResult
 
 client: anthropic.Anthropic | None = None   # created in main(), reads ANTHROPIC_API_KEY from .env
 stop = threading.Event()                     # set when the whole run should stop
-
-# n8n/build_workflow.py imports SYSTEM and Result from this file so the demo
-# page's baseline sends exactly the same prompt and output format.
 
 
 def run_one(row) -> str:

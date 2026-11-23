@@ -23,6 +23,7 @@ from common import RESULTS, append_result, check_model, done_ids, load_sample
 
 OUT = RESULTS / "agent.jsonl"
 URL = os.getenv("N8N_WEBHOOK_URL", "http://localhost:5678/webhook/complaint")
+HEADERS = {"X-Passcode": os.getenv("DEMO_PASSCODE", "")}   # n8n rejects requests without it
 stop = threading.Event()   # set when something is wrong enough to stop the whole run
 
 
@@ -34,7 +35,7 @@ def run_one(row) -> str:
                "state": row.state, "narrative": row.narrative}
     start = time.time()
     try:
-        r = requests.post(URL, json=payload, timeout=600)
+        r = requests.post(URL, json=payload, headers=HEADERS, timeout=600)
     except requests.ConnectionError:
         if not stop.is_set():
             print(f"\nCannot reach n8n at {URL}. Is it running and is the workflow published?")
@@ -43,6 +44,13 @@ def run_one(row) -> str:
     except requests.Timeout:
         append_result(OUT, {"complaint_id": row.complaint_id, "error": "timeout after 600s"})
         return "failed"
+
+    if r.status_code in (401, 403):
+        if not stop.is_set():
+            print("\nn8n rejected the passcode. Set DEMO_PASSCODE in .env to the same value "
+                  "setup_agent.ps1 stored, then run again.")
+        stop.set()
+        return "skipped"
 
     result = None
     if r.ok:
